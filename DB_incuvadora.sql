@@ -154,7 +154,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'X','abc@abc.com',NULL,'$2y$10$noUWW1zdkKKpsu6r2RzfQ.qU27VExDiGt1qNrZSOB1NfDNvrFNgKq','admin',NULL,'2022-09-07 10:33:04','2022-09-07 10:33:04'),(2,'Alguien','algo@abc.com',NULL,'$2y$10$ihqLHQX5XjhNLXq0JWOVJec9er6KFU9paOxBYzKxpWUTpSAgZSTlq','student',NULL,'2022-09-07 11:29:16','2022-09-07 11:29:16'),(3,'Pilin','apa@123.com',NULL,'$2y$10$Iaf487mBapXitvUR9HjpeObPDrIVTKskvSL4l6GdV52i5/D4YGCG.','teacher',NULL,'2022-09-08 00:03:25','2022-09-08 00:03:25');
+INSERT INTO `users` VALUES (1,'X','abc@abc.com',NULL,'$2y$10$noUWW1zdkKKpsu6r2RzfQ.qU27VExDiGt1qNrZSOB1NfDNvrFNgKq','admin',NULL,'2022-09-07 10:33:04','2022-09-07 10:33:04'),(2,'Alguien','algo@abc.com',NULL,'$2y$10$ihqLHQX5XjhNLXq0JWOVJec9er6KFU9paOxBYzKxpWUTpSAgZSTlq','student',NULL,'2022-09-07 11:29:16','2022-09-07 11:29:16'),(3,'Pilin','apa@123.com',NULL,'$2y$10$Iaf487mBapXitvUR9HjpeObPDrIVTKskvSL4l6GdV52i5/D4YGCG.','teacher',NULL,'2022-09-08 00:03:25','2022-09-08 00:03:25'),(4,'admin', 'admin@admin.com', NULL, '$2y$10$E1A9OXbmgdJ9p2CJsvkIV.Gld/nza9hLY0QRcmJFVZGyR80eZP4s6', 'teacher', NULL, '2022-09-25 05:32:42', '2022-09-25 05:32:42');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
