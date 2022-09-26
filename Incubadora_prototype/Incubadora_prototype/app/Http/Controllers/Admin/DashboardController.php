@@ -14,4 +14,7 @@ class DashboardController extends Controller
     public function index(){
         return view('admin.dashboard');
     }
+    public function teams(){
+        return view('admin.teams');
+    }
 }

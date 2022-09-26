@@ -14,7 +14,7 @@
 </div>
 
 <header class="container-fluid bg-dark p-3">
-    <h2 class="text-white">Administrar Docentes</h2>
+    <h2 class="text-white">Administrar Estudiantes</h2>
 </header>
 
 <section class="main_container bg-dark border-top border-white">
@@ -23,7 +23,7 @@
             <form class="row g-3">
                 <div class="col-md-6">
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Teacher Name" aria-label="Teacher Name" aria-describedby="basic-addon2">
+                        <input type="text" class="form-control" placeholder="Student Name" aria-label="Student Name" aria-describedby="basic-addon2">
                         <button type="submit" class="btn btn-primary" style="font-size: 20px;">
                             <i class="fa-solid fa-1x fa-magnifying-glass"></i>
                             Buscar
@@ -31,7 +31,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <button type="submit" class="btn btn-dark text-white float-end" style="font-size: 20px;">Agregar Docente</button>
+                    <button type="submit" class="btn btn-dark text-white float-end" style="font-size: 20px;">Agregar Estudiante</button>
                 </div>
 
             </form>
