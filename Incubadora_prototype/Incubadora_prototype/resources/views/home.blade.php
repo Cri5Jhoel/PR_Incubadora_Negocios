@@ -22,7 +22,11 @@
                         <img src="https://i0.wp.com/windowscustomization.com/wp-content/uploads/2018/09/paradise.gif?resize=600%2C341&quality=80&strip=all&ssl=1" alt="Smiley face" style="float:left;width:42px;height:42px;">
                         Esta imagen solo está presente en la vista del Usuario.
                     </p>
+<<<<<<< HEAD
                     <a href="{{ route('teacher.index') }}" class="btn btn-primary">Default</a>
+=======
+                    <a href="{{ route('teacher.index') }}" class="btn btn-primary">Teacher</a>
+>>>>>>> 9d7c8ed0c3277c4e19d3c254dccd2239692bff47
 
                 </div>
 
