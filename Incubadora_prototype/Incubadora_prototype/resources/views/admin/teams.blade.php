@@ -3,7 +3,7 @@
 @section('content')
 <link rel="stylesheet" href=".../">
 
-<div class="container">
+<!-- <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
@@ -11,10 +11,10 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
-<header class="container-fluid bg-dark p-3">
-    <h2 class="text-white">Teams page</h2>
+<header class="text-center">
+    <h2>Teams</h2>
 </header>
 
 <section class="main_container bg-dark border-top border-white">

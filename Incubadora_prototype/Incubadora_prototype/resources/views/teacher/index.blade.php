@@ -1,20 +1,33 @@
 @extends('layouts.app')
+@section("script")
+<script type="text/javascript">
+    var app = angular.module('StudentListModule', []);
+    app.controller('StudentListController', ($scope, $http) => {
+        $scope.students = []
 
+        $scope.getStudents = () => {
+            $http.get('/students').then((result) => {
+                $scope.students = result.data
+            })
+        }
+
+        angular.element(document).ready(() => {
+            $scope.getStudents()
+        })
+
+        $scope.deleteStudent = (id) => {
+            $http.delete(`/students/${id}`).then((result) => {
+                $scope.getStudents()
+            })
+        }
+    })
+</script>
+@stop
 @section('content')
 <link rel="stylesheet" href=".../">
 
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-
-            </div>
-        </div>
-    </div>
-</div>
-
-<header class="container-fluid bg-dark p-3">
-    <h2 class="text-white">Administrar Estudiantes</h2>
+<header class="text-center">
+    <h2>Administrar Estudiantes</h2>
 </header>
 
 <section class="main_container bg-dark border-top border-white">
@@ -46,13 +59,20 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td></td>
-                            <td></td>
+                        <tr ng-repeat="student in students">
                             <td>
-                                <a class="btn btn-light">Edit</a>
-                                <a class="btn btn-danger">Delete</a>
+                                <!-- @{{ student.id }} -->
+                            </td>
+                            <td>
+                                <!-- @{{ student.firstName }} -->
+                            </td>
+                            <td>
+                                <!-- @{{ student.lastName }} -->
+                            </td>
+
+                            <td>
+                                <a href="{{ route('teacher.editStudent') }}" class="btn btn-primary">Edit</a>
+                                <a type="button" ng-click="deleteStudent(student.id)" class="btn btn-danger">Delete</a>
                             </td>
                         </tr>
 

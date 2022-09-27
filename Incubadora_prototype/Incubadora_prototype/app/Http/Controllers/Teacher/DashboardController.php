@@ -17,4 +17,10 @@ class DashboardController extends Controller
     public function students(){
         return view('teacher.students');
     }
+    public function editStudent(){
+        return view('teacher.editStudent');
+    }
+    public function progress(){
+        return view('teacher.progress');
+    }
 }

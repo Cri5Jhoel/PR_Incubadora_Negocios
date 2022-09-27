@@ -11,10 +11,17 @@ class DashboardController extends Controller
         $this->middleware('auth');
       }
 
-    public function index(){
-        return view('admin.dashboard');
+    public function teacherList(){
+        return view('admin.teacherList');
     }
     public function teams(){
         return view('admin.teams');
     }
+    public function progress(){
+        return view('admin.progress');
+    }
+    public function editTeacher(){
+        return view('admin.editTeacher');
+    }
+
 }
