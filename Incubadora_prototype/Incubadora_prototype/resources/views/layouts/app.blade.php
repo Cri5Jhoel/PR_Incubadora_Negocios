@@ -69,6 +69,13 @@
                                     </a>
                                 </li>
                                 @endif
+                                @if (Auth::user()->userType == 'student')
+                                <li>
+                                    <a href="{{ route('form1') }}" class="nav-link align-middle px-0">
+                                        <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Form 1</span>
+                                    </a>
+                                </li>
+                                @endif
                                 
                             </ul>
                             <hr>

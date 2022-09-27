@@ -26,7 +26,7 @@ Route::get('/login', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/form', [App\Http\Controllers\HomeController::class, 'formView'])->name('form');
+Route::get('/form1', [App\Http\Controllers\HomeController::class, 'formView'])->name('form1');
 //Route::get('/students', [App\Http\Controllers\ProductController::class, 'getProducts'])->middleware('auth');
 
 Route::group(['middleware' => 'auth.admin'], function () {
