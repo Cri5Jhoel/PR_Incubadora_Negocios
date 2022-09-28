@@ -25,8 +25,12 @@ class HomeController extends Controller
     {
         return view('home');
     }
+    public function teamProgress()
+    {
+        return view('teamProgress');
+    }
     public function formView()
     {
-        return view('form1');
+        return view('form');
     }
 }

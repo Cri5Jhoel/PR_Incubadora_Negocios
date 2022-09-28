@@ -133,3 +133,24 @@
     font-size: 20px;
     display: flex;
 }
+
+.progress-div div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 5vh;
+}
+.form-page div .active{
+    background-color: #43ff32;
+
+}
+.form-page div .review{
+    background-color: #eaff32;
+
+}
+.form-page div .redo{
+    background-color: #ff4732;
+
+}

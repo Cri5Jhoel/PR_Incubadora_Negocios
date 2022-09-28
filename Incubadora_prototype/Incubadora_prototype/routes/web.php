@@ -26,7 +26,8 @@ Route::get('/login', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/form1', [App\Http\Controllers\HomeController::class, 'formView'])->name('form1');
+Route::get('/teamProgress', [App\Http\Controllers\HomeController::class, 'teamProgress'])->name('teamProgress');
+Route::get('form', [App\Http\Controllers\HomeController::class, 'formView'])->name('form');
 //Route::get('/students', [App\Http\Controllers\ProductController::class, 'getProducts'])->middleware('auth');
 
 Route::group(['middleware' => 'auth.admin'], function () {
@@ -39,7 +40,7 @@ Route::group(['middleware' => 'auth.teacher'], function () {
     Route::get('/teacher', [App\Http\Controllers\Teacher\DashboardController::class, 'index'])->name('teacher.index');
     Route::get('/students', [App\Http\Controllers\Teacher\DashboardController::class, 'students'])->name('teacher.students');
     Route::get('/editStudent', [App\Http\Controllers\Teacher\DashboardController::class, 'editStudent'])->name('teacher.editStudent');
-    Route::get('progress', [App\Http\Controllers\Teacher\DashboardController::class, 'progress'])->name('teacher.progress');
+    Route::get('/progress', [App\Http\Controllers\Teacher\DashboardController::class, '/progress'])->name('teacher.progress');
 });
 
 

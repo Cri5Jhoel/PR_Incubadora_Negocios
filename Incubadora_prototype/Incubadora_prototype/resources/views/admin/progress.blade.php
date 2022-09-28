@@ -11,7 +11,7 @@
     <div class="content">
         <div class="text-white m-5 row body_main">
             <div class="step-progress">
-            <span class="text-black">dawda</span>
+                <span class="text-black">dawda</span>
                 <ul>
                     <li class="progress-box">
                         <div class="progress one">
