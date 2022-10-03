@@ -9,153 +9,120 @@
         <div class="col-md-8">
             <div class="form-card">
                 <div id="content" class="p-4 p-md-5 pt-5">
-
                     <form action="#" class="form">
-                        <h1 class="text-center">Propuesta de Valor</h1>
-                        <h4 class="text-center app-subtitle">Árbol de problemas</h4>
+                        <h1 class="text-center">Precio y Viabilidad del Negocio</h1>
+                        <h4 class="text-center app-subtitle">Estrategias de precio de lanzamiento al mercado</h4>
                         <div>
-
-                            <div class="mb-3">
-                                <h4 for="" class="text-left">¿Cuál es el problema central de tus clientes que estás resolviendo?</h4>
-                                <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                            </div>
-                            <div class="table-responsive">
-                                <h4>¿Cuáles son las principales razones por las que existe este problema?</h4>
-                                <table class="table text-white table-borderless">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col">
-                                                <div class="">
-                                                    <label for="" class="form-label">Razon 1</label>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </th>
-                                            <th scope="col">
-                                                <div class="">
-                                                    <label for="" class="form-label">Razon 2</label>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </th>
-                                            <th scope="col">
-                                                <div class="">
-                                                    <label for="" class="form-label">Razon 3</label>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Causa 1</td>
-                                            <td>Causa 2</td>
-                                            <td>Causa 3</td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                            <h5>Estas cuatro estrategias se clasifican en función de su precio inicial (lanzamiento al mercado) y el precio en el futuro. ¿Cuáles te parecen interesantes para tu negocio?</h5>
+                            <div class="input-group">
+                                <label for="username" class="text-left" style="background: #971c2e;padding: 30px;color: white;margin-bottom: 15px;">Alto</label>
+                                <div class="row" style="margin-left: 1px;">
+                                    <checkbox class="form-group col-lg-6 col-md-6 col-sm-6 col-6" style="padding: 21px 10px 0px 10px;border: 1px dashed black;">
+                                        <div class="checkbox-container">
+                                            <input class="app-antepnp" name="Alto" value="1" type="radio" id="Alto1">
+                                            <label class="hasLabel" for="Alto1">Estrategia Descremado</label>
+                                        </div>
+                                    </checkbox>
+                                    <checkbox class="form-group col-lg-6 col-md-6 col-sm-6 col-6" style="padding: 21px 10px 0px 10px;border: 1px dashed black;">
+                                        <div class="checkbox-container">
+                                            <input class="app-antepnp" name="Alto" value="1" type="radio" id="Alto2">
+                                            <label class="hasLabel" for="Alto2">Estrategia Premium</label>
+                                        </div>
+                                    </checkbox>
+                                </div>
+                                <div class="input-group">
+                                    <label for="username" class="text-left" style="background: #971c2e;padding: 30px;color: white;margin-bottom: 15px;">Bajo</label>
+                                    <div class="row">
+                                        <checkbox class="form-group col-lg-6 col-md-6 col-sm-6 col-6" style="border: 1px dashed black;padding: 21px 10px 0px 10px;">
+                                            <div class="checkbox-container">
+                                                <input class="app-antepnp" name="Bajo" value="1" type="radio" id="Bajo1">
+                                                <label class="hasLabel" for="Bajo1">Estrategia Económica</label>
+                                            </div>
+                                        </checkbox>
+                                        <checkbox class="form-group col-lg-6 col-md-6 col-sm-6 col-6" style="padding: 21px 10px 0px 10px;border: 1px dashed black;">
+                                            <div class="checkbox-container">
+                                                <input class="app-antepnp" name="Bajo" value="1" type="radio" id="Bajo2">
+                                                <label class="hasLabel" for="Bajo2">Estrategia de Penetración</label>
+                                            </div>
+                                        </checkbox>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                        <h4 class="text-center app-subtitle">Otras estrategias de precio</h4>
+                        <br>
+                        <div>
+                            <div class="row">
+                                <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+                                    <div class="checkbox-container">
+                                        <input class="app-antepnp" name="mdnegocio" value="1" type="checkbox" id="mdnegocio1">
+                                        <label class="hasLabel" for="mdnegocio1">Precios Psicológicos</label>
+                                    </div>
+                                </checkbox>
+                                <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+                                    <div class="checkbox-container">
+                                        <input class="app-antepnp" name="mdnegocio2" value="1" type="checkbox" id="mdnegocio2">
+                                        <label class="hasLabel" for="mdnegocio2">Estrategia de mercado</label>
+                                    </div>
+                                </checkbox>
+                                <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+                                    <div class="checkbox-container">
+                                        <input class="app-antepnp" name="mdnegocio3" value="1" type="checkbox" id="mdnegocio3">
+                                        <label class="hasLabel" for="mdnegocio3">Estrategia de líneas de productos</label>
+                                    </div>
+                                </checkbox>
+                                <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+                                    <div class="checkbox-container">
+                                        <input class="app-antepnp" name="mdnegocio4" value="1" type="checkbox" id="mdnegocio4">
+                                        <label class="hasLabel" for="mdnegocio4">Estrategia de agrupación</label>
+                                    </div>
+                                </checkbox>
+                                <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+                                    <div class="checkbox-container">
+                                        <input class="app-antepnp" name="mdnegocio5" value="1" type="checkbox" id="mdnegocio5">
+                                        <label class="hasLabel" for="mdnegocio5">Estrategia de competición</label>
+                                    </div>
+                                </checkbox>
+                                <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+                                    <div class="checkbox-container">
+                                        <input class="app-antepnp" name="mdnegocio6" value="1" type="checkbox" id="mdnegocio6">
+                                        <label class="hasLabel" for="mdnegocio6">Estrategia de impresora y tinta</label>
+                                    </div>
+                                </checkbox>
+                                <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+                                    <div class="checkbox-container">
+                                        <input class="app-antepnp" name="mdnegocio7" value="1" type="checkbox" id="mdnegocio7">
+                                        <label class="hasLabel" for="mdnegocio7">Estrategia de productos opcionales</label>
+                                    </div>
+                                </checkbox>
+                                <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+                                    <div class="checkbox-container">
+                                        <input class="app-antepnp" name="mdnegocio8" value="1" type="checkbox" id="mdnegocio8">
+                                        <label class="hasLabel" for="mdnegocio8">Precios marcados por el cliente</label>
+                                    </div>
+                                </checkbox>
+                            </div>
+                            <div class="mb-3">
+                                <h4 for="" class="text-left">Crea y define la mejor estrategia de precios para cada segmento de mercado seleccionando las estrategias seleccionadas, puedes crear una personalizada</h4>
+                                <textarea type="" class="form-control " name="" id="" aria-describedby="helpId" placeholder=""></textarea>
+                                <textarea type="" class="form-control " name="" id="" aria-describedby="helpId" placeholder=""></textarea>
+                            </div>
+                        </div>
+
+                        <h4 class="text-center app-subtitle">Otras estrategias de precio</h4>
+                        <div>
+                            <div class="mb-3">
+                                <h4 for="" class="text-left">Realiza una encuesta para saber si tus clientes, están dispuestos a pagar por tu producto . Utiliza como referencia el PDF base para la encuesta, el mismo debes solicitarlo a tu mentor</h4>
+                                <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                            </div>
+                        </div>
+
+                        <h4 class="text-center app-subtitle">Lifetime Value Retention</h4>
+                        <div>
+
+                        </div>
+
+
                         <h4 class="text-center app-subtitle">Relación Problema/Solución</h4>
                         <div>
                             <div class="table-responsive">

@@ -29,7 +29,7 @@ class HomeController extends Controller
     {
         return view('teamProgress');
     }
-    public function formView()
+    public function form()
     {
         return view('form');
     }

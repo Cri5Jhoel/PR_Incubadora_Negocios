@@ -27,7 +27,7 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/teamProgress', [App\Http\Controllers\HomeController::class, 'teamProgress'])->name('teamProgress');
-Route::get('form', [App\Http\Controllers\HomeController::class, 'formView'])->name('form');
+Route::get('/form', [App\Http\Controllers\HomeController::class, 'form'])->name('form');
 //Route::get('/students', [App\Http\Controllers\ProductController::class, 'getProducts'])->middleware('auth');
 
 Route::group(['middleware' => 'auth.admin'], function () {
