@@ -29,8 +29,32 @@ class HomeController extends Controller
     {
         return view('teamProgress');
     }
-    public function form()
+    public function form1()
     {
-        return view('form');
+        return view('form1');
+    }
+    public function form2()
+    {
+        return view('form2');
+    }
+    public function form3()
+    {
+        return view('form3');
+    }
+    public function form4()
+    {
+        return view('form4');
+    }
+    public function form5()
+    {
+        return view('form5');
+    }
+    public function form6()
+    {
+        return view('form6');
+    }
+    public function form7()
+    {
+        return view('form7');
     }
 }

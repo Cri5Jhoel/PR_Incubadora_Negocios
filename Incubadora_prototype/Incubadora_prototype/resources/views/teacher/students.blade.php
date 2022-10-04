@@ -14,7 +14,7 @@
 </div>
 
 <header class="container-fluid bg-dark p-3">
-    <h2 class="text-white">Administrar Estudiantes</h2>
+    <h2 class="text-white">Administrar Equipos</h2>
 </header>
 
 <section class="main_container bg-dark border-top border-white">

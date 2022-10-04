@@ -30,12 +30,12 @@
 </head>
 
 <body>
-    <div id="app">
+    <div id="app"">
         <div>
             <div class="container-fluid">
                 <div class="row flex-nowrap">
-                    <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark fixed">
-                        <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+                    <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark " >
+                        <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100 fixed">
                             <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
                                 <span class="fs-5 d-none d-sm-inline">Menu</span>
                             </a>
@@ -65,7 +65,7 @@
                                 </li>
                                 <li>
                                     <a href="{{ route('teacher.students') }}" class="nav-link align-middle px-0">
-                                        <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Students</span>
+                                        <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Teams</span>
                                     </a>
                                 </li>
                                 <li>
@@ -82,8 +82,44 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('form') }}" class="nav-link align-middle px-0">
-                                        <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Formulario
+                                    <a href="{{ route('form1') }}" class="nav-link align-middle px-0">
+                                        <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Formulario1
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="{{ route('form2') }}" class="nav-link align-middle px-0">
+                                        <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Formulario2
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="{{ route('form3') }}" class="nav-link align-middle px-0">
+                                        <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Formulario3
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="{{ route('form4') }}" class="nav-link align-middle px-0">
+                                        <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Formulario4
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="{{ route('form5') }}" class="nav-link align-middle px-0">
+                                        <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Formulario5
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="{{ route('form6') }}" class="nav-link align-middle px-0">
+                                        <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Formulario6
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="{{ route('form7') }}" class="nav-link align-middle px-0">
+                                        <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Formulario7
                                         </span>
                                     </a>
                                 </li>
@@ -115,7 +151,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col py-3">
+                    <div class="col py-3" style="position: relative;">
                         <main>
                             @yield('content')
                         </main>
