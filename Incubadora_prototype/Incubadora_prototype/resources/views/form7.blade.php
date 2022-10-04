@@ -4,7 +4,6 @@
 @stop
 @section('content')
 <div class="container">
-
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="form-card">
@@ -14,42 +13,275 @@
                         <h1 class="text-center">Plan de crecimiento</h1>
                         <h4 class="text-center app-subtitle">Metas y aspiraciones</h4>
                         <div>
+                            <div class="mb-3">
+                                <h4 for="" class="text-left">¿Cuáles son las metas aspiracionales de tu organización? Una meta aspiracional es una meta a largo plazo (3-5 años) novedosa y arriesgada.</h4>
+                                <label for="">Mision</label>
+                                <textarea type="" class="form-control " name="" id="" aria-describedby="helpId" placeholder=""></textarea>
+                                <label for="">Visión</label>
+                                <textarea type="" class="form-control " name="" id="" aria-describedby="helpId" placeholder=""></textarea>
+                                <div class="mb-3">
+                                    <label for="" class="form-label">Meta 1</label>
+                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="" class="form-label">Meta 2</label>
+                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="" class="form-label">Meta 3</label>
+                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                </div>
+                            </div>
+                        </div>
+                        <h4 class="text-center app-subtitle">Valores y Cultura</h4>
+                        <div>
+                            <div class="mb-3">
+                                <h5 for="" class="text-left">¿Qué comportamientos muestras tú y tu equipo a diario? Da un paso atrás y reflexiona usando las preguntas de abajo. Piensa en momentos específicos de tu vida personal y profesional, solo o con tu equipo.</h5>
+                                <div class="mb-3">
+                                    <label for="" class="form-label">¿Qué comportamientos te desagradan en los demás?</label>
+                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="" class="form-label">¿Qué comportamiento aprecias de los demás?</label>
+                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="" class="form-label">¿Qué comportamiento quieres corregir de ti?</label>
+                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="" class="form-label">¿Qué comportamiento quieres adoptar para ti?</label>
+                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                </div>
+                                <h5 for="" class="text-left">¿Qué comportamientos muestras tú y tu equipo a diario? Da un paso atrás y reflexiona usando las preguntas de abajo. Piensa en momentos específicos de tu vida personal y profesional, solo o con tu equipo.</h5>
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                </div>
+                            </div>
+                        </div>
+                        <h4 class="text-center app-subtitle">Indicadores clave de rendimiento</h4>
+                        <div>
+                            <div class="mb-3">
+                                <h5 for="" class="text-left">Metas</h5>
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="mb-3">
+                                <div>
+                                    <div class="table-responsive">
+                                        <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="" readonly>
+                                        <table class="table text-white table-borderless">
+                                            <thead>
+                                                <th scope="col">
+                                                    <div class="">
+                                                        <label for="" class="form-label">Menciona los KPI's que mejor se ajusten</label>
+                                                    </div>
+                                                </th>
+                                                <th scope="col">
+                                                    <div class="">
+                                                        <label for="" class="form-label">Menciona las metas</label>
+                                                    </div>
+                                                </th>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <div>
+                                                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div>
+                                                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div>
+                                                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div>
+                                                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div>
+                                                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div>
+                                                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                </div>
+                                <div>
+                                    <div class="table-responsive">
+                                        <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="" readonly>
+                                        <table class="table text-white table-borderless">
+                                            <thead>
+                                                <th scope="col">
+                                                    <div class="">
+                                                        <label for="" class="form-label">Menciona los KPI's que mejor se ajusten</label>
+                                                    </div>
+                                                </th>
+                                                <th scope="col">
+                                                    <div class="">
+                                                        <label for="" class="form-label">Menciona las metas</label>
+                                                    </div>
+                                                </th>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <div>
+                                                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div>
+                                                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div>
+                                                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div>
+                                                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div>
+                                                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div>
+                                                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                </div>
+                                <div>
+                                    <div class="table-responsive">
+                                        <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="" readonly>
+                                        <table class="table text-white table-borderless">
+                                            <thead>
+                                                <th scope="col">
+                                                    <div class="">
+                                                        <label for="" class="form-label">Menciona los KPI's que mejor se ajusten</label>
+                                                    </div>
+                                                </th>
+                                                <th scope="col">
+                                                    <div class="">
+                                                        <label for="" class="form-label">Menciona las metas</label>
+                                                    </div>
+                                                </th>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <div>
+                                                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div>
+                                                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div>
+                                                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div>
+                                                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div>
+                                                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div>
+                                                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <h4 class="text-center app-subtitle">Hitos</h4>
+                        <div>
                             <div class="table-responsive">
-                                <h4>Redacta los componentes de los 5 elementos de tu sistema</h4>
+                                <h5>¿Cuáles son todos los pasos intermedios que necesitaras dar para alcanzar estas GRANDES metas?</h5>
                                 <table class="table text-white table-borderless">
                                     <thead>
-                                        <tr>
-                                            <th scope="col">
-                                                <div class="">
-                                                    <label for="" class="form-label">Recursos</label>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </th>
-                                            <th scope="col">
-                                                <div class="">
-                                                    <label for="" class="form-label">Roles</label>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </th>
-                                            <th scope="col">
-                                                <div class="">
-                                                    <label for="" class="form-label">Relaciones</label>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </th>
-                                            <th scope="col">
-                                                <div class="">
-                                                    <label for="" class="form-label">Reglas</label>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </th>
-                                            <th scope="col">
-                                                <div class="">
-                                                    <label for="" class="form-label">Resultados</label>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </th>
-                                        </tr>
+                                        <th scope="col">
+                                            <div class="">
+                                                <label for="" class="form-label">Año 1</label>
+                                            </div>
+                                        </th>
+                                        <th scope="col">
+                                            <div class="">
+                                                <label for="" class="form-label">Año 2</label>
+                                            </div>
+                                        </th>
+                                        <th scope="col">
+                                            <div class="">
+                                                <label for="" class="form-label">Año 3</label>
+                                            </div>
+                                        </th>
                                     </thead>
                                     <tbody>
                                         <tr>
@@ -65,17 +297,7 @@
                                             </td>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
+                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
                                                 </div>
                                             </td>
                                         </tr>
@@ -92,17 +314,7 @@
                                             </td>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
+                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
                                                 </div>
                                             </td>
                                         </tr>
@@ -119,17 +331,7 @@
                                             </td>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
+                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
                                                 </div>
                                             </td>
                                         </tr>
@@ -146,17 +348,7 @@
                                             </td>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
+                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
                                                 </div>
                                             </td>
                                         </tr>
@@ -173,78 +365,70 @@
                                             </td>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
+                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <h5>Ahora define Objetivos y OKR's para los Itos seleccionados</h5>
+                            <div class="table-responsive">
+                                <table class="table text-white table-borderless">
+                                    <thead>
+                                        <th scope="col">
+                                            <div class="">
+                                                <label for="" class="form-label">Hitos Año 1</label>
+                                            </div>
+                                        </th>
+                                        <th scope="col">
+                                            <div class="">
+                                                <label for="" class="form-label">Objetivos y/o OKR's</label>
+                                            </div>
+                                        </th>
+
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div>
+                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="" readonly>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
+                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="" readonly>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
                                                     <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="" readonly>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
                                                     <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="" readonly>
                                                 </div>
                                             </td>
                                             <td>
@@ -252,19 +436,16 @@
                                                     <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
                                                 </div>
                                             </td>
+                                        </tr>
+                                        <tr>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
+                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="" readonly>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
+                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
                                                 </div>
                                             </td>
                                         </tr>
@@ -272,156 +453,61 @@
                                 </table>
                             </div>
                             <div class="table-responsive">
-                                <h4>Menciona los elementos en los que deberías influir para lograr un impacto enfocado a uno de los ODS en tu Sistema</h4>
                                 <table class="table text-white table-borderless">
                                     <thead>
-                                        <tr>
-                                            <th scope="col">
-                                                <div class="">
-                                                    <label for="" class="form-label">Recursos</label>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </th>
-                                            <th scope="col">
-                                                <div class="">
-                                                    <label for="" class="form-label">Roles</label>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </th>
-                                            <th scope="col">
-                                                <div class="">
-                                                    <label for="" class="form-label">Relaciones</label>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </th>
-                                            <th scope="col">
-                                                <div class="">
-                                                    <label for="" class="form-label">Reglas</label>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </th>
-                                            <th scope="col">
-                                                <div class="">
-                                                    <label for="" class="form-label">Resultados</label>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </th>
-                                        </tr>
+                                        <th scope="col">
+                                            <div class="">
+                                                <label for="" class="form-label">Hitos Año 2</label>
+                                            </div>
+                                        </th>
+                                        <th scope="col">
+                                            <div class="">
+                                                <label for="" class="form-label">Objetivos y/o OKR's</label>
+                                            </div>
+                                        </th>
+
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="" readonly>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
                                                     <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="" readonly>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
                                                     <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="" readonly>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
                                                     <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="" readonly>
                                                 </div>
                                             </td>
                                             <td>
@@ -429,203 +515,95 @@
                                                     <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
                                                 </div>
                                             </td>
+                                        </tr>
+                                        <tr>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
+                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="" readonly>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
                                                     <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
                                                 </div>
                                             </td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
-                            <div class="mb-3">
-                                <h4 for="" class="text-left">Redacta tu declaración de Impacto.</h4>
-                                <textarea type="" class="form-control " name="" id="" aria-describedby="helpId" placeholder=""></textarea>
-                            </div>
-                            <div class="mb-3">
-                                <h4 for="" class="text-left">Redacta tu visión</h4>
-                                <textarea type="" class="form-control " name="" id="" aria-describedby="helpId" placeholder=""></textarea>
-                            </div>
                             <div class="table-responsive">
-                                <h4>Menciona los elementos en los que deberías influir para lograr un impacto enfocado a uno de los ODS en tu Sistema</h4>
                                 <table class="table text-white table-borderless">
                                     <thead>
-                                        <tr>
-                                            <th scope="col">
-                                                <div class="">
-                                                    <label for="" class="form-label">Elemnto</label>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </th>
-                                            <th scope="col">
-                                                <div class="">
-                                                    <label for="" class="form-label">Acción</label>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </th>
-                                            <th scope="col">
-                                                <div class="">
-                                                    <label for="" class="form-label">Impacto</label>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </th>
-                                            <th scope="col">
-                                                <div class="">
-                                                    <label for="" class="form-label">Métrica</label>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </th>
-                                            <th scope="col">
-                                                <div class="">
-                                                    <label for="" class="form-label">Meta</label>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </th>
-                                        </tr>
+                                        <th scope="col">
+                                            <div class="">
+                                                <label for="" class="form-label">Hitos Año 3</label>
+                                            </div>
+                                        </th>
+                                        <th scope="col">
+                                            <div class="">
+                                                <label for="" class="form-label">Objetivos y/o OKR's</label>
+                                            </div>
+                                        </th>
+
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="" readonly>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
                                                     <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="" readonly>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
                                                     <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="" readonly>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
                                                     <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="" readonly>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
                                                     <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="" readonly>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
                                                     <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
                                                 </div>
                                             </td>
                                         </tr>
@@ -633,670 +611,129 @@
                                 </table>
                             </div>
                         </div>
-                        <!-- <h4 class="text-center app-subtitle">Árbol de problemas</h4>
+                        <h4 class="text-center app-subtitle">Potenciales riesgos</h4>
                         <div>
-
                             <div class="mb-3">
-                                <h4 for="" class="text-left">¿Cuál es el problema central de tus clientes que estás resolviendo?</h4>
+                                <label for="" class="form-label">¿Cuáles son los principales riesgos en tu negocio? ¿Cómo piensas mitigarlos?
+                                    Ten una lluvia de ideas sobre riesgos en las siguientes categorías: Riesgos de Mercado, Riesgos Competitivos, Riesgos Tecnológicos y Operativos, Riesgos Financieros, Riesgos de las Personas, Riesgos Legales y Regulatorios, Riesgos Sistémicos</label>
                                 <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                            </div>
-                            <div class="table-responsive">
-                                <h4>¿Cuáles son las principales razones por las que existe este problema?</h4>
-                                <table class="table text-white table-borderless">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col">
-                                                <div class="">
-                                                    <label for="" class="form-label">Razon 1</label>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </th>
-                                            <th scope="col">
-                                                <div class="">
-                                                    <label for="" class="form-label">Razon 2</label>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </th>
-                                            <th scope="col">
-                                                <div class="">
-                                                    <label for="" class="form-label">Razon 3</label>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Causa 1</td>
-                                            <td>Causa 2</td>
-                                            <td>Causa 3</td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                        <h4 class="text-center app-subtitle">Relación Problema/Solución</h4>
-                        <div>
-                            <div class="table-responsive">
-                                <h5>De entre y razones y causas que has enumerado, elige aquellos que quieras que tu negocio resuelva</h5>
-                                <table class="table text-white table-borderless">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col">
-                                                <div class="">
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </th>
-                                            <th scope="col">
-                                                <div class="">
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </th>
-                                            <th scope="col">
-                                                <div class="">
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="mb-3">
-                                <h4 for="" class="text-left">¿Cómo va a intentar solucionar tu negocio esos problemas?</h4>
-                                <textarea type="" class="form-control " name="" id="" aria-describedby="helpId" placeholder=""></textarea>
-                            </div>
-                        </div>
-                        <h4 class="text-center app-subtitle">Oferta</h4>
-                        <div>
-                            <div class="mb-3">
-                                <h4 for="" class="text-left">Utiliza la descripción de tu solución para crear tu producto/servicio.</h4>
-                                <textarea type="" class="form-control " name="" id="" aria-describedby="helpId" placeholder=""></textarea>
-                            </div>
-                        </div>
-                        <h4 class="text-center app-subtitle">Segmento</h4>
-                        <div>
-                            <h4>¿Cuáles son los distintos grupos de personas que utilizarán o comprarán tu producto/servicio)? Esos son tus segmentos de mercado.</h4>
-                            <div class="row">
-                                <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
-                                    <div class="checkbox-container">
-                                        <input class="app-antepnp" name="mdnegocio" value="1" type="checkbox" id="mdnegocio1">
-                                        <label class="hasLabel" for="mdnegocio1">B2B</label>
-                                    </div>
-                                </checkbox>
-                                <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
-                                    <div class="checkbox-container">
-                                        <input class="app-antepnp" name="mdnegocio2" value="1" type="checkbox" id="mdnegocio2">
-                                        <label class="hasLabel" for="mdnegocio2">B2C</label>
-                                    </div>
-                                </checkbox>
-                                <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
-                                    <div class="checkbox-container">
-                                        <input class="app-antepnp" name="mdnegocio3" value="1" type="checkbox" id="mdnegocio3">
-                                        <label class="hasLabel" for="mdnegocio3">B2G</label>
-                                    </div>
-                                </checkbox>
-                                <h5>Si marcaste B2C</h5>
-                                <div>
-                                    <div class="mb-3">
-                                        <h4 for="" class="text-left">Redacta las variables geográficas</h4>
-                                        <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                    </div>
-                                    <div class="mb-3">
-                                        <h4 for="" class="text-left">Redacta las variables demográficas</h4>
-                                        <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                    </div>
-                                    <div class="mb-3">
-                                        <h4 for="" class="text-left">Redacta las variables conductuales</h4>
-                                        <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                    </div>
-                                </div>
-                                <h5>Si marcaste B2B</h5>
-                                <div>
-                                    <div class="mb-3">
-                                        <h4 for="" class="text-left">Redacta las variables geográficas</h4>
-                                        <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                    </div>
-                                    <div class="mb-3">
-                                        <h4 for="" class="text-left">Redacta las variables de comportamiento</h4>
-                                        <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                    </div>
-                                    <div class="mb-3">
-                                        <h4 for="" class="text-left">Redacta las variables de crecimiento</h4>
-                                        <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                    </div>
-                                    <div class="mb-3">
-                                        <h4 for="" class="text-left">Describe el segmento, considerando todas las variables</h4>
-                                        <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <h4 class="text-center app-subtitle">Problema</h4>
-                        <div>
-                            <div class="mb-3">
-                                <h4 for="" class="text-left">Enumera todos los problemas que se encuentran tus clientes en la actual oferta de mercado.</h4>
-                                <input type="" class="form-control " name="" id="" aria-describedby="helpId" placeholder=""></input>
-                                <input type="" class="form-control " name="" id="" aria-describedby="helpId" placeholder=""></input>
-                                <input type="" class="form-control " name="" id="" aria-describedby="helpId" placeholder=""></input>
-                                <input type="" class="form-control " name="" id="" aria-describedby="helpId" placeholder=""></input>
-                                <input type="" class="form-control " name="" id="" aria-describedby="helpId" placeholder=""></input>
-                            </div>
-                            <div class="mb-3">
-                                <h4 for="" class="text-left">¿Cuáles son los beneficios que tu solución puede dar a cada segmento de cliente?</h4>
-                                <input type="" class="form-control " name="" id="" aria-describedby="helpId" placeholder=""></input>
-                                <input type="" class="form-control " name="" id="" aria-describedby="helpId" placeholder=""></input>
-                                <input type="" class="form-control " name="" id="" aria-describedby="helpId" placeholder=""></input>
-                                <input type="" class="form-control " name="" id="" aria-describedby="helpId" placeholder=""></input>
-                                <input type="" class="form-control " name="" id="" aria-describedby="helpId" placeholder=""></input>
-                            </div>
-                        </div>
-                        <h4 class="text-center app-subtitle">Tamaño del mercado</h4>
-                        <div>
-                            <div class="mb-3">
-                                <h4 for="" class="text-left">Haz una estimación del tamaño del mercado para cada uno de tus segmentos de mercado.</h4>
-                                <div class="mb-3">
-                                    <label for="" class="form-label">¿Cuánta gente entraría dentro de este segmento de mercado?</label>
-                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="" class="form-label">¿A qué porcentaje del mercado conseguirías llegar?</label>
-                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="" class="form-label">El número aproximado de clientes a los que podrás llegar</label>
-                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="" class="form-label">¿Qué porcentaje del mercado compraría tu producto en vez de los de tus competidores?</label>
-                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="" class="form-label">El número aproximado de clientes que podrían estar interesados en comprar tu producto</label>
-                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                </div>
-                            </div>
-                        </div>
-                        <h4 class="text-center app-subtitle">Acciones necesarias</h4>
-                        <div>
-                            <div class="mb-3">
-                                <small id="helpId" class="form-text text-muted">Funcional</small>
-                                <h4 for="" class="text-left">¿Cuáles son los resultados concretos que tus clientes quieren obtener?</h4>
-                                <input type="" class="form-control " name="" id="" aria-describedby="helpId" placeholder=""></input>
-                                <input type="" class="form-control " name="" id="" aria-describedby="helpId" placeholder=""></input>
-                                <input type="" class="form-control " name="" id="" aria-describedby="helpId" placeholder=""></input>
-                            </div>
-                            <div class="mb-3">
-                                <small id="helpId" class="form-text text-muted">Personal</small>
-                                <h4 for="" class="text-left">¿Cómo quieren sentirse tus clientes?</h4>
-                                <input type="" class="form-control " name="" id="" aria-describedby="helpId" placeholder=""></input>
-                                <input type="" class="form-control " name="" id="" aria-describedby="helpId" placeholder=""></input>
-                                <input type="" class="form-control " name="" id="" aria-describedby="helpId" placeholder=""></input>
-                            </div>
-                            <div class="mb-3">
-                                <small id="helpId" class="form-text text-muted">Social</small>
-                                <h4 for="" class="text-left">¿Cómo quieren tus clientes que se les perciba?</h4>
-                                <input type="" class="form-control " name="" id="" aria-describedby="helpId" placeholder=""></input>
-                                <input type="" class="form-control " name="" id="" aria-describedby="helpId" placeholder=""></input>
-                                <input type="" class="form-control " name="" id="" aria-describedby="helpId" placeholder=""></input>
-                            </div>
-                        </div>
-                        <h4 class="text-center app-subtitle">Selección de resultados</h4> -->
-                        <!-- <div>
-                            <div class="table-responsive">
-                                <h4>De entre todas las acciones, elige aquellas que tus clientes valoren más. Luego califique la importancia de un 0 a un 100%</h4>
-                                <table class="table text-white table-borderless">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col">
-                                                <div class="">
-                                                    <label for="" class="form-label">Accion</label>
-
-                                                </div>
-                                            </th>
-                                            <th scope="col">
-                                                <div class="">
-                                                    <label for="" class="form-label">Segmento</label>
-
-                                                </div>
-                                            </th>
-                                            <th scope="col">
-                                                <div class="">
-                                                    <label for="" class="form-label">% de Importancia</label>
-
-                                                </div>
-                                            </th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                        </tr>
-
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="table-responsive">
-                                <h4>¿Cómo de insatisfecho está este segmento de mercado con la oferta de mercado actual para conseguir lo que necesitas?</h4>
-                                <table class="table text-white table-borderless">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col">
-                                                <div class="">
-                                                    <label for="" class="form-label">Accion</label>
-
-                                                </div>
-                                            </th>
-                                            <th scope="col">
-                                                <div class="">
-                                                    <label for="" class="form-label">Segmento</label>
-
-                                                </div>
-                                            </th>
-                                            <th scope="col">
-                                                <div class="">
-                                                    <label for="" class="form-label">% de Importancia</label>
-
-                                                </div>
-                                            </th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" id="" placeholder="">
-                                                </div>
-                                            </td>
-                                        </tr>
-
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="mb-3">
-                                <label for="" class="form-label">Decisión del segmento a enfocarse en base a importancia e insatisfacción del mercado</label>
+                                <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
                                 <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
                             </div>
                         </div>
-                        <h4 class="text-center app-subtitle">Ahora puedes redactar la propuesta de valor</h4>
+                        <h4 class="text-center app-subtitle">Equipo de tus sueños</h4>
                         <div>
-                            <div class="mb-3">
-                                <h4 for="" class="text-left">Utiliza el ejemplo para escribir la presentación de tu Propuesta de Valor para cada uno de los segmentos de mercado que has elegido.</h4>
-                                <label for="">Estructura recomendada</label>
-                                <textarea type="" class="form-control " name="" id="" aria-describedby="helpId" placeholder=""></textarea>
-                                <label for="">Redacta en este recuadro tu propuesta de valor</label>
+                            <h5>¿Cómo es el equipo de tus sueños? Haz una lista de todas las personas clave que necesitas y explica de qué iniciativas serán responsables.</h5>
+                            <div class="table-responsive">
+                                <table class="table text-white table-borderless">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Persona Clave</th>
+                                            <th scope="col">Area de trabajo</th>
+                                            <th scope="col">Iniciativa</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div>
+                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div>
+                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div>
+                                                    <input type="text" class="form-control" name="" id="" placeholder="">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div>
+                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div>
+                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div>
+                                                    <input type="text" class="form-control" name="" id="" placeholder="">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div>
+                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div>
+                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div>
+                                                    <input type="text" class="form-control" name="" id="" placeholder="">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div>
+                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div>
+                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div>
+                                                    <input type="text" class="form-control" name="" id="" placeholder="">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div>
+                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div>
+                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div>
+                                                    <input type="text" class="form-control" name="" id="" placeholder="">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                        </div>
+                        <h4 class="text-center app-subtitle">Plan de crecimiento</h4>
+                        <div>
+                        <div class="mb-3">
+                                <h4 for="" class="text-left">¿Cómo resumirías tu Plan de Crecimiento en un párrafo?</h4>
                                 <textarea type="" class="form-control " name="" id="" aria-describedby="helpId" placeholder=""></textarea>
                             </div>
-                        </div> -->
+                        </div>
                         <div class="d-flex justify-content-center">
                             <button type="submit" class="btn btn-success">Guardar</button>
                         </div>
