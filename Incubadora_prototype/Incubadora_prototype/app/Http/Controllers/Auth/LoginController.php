@@ -30,7 +30,7 @@ class LoginController extends Controller
      */
     public function authenticated($request , $user){
         if($user->userType=='admin'){
-            return redirect()->route('admin.dashboard') ;
+            return redirect()->route('admin.teams') ;
         }else if($user->userType=='teacher'){
             return redirect()->route('teacher.index') ;
         }else{

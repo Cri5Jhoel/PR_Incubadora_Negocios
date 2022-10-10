@@ -17,8 +17,8 @@ class DashboardController extends Controller
     public function teams(){
         return view('admin.teams');
     }
-    public function progress(){
-        return view('admin.progress');
+    public function tprogress(){
+        return view('admin.tprogress');
     }
     public function editTeacher(){
         return view('admin.editTeacher');

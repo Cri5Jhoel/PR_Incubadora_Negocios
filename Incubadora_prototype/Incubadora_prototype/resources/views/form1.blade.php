@@ -1,15 +1,22 @@
 @extends('layouts.app')
-@section('script')
-
-@stop
 @section('content')
-<div class="container">
+<script type="text/javascript">
+    angular.module('myApp', [])
+        .controller('myCtrl', ['$scope', function($scope) {
+            $scope.myFunc = function() {
+                document.getElementById("myRes1").value = document.getElementById("myInput").value;
+            };
+            $scope.clickButton = function() {
+
+            };
+        }]);
+</script>
+<div class="container" ng-app="myApp" ng-controller="myCtrl">
 
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="form-card">
                 <div id="content" class="p-4 p-md-5 pt-5">
-
                     <form action="#" class="form">
                         <h1 class="text-center">Propuesta de Valor</h1>
                         <h4 class="text-center app-subtitle">Árbol de problemas</h4>
@@ -17,7 +24,7 @@
 
                             <div class="mb-3">
                                 <h4 for="" class="text-left">¿Cuál es el problema central de tus clientes que estás resolviendo?</h4>
-                                <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                <input ng-change="myFunc()" type="text" class="form-control" name="" ng-model="myValue" id="myInput" aria-describedby="helpId" placeholder="">
                             </div>
                             <div class="table-responsive">
                                 <h4>¿Cuáles son las principales razones por las que existe este problema?</h4>
@@ -165,7 +172,7 @@
                                         <tr>
                                             <th scope="col">
                                                 <div class="">
-                                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" name="" id="myRes1" aria-describedby="helpId" placeholder="">
                                                 </div>
                                             </th>
                                             <th scope="col">
@@ -677,7 +684,7 @@
                             </div>
                         </div>
                         <div class="d-flex justify-content-center">
-                            <button type="submit" class="btn btn-success">Guardar</button>
+                            <button type="submit" ng-click="clickButton()" class="btn btn-success">Guardar</button>
                         </div>
                     </form>
 

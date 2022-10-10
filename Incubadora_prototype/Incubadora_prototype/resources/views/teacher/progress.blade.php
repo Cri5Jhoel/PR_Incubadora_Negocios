@@ -13,8 +13,7 @@
                 <span class="text-black">dawda</span>
                 <ul>
                     <li class="progress-box">
-                        <div class="progress one" >
-
+                        <div class="progress one">
                         </div>
                     </li>
                     <li class="progress-box">

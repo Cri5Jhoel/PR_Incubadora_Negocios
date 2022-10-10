@@ -39,7 +39,7 @@ Route::get('/form7', [App\Http\Controllers\HomeController::class, 'form7'])->nam
 Route::group(['middleware' => 'auth.admin'], function () {
     Route::get('/admin', [App\Http\Controllers\Admin\DashboardController::class, 'teacherList'])->name('admin.teacherList');
     Route::get('/teams',[App\Http\Controllers\Admin\DashboardController::class, 'teams'])->name('admin.teams');
-    Route::get('/progress',[App\Http\Controllers\Admin\DashboardController::class, 'progress'])->name('admin.progress');
+    Route::get('/tprogress',[App\Http\Controllers\Admin\DashboardController::class, 'tprogress'])->name('admin.tprogress');
 });
 
 Route::group(['middleware' => 'auth.teacher'], function () {

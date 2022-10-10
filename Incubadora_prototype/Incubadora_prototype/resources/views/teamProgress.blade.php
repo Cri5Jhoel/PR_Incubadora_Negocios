@@ -1,25 +1,24 @@
 @extends('layouts.app')
 @section("script")
 <script type="text/javascript">
-    var app = angular.module('myApp', []);
-    app.controller('myCtrl', function($scope) {
-        $scope.clicked = function() {
-            console.log("Clicked Me");
-        };
-    });
+    angular.module('myApp', [])
+        .controller('myCtrl', ['$scope', function($scope) {
+            $scope.form1 = function() {
+                window.location.href = "{{ route('form1') }}";
+            };
+        }]);
 </script>
 @stop
 @section('content')
-<div class="container" style="height: 100vh;">
+<div class="container" style="height: 100vh;" ng-app="myApp" ng-controller="myCtrl">
 
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="m-5 row body_main">
-                <div class="form-page text-center" ng-app="myApp" ng-controller="myCtrl">
-                    <div class="progress-div" ng-click="clicked()">
+                <div class="form-page text-center" >
+                    <div class="progress-div">
                         <h3>Formulario 1</h3>
                         <div class="progress one">
-                            <a></a>
                         </div>
                     </div>
                     <div class="progress-div">

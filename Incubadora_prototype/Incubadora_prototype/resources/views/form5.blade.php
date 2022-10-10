@@ -15,8 +15,8 @@
                         <div>
                             <h5>Estas cuatro estrategias se clasifican en función de su precio inicial (lanzamiento al mercado) y el precio en el futuro. ¿Cuáles te parecen interesantes para tu negocio?</h5>
                             <div class="input-group">
-                                <label for="username" class="text-left" style="background: #971c2e;padding: 30px;color: white;margin-bottom: 15px;">Alto</label>
-                                <div class="row" style="margin-left: 1px;">
+                                <label for="username" class="text-left" style="background: #971c2e;padding: 30px;color: white;margin-block-end: 15px;">Alto</label>
+                                <div class="row" style="margin-inline-start: 1px;">
                                     <checkbox class="form-group col-lg-6 col-md-6 col-sm-6 col-6" style="padding: 21px 10px 0px 10px;border: 1px dashed black;">
                                         <div class="checkbox-container">
                                             <input class="app-antepnp" name="Alto" value="1" type="radio" id="Alto1">
@@ -31,7 +31,7 @@
                                     </checkbox>
                                 </div>
                                 <div class="input-group">
-                                    <label for="username" class="text-left" style="background: #971c2e;padding: 30px;color: white;margin-bottom: 15px;">Bajo</label>
+                                    <label for="username" class="text-left" style="background: #971c2e;padding: 30px;color: white;margin-block-end: 15px;">Bajo</label>
                                     <div class="row">
                                         <checkbox class="form-group col-lg-6 col-md-6 col-sm-6 col-6" style="border: 1px dashed black;padding: 21px 10px 0px 10px;">
                                             <div class="checkbox-container">
