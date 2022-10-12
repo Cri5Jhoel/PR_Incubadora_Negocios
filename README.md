@@ -9,3 +9,7 @@ Se le agrego:
 Problemas:
 - Editar estudiantes no responde
 - Base de datos a debatir aun
+
+Responsables de actualizacion:
+* Alicia Natalia Virreira Idina
+* Cristian Jhoel Amaru Reyes
