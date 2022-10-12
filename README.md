@@ -1,3 +1,11 @@
 # PR_Incubadora_Negocios
 
-Esta es mi rama
+Se le agrego: 
++ Dashboards respectivos para el Estudiante, Docente, y Administrador
++ Se arreglo el problema de muestra de listas por tipo de usuario
++ Se añadio notificaciones modal
++ Registro de estudiantes, más el envio del password por email
+
+Problemas:
+- Editar estudiantes no responde
+- Base de datos a debatir aun
