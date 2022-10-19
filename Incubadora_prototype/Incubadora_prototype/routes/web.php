@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Termwind\Components\Raw;
 
 /*
 |--------------------------------------------------------------------------
@@ -51,3 +52,38 @@ Route::group(['middleware' => 'auth.teacher'], function () {
 
 
 
+//Teams
+Route::get('/teams', [App\Http\Controllers\TeamController::class, "getTeams"]);
+Route::get('/teams/{id}', [App\Http\Controllers\TeamController::class, "getTeam"]);
+Route::post('/teams', [App\Http\Controllers\TeamController::class, "postTeam"]);
+Route::put('/teams', [App\Http\Controllers\TeamController::class, "putTeam"]);
+Route::delete('/teams/{id}', [App\Http\Controllers\TeamController::class, "deleteTeam"]);
+
+Route::get('/listteams', [App\Http\Controllers\Team\TeamController::class, "listTeams"]);
+Route::get('/newteam', [App\Http\Controllers\Team\TeamController::class, "newTeam"]);
+Route::get('/editteam/{id}', [App\Http\Controllers\Team\TeamController::class, "editTeam"]);
+//
+
+//Forms
+Route::get('/forms', [App\Http\Controllers\FormController::class, "getForms"]);
+
+Route::get('/forms1/{id}', [App\Http\Controllers\FormController::class, "getForm1"]);
+Route::get('/forms2/{id}', [App\Http\Controllers\FormController::class, "getForm2"]);
+Route::get('/forms3/{id}', [App\Http\Controllers\FormController::class, "getForm3"]);
+Route::get('/forms4/{id}', [App\Http\Controllers\FormController::class, "getForm4"]);
+Route::get('/forms5/{id}', [App\Http\Controllers\FormController::class, "getForm5"]);
+Route::get('/forms6/{id}', [App\Http\Controllers\FormController::class, "getForm6"]);
+Route::get('/forms7/{id}', [App\Http\Controllers\FormController::class, "getForm7"]);
+
+Route::post('/forms', [App\Http\Controllers\FormController::class, "postForm"]);
+
+Route::put('/forms1', [App\Http\Controllers\FormController::class, "putForm1"]);
+Route::put('/forms2', [App\Http\Controllers\FormController::class, "putForm2"]);
+Route::put('/forms3', [App\Http\Controllers\FormController::class, "putForm3"]);
+Route::put('/forms4', [App\Http\Controllers\FormController::class, "putForm4"]);
+Route::put('/forms5', [App\Http\Controllers\FormController::class, "putForm5"]);
+Route::put('/forms6', [App\Http\Controllers\FormController::class, "putForm6"]);
+Route::put('/forms7', [App\Http\Controllers\FormController::class, "putForm7"]);
+
+Route::delete('/forms/{id}', [App\Http\Controllers\FormController::class, "deleteForm"]);
+//

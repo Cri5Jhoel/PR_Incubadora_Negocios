@@ -1,6 +1,10 @@
 @extends('layouts.app')
 @section('script')
 
+<script type="text/javascript">
+
+</script>
+
 @stop
 @section('content')
 <div class="container">
@@ -18,17 +22,17 @@
                                 <h4 for="" class="text-left">¿Cuál es el problema central de tus clientes que estás resolviendo?</h4>
                                 <div class="mb-3">
                                     <label for="" class="form-label">Problemas</label>
-                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" ng-model="input1" id="input1" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" id="input2" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" id="input3" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" id="input4" aria-describedby="helpId" placeholder="">
                                 </div>
                                 <div class="mb-3">
                                     <label for="" class="form-label">Beneficios</label>
-                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" id="input5" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" id="input6" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" id="input7" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" id="input8" aria-describedby="helpId" placeholder="">
                                 </div>
                             </div>
                         </div>
@@ -37,14 +41,14 @@
                             <div class="mb-3">
                                 <h4 for="" class="text-left">¿Cuál es el problema central de tus clientes que estás resolviendo?</h4>
                                 <div class="mb-3">
-                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" id="input9" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" id="input10" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" id="input11" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" id="input12" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" id="input13" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" id="input14" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" id="input15" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" id="input16" aria-describedby="helpId" placeholder="">
                                 </div>
                             </div>
                         </div>
@@ -53,14 +57,14 @@
                             <div class="mb-3">
                                 <h4 for="" class="text-left">Crea un listado de los atributos más importantes para tus clientes a la hora de elegir un producto/servicio.</h4>
                                 <div class="mb-3">
-                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" id="input17" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" id="input18" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" id="input19" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" id="input20" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" id="input21" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" id="input22" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" id="input23" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" id="input24" aria-describedby="helpId" placeholder="">
                                 </div>
                             </div>
                         </div>
