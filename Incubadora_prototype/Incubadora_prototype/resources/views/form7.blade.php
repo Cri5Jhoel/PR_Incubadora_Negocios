@@ -1011,9 +1011,13 @@
                                 <textarea type="" class="form-control " name="" ng-model="input115" id="input115" aria-describedby="helpId" placeholder=""></textarea>
                             </div>
                         </div>
+                        @if (Auth::user()->userType == 'teacher')
+                        @endif
+                        @if (Auth::user()->userType == 'student')
                         <div class="d-flex justify-content-center">
                             <button type="submit" ng-click="postForm()" class="btn btn-success">Guardar</button>
                         </div>
+                        @endif
                     </form>
                 </div>
             </div>
