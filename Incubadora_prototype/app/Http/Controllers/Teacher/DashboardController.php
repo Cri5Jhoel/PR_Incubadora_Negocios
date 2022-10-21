@@ -1,0 +1,26 @@
+<?php
+
+namespace App\Http\Controllers\Teacher;
+
+use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+
+class DashboardController extends Controller
+{
+    public function __construct() {
+        $this->middleware('auth');
+      }
+
+    public function index(){
+        return view('teacher.index');
+    }
+    public function students(){
+        return view('teacher.students');
+    }
+    public function editStudent(){
+        return view('teacher.editStudent');
+    }
+    public function progress(){
+        return view('teacher.progress');
+    }
+}
