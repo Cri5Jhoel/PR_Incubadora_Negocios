@@ -97,7 +97,7 @@
                     <!-- SI ESTÁ EN LOG IN...--->
                     <div class="overlay-panel overlay-right">
                         <h1>Hola, Nuevo por Aquí?</h1>
-                        <p>Estás a un clic de inovar con tus ideas</p>
+                        <p>Estás a un click de inovar con tus ideas</p>
                         <button class="ghost" id="signUp">Registrarte</button>
                         <br>
                         

@@ -1,5 +1,4 @@
-@extends("layouts.main")
-@section("title", "Editar Equipo")
+@extends("layouts.Dashboard")
 @section("script")
 <script type="text/javascript">
     function getParameterByName(url = window.location.href) {
@@ -24,18 +23,30 @@
 </script>
 @stop
 @section("content")
-<form ng-app="TeamEditModule" ng-controller="TeamEditController">
-    <div>
-        Nombre del Equipo:
-        <input type="text" class="form-control" ng-model="team.teamName">
-    </div>
-    <!-- <div>
-        Periodo:
-        <input type="text" class="form-control" ng-model="team.lastName">
-    </div> -->
+<div class="container-fluid">
+    <h1 class="h3 mb-4 text-gray-800">Editar equipo</h1>
 
-    <div>
-        <button type="button" ng-click="putTeam()" class="btn btn-success">Actualizar</button>
-        <a href="/listteams" class="btn btn-primary">Volver</a>
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Equipo</h6>
     </div>
+    <div class="card-body">
+    <form ng-app="TeamEditModule" ng-controller="TeamEditController">
+        <div>
+            Nombre del Equipo:
+            <input type="text" class="form-control" ng-model="team.teamName">
+        </div>
+        <!-- <div>
+            Periodo:
+            <input type="text" class="form-control" ng-model="team.lastName">
+        </div> -->
+        <br>
+
+        <div>
+            <button type="button" ng-click="putTeam()" class="btn btn-success">Actualizar</button>
+            <a href="/listteams" class="btn btn-primary">Volver</a>
+        </div>
+    </form>
+    </div>
+</div>
 @stop

@@ -1,5 +1,4 @@
-@extends("layouts.main")
-@section("title", "Nuevo Equipo")
+@extends("layouts.Dashboard")
 @section("script")
 <script type="text/javascript">
     var app = angular.module("TeamNewModule", []);
@@ -29,12 +28,8 @@
             <form ng-app="TeamNewModule" ng-controller="TeamNewController">
                 <div>
                     Nombre del Equipo:
-                    <input type="text" class="form-control" ng-model="student.firstName">
+                    <input name="team_name" type="text" class="form-control" ng-model="team.teamName">
                 </div>
-                <!-- <div>
-                    Periodo:
-                    <input type="text" class="form-control" ng-model="student.lastName">
-                </div> -->
                 <br>
 
                 <div>

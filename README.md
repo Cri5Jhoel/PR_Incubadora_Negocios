@@ -1,15 +1,16 @@
 # PR_Incubadora_Negocios
 
-Se le agrego: 
-+ Dashboards respectivos para el Estudiante, Docente, y Administrador
-+ Se arreglo el problema de muestra de listas por tipo de usuario
-+ Se añadio notificaciones modal
-+ Registro de estudiantes, más el envio del password por email
+Seccion para las actualizaciones casi oficiales del equipo INCUVALAB.
 
-Problemas:
-- Editar estudiantes no responde
-- Base de datos a debatir aun
+! Antes de probarlo tomar en cuenta:
++ Tener "npm run dev" activo, para el reconocimiento de javascript incluido
++ Editar archivo .env y ajustarlo respectivamente segun su localhost
++ Hacer las migraciones
 
-Responsables de actualizacion:
-* Alicia Natalia Virreira Idina
-* Cristian Jhoel Amaru Reyes
+Nuevas actualizaciones:
++ Crud de docentes incluido (Por parte de Valdivia)
++ Crud de equipos
++ Vista de equipos e integrantes funcionales (Para docentes)
+
+Observaciones:
+- Complicaciones en visualiza el equipo para el propio estudiante

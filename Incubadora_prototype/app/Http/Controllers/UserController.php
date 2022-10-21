@@ -23,6 +23,8 @@ class UserController extends Controller
         return $pwd;
     }
 
+   
+
     public function getUsers() {
         return User::all();
     }
@@ -42,6 +44,7 @@ class UserController extends Controller
             'password' => $pwd,
             'userType' => 'Docente'
         ]);
+
 
         $this->sendEmail($request->email, $pwd);
         return ['result' => 'ok'];
