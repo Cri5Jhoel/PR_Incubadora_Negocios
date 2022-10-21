@@ -267,10 +267,16 @@
                 console.log(result.data);
                 alert("Formulario creado");
             })
-            
+
         }
         $scope.myFunc = function() {
             document.getElementById("input2").value = document.getElementById("input1").value;
+        };
+        $scope.func1 = function() {
+            $scope.input62 = (document.getElementById("input61").value/100)*document.getElementById("input60").value; 
+        };
+        $scope.func2 = function() {
+           $scope.input64 = (document.getElementById("input63").value/100)*document.getElementById("input62").value; 
         };
     });
 </script>
@@ -287,7 +293,7 @@
 
                             <div class="mb-3">
                                 <h4 for="" class="text-left">¿Cuál es el problema central de tus clientes que estás resolviendo?</h4>
-                                <input ng-change="myFunc()" type="text" class="form-control" name="" ng-model="input1" id="input1" aria-describedby="helpId" placeholder="">
+                                <input type="text" class="form-control" name="" ng-model="input1" id="input1" aria-describedby="helpId" placeholder="">
                             </div>
                             <div class="table-responsive">
                                 <h4>¿Cuáles son las principales razones por las que existe este problema?</h4>
@@ -534,7 +540,7 @@
                         <div>
                             <div class="mb-3">
                                 <h4 for="" class="text-left">Utiliza la descripción de tu solución para crear tu producto/servicio.</h4>
-                                <textarea type="" class="form-control " name="" ng-model="input39" id="input39" aria-describedby="helpId" placeholder=""></textarea>
+                                <textarea type="" class="form-control " name="" ng-model="input39" id="input39" aria-describedby="helpId" placeholder="" readonly></textarea>
                             </div>
                         </div>
                         <h4 class="text-center app-subtitle">Segmento</h4>
@@ -620,24 +626,29 @@
                             <div class="mb-3">
                                 <h4 for="" class="text-left">Haz una estimación del tamaño del mercado para cada uno de tus segmentos de mercado.</h4>
                                 <div class="mb-3">
-                                    <label for="" class="form-label">¿Cuánta gente entraría dentro de este segmento de mercado?</label>
+                                    <label for="" class="form-label">¿Cuántas personas de 20 entrarían dentro de este segmento de mercado?</label>
                                     <input type="text" class="form-control" name="" ng-model="input60" id="input60" aria-describedby="helpId" placeholder="">
+                                    <small id="helpId" class="form-label">Mercado disponible</small>
                                 </div>
                                 <div class="mb-3">
                                     <label for="" class="form-label">¿A qué porcentaje del mercado conseguirías llegar?</label>
-                                    <input type="text" class="form-control" name="" ng-model="input61" id="input61" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" ng-change="func1()" ng-model="input61" id="input61" aria-describedby="helpId" placeholder="">
+                                    <small id="helpId" class="form-label">Clientes</small>
                                 </div>
                                 <div class="mb-3">
                                     <label for="" class="form-label">El número aproximado de clientes a los que podrás llegar</label>
-                                    <input type="text" class="form-control" name="" ng-model="input62" id="input62" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" ng-model="input62" id="input62" aria-describedby="helpId" placeholder="" readonly>
+                                    <small id="helpId" class="form-label">Mercado</small>
                                 </div>
                                 <div class="mb-3">
                                     <label for="" class="form-label">¿Qué porcentaje del mercado compraría tu producto en vez de los de tus competidores?</label>
-                                    <input type="text" class="form-control" name="" ng-model="input63" id="input63" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" ng-change="func2()" ng-model="input63" id="input63" aria-describedby="helpId" placeholder="">
+                                    <small id="helpId" class="form-label">Compradores actuales</small>
                                 </div>
                                 <div class="mb-3">
                                     <label for="" class="form-label">El número aproximado de clientes que podrían estar interesados en comprar tu producto</label>
-                                    <input type="text" class="form-control" name="" ng-model="input64" id="input64" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" name="" ng-model="input64" id="input64" aria-describedby="helpId" placeholder="" readonly>
+                                    <small id="helpId" class="form-label">Mercado objetivo</small>
                                 </div>
                             </div>
                         </div>
