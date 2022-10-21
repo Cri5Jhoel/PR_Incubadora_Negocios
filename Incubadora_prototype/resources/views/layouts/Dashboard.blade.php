@@ -7,7 +7,7 @@
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.3/angular.min.js" integrity="sha512-KZmyTq3PLx9EZl0RHShHQuXtrvdJ+m35tuOiwlcZfs/rE7NZv29ygNA8SFCkMXTnYZQK2OX0Gm2qKGfvWEtRXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <title>x</title>
+        <title>Dashboard</title>
         @yield("script")
         <!--<title>INCUVALAB</title>-->
 
@@ -45,7 +45,7 @@
                 <!-- Divider -->
                 <hr class="sidebar-divider my-0">
 
-                <!-- Nav Item - Dashboard -->
+                <!-- Nav Item - Home -->
                 <li class="nav-item active">
                     <a class="nav-link" href="/home#">
                         <i class="fas fa-fw fa-solid fa-home"></i>
@@ -60,7 +60,7 @@
                     OPCIONES
                 </div>
 
-                <!-- --------------------------------------------ADMIN DASHBOARD-------------- -->
+                <!-- --------------------------------------------ADMIN DASHBOARD------------------------------------------------------------------------------------- -->
                 
                 @if (Auth::user()->userType == 'admin')
     
@@ -75,8 +75,8 @@
                         data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
                             <h6 class="collapse-header">Gestión de Docentes:</h6>
-                            <a class="collapse-item" href="/liststudents">Lista de Docentes</a>
-                            <a class="collapse-item" href="/newstudent">Insertar Docente</a>
+                            <a class="collapse-item" href="/listteachers">Lista de Docentes</a>
+                            <a class="collapse-item" href="/newteacher">Insertar Docente</a>
                         </div>
                     </div>
                 </li>
@@ -111,7 +111,7 @@
                 </li>
                 @endif
 
-                <!-- --------------------------------------------PROFESSOR DASHBOARD-------------- -->
+                <!-- --------------------------------------------PROFESSOR DASHBOARD------------------------------------------------------------------ -->
                 
                 @if (Auth::user()->userType == 'teacher')
     
@@ -133,7 +133,7 @@
                 </li>
 
                 <!-- Collapse Teams Gestion-->
-
+                <!-- Nav Item - Teams-->
                 <li class="nav-item">
                     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTeams"
                         aria-expanded="true" aria-controls="collapseTeams">
@@ -144,6 +144,7 @@
                         data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
                             <h6 class="collapse-header">Gestión de Equipos:</h6>
+                            <a class="collapse-item" href="/viewteams">Vista de Emprendimientos</a>
                             <a class="collapse-item" href="/listteams">Lista de Emprendimientos</a>
                             <a class="collapse-item" href="/newteam">Insertar Emprendimiento</a>
                         </div>
@@ -161,9 +162,19 @@
                     </a>                    
                 </li>
                 @endif
-                 <!-- -------------------------------------------- ---------------------STUDENT DASHBOARD-------------- -->
+                 <!-- -------------------------------------------- ---------------------STUDENT DASHBOARD------------------------------------------------------------------ -->
                 
                 @if (Auth::user()->userType == 'student')
+                
+                <!-- Nav Item - My team -->
+                <li class="nav-item">
+                    <a class="nav-link" href="/myteam/7">
+                        <i class="fas fa-fw fa-shop"></i>
+                        <span>Mi Emprendimiento</span>
+                    </a>
+                </li>
+
+                 <!-- Nav Item - Forms -->
                 <li class="nav-item">
                     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseForms"
                         aria-expanded="true" aria-controls="collapseForms">
@@ -174,21 +185,18 @@
                         data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
                             <h6 class="collapse-header">Formularios:</h6>
-                            <a class="collapse-item" href="#">Form 1</a>
-                            <a class="collapse-item" href="#">Form 2</a>
-                            <a class="collapse-item" href="#">Form 3</a>
-                            <a class="collapse-item" href="#">Form 4</a>
-                            <a class="collapse-item" href="#">Form 5</a>
-                            <a class="collapse-item" href="#">Form 6</a>
-                            <a class="collapse-item" href="#">Form 7</a>
-                        
+                            <a class="collapse-item"  href="/form1">Propuesta de valor</a>
+                            <a class="collapse-item"  href="/form2">Mapa de competidores</a>
+                            <a class="collapse-item"  href="/form3">Análisis entorno y grupos <br> de interés</a>
+                            <a class="collapse-item"  href="/form4">Modelo de negocio y <br> marketing</a>
+                            <a class="collapse-item"  href="/form5">Precio y viavilidad del <br>negocio</a>
+                            <a class="collapse-item"  href="/form6">Plan de impacto</a>
+                            <a class="collapse-item"  href="/form7">Plan de crecimiento</a>
                         </div>
+                        <!-- style="pointer-events: none;"-->
                     </div>
                 </li>
 
-               
-
-                
                 <!-- Divider -->
                 <hr class="sidebar-divider">
                 <!-- Nav Item - Progress -->
@@ -226,20 +234,6 @@
                             <i class="fa fa-bars"></i>
                         </button>
     
-                        <!-- Topbar Search -->
-                        <!-- <form
-                            class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
-                            <div class="input-group">
-                                <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..."
-                                    aria-label="Search" aria-describedby="basic-addon2">
-                                <div class="input-group-append">
-                                    <button class="btn btn-primary" type="button">
-                                        <i class="fas fa-search fa-sm"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </form> -->
-    
                         <!-- Topbar Navbar -->
                         <ul class="navbar-nav ml-auto">
     
@@ -266,10 +260,10 @@
                                 <!-- Dropdown - User Information -->
                                 <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                     aria-labelledby="userDropdown">
-                                    <a class="dropdown-item" href="#">
+                                    <!-- <a class="dropdown-item" href="#">
                                         <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                                         Mi Perfil
-                                    </a>
+                                    </a> -->
                                     <a class="dropdown-item" href="{{ route('changePass') }}">
                                         <i class="fas fa-lock fa-sm fa-fw mr-2 text-gray-400"></i>
                                         Cambiar contraseña

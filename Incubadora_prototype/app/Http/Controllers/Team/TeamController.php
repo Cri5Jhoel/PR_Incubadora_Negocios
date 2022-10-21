@@ -1,9 +1,12 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Team;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\Team;
+use App\Models\User;
+use Illuminate\Support\Facades\DB;
 
 class TeamController extends Controller
 {
@@ -13,6 +16,19 @@ class TeamController extends Controller
     
     public function getTeam($id) {
         return Team::where(["id" => $id])->first();
+
+       
+    }
+
+    public function getMembers($id) {
+       
+
+        return User::rightJoin('userteams', 'users.id', '=', 'userteams.idUser')
+        ->rightJoin('teams', 'userteams.idTeam', '=', 'teams.id')
+        ->select('users.*', 'teams.teamName', 'teams.period')
+        ->where([['userteams.idTeam', '=', $id], ['users.userType', '=', 'student']])
+        ->orderBy('firstName','asc')
+        ->get();
     }
 
     public function postTeam(Request $request) {
@@ -24,9 +40,7 @@ class TeamController extends Controller
 
     public function putTeam(Request $request) {
         $team = Team::where(["id" => $request->id])->first();
-        $team->teamName = $request->firstName;
-        //Tambien se editara a los estudiantes
-        //
+        $team->teamName = $request->teamName;
         $team->update();
         return ['result' => 'ok'];
     }
@@ -47,6 +61,15 @@ class TeamController extends Controller
     }
 
     public function listTeams() {
-        return view("team.list", ["teams" => Team::all()]);
+        return view("team.list");
     }
+
+    public function viewTeams() {
+        return view("team.view");
+    }
+
+    public function teamMembers() {
+        return view("team.members");
+    }
+    //
 }

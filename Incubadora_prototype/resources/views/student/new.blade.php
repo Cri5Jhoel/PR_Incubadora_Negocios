@@ -27,26 +27,37 @@
         </div>
         <div class="card-body">
             <form ng-app="StudentNewModule" ng-controller="StudentNewController">
+                @csrf
                 <div>
                     Nombres:
-                    <input type="text" class="form-control" ng-model="student.firstName">
+                    <input name="student_name" type="text" class="form-control" ng-model="student.firstName" required>
                 </div>
+                <br>
                 <div>
                     Primer apellido:
-                    <input type="text" class="form-control" ng-model="student.lastName">
+                    <input name="student_lastname" type="text" class="form-control" ng-model="student.lastName" required>
                 </div>
+                <br>
                 <div>
                     Segundo apellido:
-                    <input type="text" class="form-control" ng-model="student.secondLastName">
+                    <input name="student_secondlastname" type="text" class="form-control" ng-model="student.secondLastName" required>
                 </div>
+                <br>
                 <div>
                     Email:
-                    <input type="text" class="form-control" ng-model="student.email">
+                    <input name="student_email" type="email" class="form-control" ng-model="student.email" required>
                 </div>
-                <!-- <div>
-                    Password:
-                    <input type="text" class="form-control" ng-model="student.password">
-                </div> -->
+                <br>
+                <div>
+                    Emprendimiento:
+                    <select name="IdTeam" id="inputTeamId" class="form-control" ng-model="student.teamID" required>
+                       
+                        @foreach($teams as $team)
+                            <option value="{{ $team['id'] }}">{{ $team['teamName'] }}</option>
+
+                        @endforeach
+                    </select>
+                </div>
                 <br>
 
                 <div>

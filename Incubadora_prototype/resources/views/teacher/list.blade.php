@@ -1,61 +1,56 @@
 @extends("layouts.Dashboard")
 @section("script")
-<script type="text/javascript">
-    var app = angular.module('StudentListModule', []);
-    app.controller('StudentListController', ($scope, $http) => {
-        $scope.studentId = null;
-        $scope.students = []
 
-        $scope.getStudents = () => {
-            $http.get('/students').then((result) => {
-                $scope.students = result.data;
+<script>
+    var app = angular.module('TeacherModule', []);
+    app.controller('TeacherController', ($scope, $http) => {
+        $scope.teacherId = null;
+        $scope.teachers = []
+
+        $scope.getTeachers = () => {
+            $http.get('/teachers').then((res) => {
+                $scope.teachers = res.data;
             })
         }
 
         angular.element(document).ready(() => {
-            $scope.getStudents();
+            $scope.getTeachers();
         })
 
-        $scope.showConfirmation = (id) => {
-            $('#deleteModal').modal('show');
-            $scope.studentId = id;
-            console.log(id);
-            // $http.delete(`/students/${id}`).then((result) => {
-            //     $scope.getStudents()
-            // })
-        }
-
-        $scope.deleteStudent = () => {
-            $http.delete(`/students/${$scope.studentId}`).then((result) => {
+        $scope.deleteTeacher = (id) => {
+            $http.delete(`/teachers/${$scope.teacherId}`).then(res => {
                 $('#deleteModal').modal('hide');
-                $scope.getStudents()
+                $scope.getTeachers();
             })
         }
 
-        // $(document).ready(function() {
-        //     $('#dataTable').DataTable();
-        // });
+        $scope.showConfirmation = (id) => {
+            $('#deleteModal').modal('show');
+            $scope.teacherId = id;
+        }
+
     })
 </script>
+
 @stop
 @section("content")
 <!-- Begin Page Content -->
 <div class="container-fluid">
     <!-- Page Heading -->
     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-        <h1 class="h3 mb-0 text-gray-800">Lista de Estudiantes</h1>
+        <h1 class="h3 mb-0 text-gray-800">Lista de Docentes</h1>
 
-        <a href="/newstudent" class="d-none d-sm-inline-block btn btn-sm btn-success shadow-sm"><i
-                class="fas fa-user-plus fa-sm text-white-50"></i> Nuevo Estudiante</a>
+        <a href="/newteacher" class="d-none d-sm-inline-block btn btn-sm btn-success shadow-sm"><i
+                class="fas fa-user-plus fa-sm text-white-50"></i> Nuevo Docente</a>
     </div>
-
+ 
     <!-- DataTales Example -->
     <div class="card shadow mb-4">
         <div class="card-header py-3">
-            <h6 class="m-0 font-weight-bold text-primary">Estudiantes registrados</h6>
+            <h6 class="m-0 font-weight-bold text-primary">Docentes registrados</h6>
         </div>
         <div class="card-body">
-            <div ng-app="StudentListModule" ng-controller="StudentListController" class="table-responsive">
+            <div ng-app="TeacherModule" ng-controller="TeacherController" class="table-responsive">
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                     <thead>
                         <tr>
@@ -71,34 +66,25 @@
                             <th>
                                 Email
                             </th>
-                            <th>
-                                Emprendimmiento
-                            </th>
-                            <th>
-
-                            </th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr ng-repeat="student in students">
+                        <tr ng-repeat="t in teachers">
                             <td>
-                                @{{ student.firstName }}
+                                @{{ t.firstName }}
                             </td>
                             <td>
-                                @{{ student.lastName }}
+                                @{{ t.lastName }}
                             </td>
                             <td>
-                                @{{ student.secondLastName }}
+                                @{{ t.secondLastName }}
                             </td>
                             <td>
-                                @{{ student.email }}
+                                @{{ t.email }}
                             </td>
                             <td>
-                                @{{ student.teamName }}
-                            </td>
-                            <td>
-                                <a href="@{{ '/editstudent/' + student.id }}" class="btn btn-primary mb-2 shadow-sm"><i class="fas fa-pencil fa-sm text-white-50 "></i> Editar</a>
-                                <button type="button"  class="btn btn-danger mb-2 shadow-sm" ng-click="showConfirmation(student.id)" data-toggle="modal" data-target="#deleteModal"><i class="fas fa-trash fa-sm text-white-50 "></i> Eliminar</button>
+                                <a href="@{{ '/editteacher/' + t.id }}" class="btn btn-primary">Editar</a>
+                                <button type="button"  class="btn btn-danger" ng-click="showConfirmation(t.id)" data-toggle="modal" data-target="#deleteModal">Borrar</button>
                             </td>
                         </tr>
                     </tbody>
@@ -109,7 +95,7 @@
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">¿Desea eliminar al estudiante?</h5>
+                                <h5 class="modal-title" id="exampleModalLabel">¿Desea eliminar al docente?</h5>
                                 <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">×</span>
                                 </button>
@@ -117,7 +103,7 @@
                             <div class="modal-body"></div>
                             <div class="modal-footer">
                                 <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
-                                <button class="btn btn-primary" type="button" ng-click="deleteStudent(student.id)">Eliminar</a>
+                                <button class="btn btn-primary" type="button" ng-click="deleteTeacher(teacher.id)">Eliminar</a>
                             </div>
                         </div>
                     </div>

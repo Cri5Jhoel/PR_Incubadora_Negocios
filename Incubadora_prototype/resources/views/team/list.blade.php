@@ -1,9 +1,9 @@
-@extends("layouts.main")
-@section("title", "Lista de Equipos")
+@extends("layouts.Dashboard")
 @section("script")
 <script type="text/javascript">
     var app = angular.module('TeamListModule', []);
     app.controller('TeamListController', ($scope, $http) => {
+        $scope.teamId = null;
         $scope.teams = []
 
         $scope.getTeams = () => {
@@ -16,15 +16,22 @@
             $scope.getTeams();
         })
 
-        $scope.deleteTeams = (id) => {
-            $http.delete(`/teams/${id}`).then((result) => {
+        $scope.showConfirmation = (id) => {
+            $('#deleteModal').modal('show');
+            $scope.teamId = id;
+            console.log(id);
+        }
+
+        $scope.deleteTeam = () => {
+            $http.delete(`/teams/${$scope.teamId}`).then((result) => {
+                $('#deleteModal').modal('hide');
                 $scope.getTeams()
             })
         }
 
-        $(document).ready(function() {
-            $('#dataTable').DataTable();
-        });
+        // $(document).ready(function() {
+        //     $('#dataTable').DataTable();
+        // });
     })
 </script>
 @stop
@@ -61,30 +68,30 @@
                     
                     <td>
                         <a href="@{{ '/editteam/' + team.id }}" class="btn btn-primary">Editar</a>
-                        <button type="button"  class="btn btn-danger" ng-click="deleteStudent(team.id)" data-toggle="modal" data-target="#logoutModal">Borrar</button>
-
-                            <!-- <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">¿Desea eliminar al estudiante?</h5>
-                                            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">×</span>
-                                            </button>
-                                        </div>
-                                        <div class="modal-body"></div>
-                                        <div class="modal-footer">
-                                            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
-                                            <a class="btn btn-primary" href="login.html" ng-click="deleteStudent(student.id)">Eliminar</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
+                        <button type="button"  class="btn btn-danger" ng-click="showConfirmation(team.id)" data-toggle="modal" data-target="#deleteModal">Borrar</button>
                     </td>
                 </tr>
             </tbody>
         </table>
+
+        <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">¿Desea eliminar al equipo?</h5>
+                        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <div class="modal-body"></div>
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
+                        <button class="btn btn-primary" type="button" ng-click="deleteTeam(team.id)">Eliminar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 @stop
