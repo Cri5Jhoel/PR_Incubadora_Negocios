@@ -270,16 +270,9 @@
             
         }
         $scope.myFunc = function() {
-            
+            document.getElementById("input2").value = document.getElementById("input1").value;
         };
     });
-    // angular.module('myApp', [])
-    //     .controller('myCtrl', ['$scope', function($scope) {
-
-    //         $scope.clickButton = function() {
-
-    //         };
-    //     }]);
 </script>
 <div class="container" ng-app="myApp" ng-controller="myCtrl">
 
