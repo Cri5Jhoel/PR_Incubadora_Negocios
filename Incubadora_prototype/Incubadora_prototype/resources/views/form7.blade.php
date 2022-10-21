@@ -276,7 +276,18 @@
                 console.log(result.data);
                 alert("Formulario creado");
             })
-            
+        }
+        $scope.func1 = () => {
+            $scope.input25 = document.getElementById("input3").value;
+            $scope.input28 = document.getElementById("input3").value;
+        }
+        $scope.func2 = () => {
+            $scope.input26 = document.getElementById("input4").value;
+            $scope.input35 = document.getElementById("input4").value;
+        }
+        $scope.func3 = () => {
+            $scope.input27 = document.getElementById("input5").value;
+            $scope.input42 = document.getElementById("input5").value;
         }
     });
 </script>
