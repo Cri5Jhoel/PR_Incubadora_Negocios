@@ -112,14 +112,14 @@
                                 <div class="row" style="margin-inline-start: 1px;">
                                     <checkbox class="form-group col-lg-6 col-md-6 col-sm-6 col-6" style="padding: 21px 10px 0px 10px;border: 1px dashed black;">
                                         <div class="checkbox-container">
-                                            <input class="app-antepnp" ng-model="input1" id="input1" name="Alto" value="1" type="radio">
-                                            <label class="hasLabel" for="Alto1">Estrategia Descremado</label>
+                                            <input class="app-antepnp" ng-model="input1" id="input1" name="radio1" value="1" type="option1">
+                                            <label class="hasLabel" for="radio1">Estrategia Descremado</label>
                                         </div>
                                     </checkbox>
                                     <checkbox class="form-group col-lg-6 col-md-6 col-sm-6 col-6" style="padding: 21px 10px 0px 10px;border: 1px dashed black;">
                                         <div class="checkbox-container">
-                                            <input class="app-antepnp" ng-model="input2" id="input2" name="Alto" value="1" type="radio">
-                                            <label class="hasLabel" for="Alto2">Estrategia Premium</label>
+                                            <input class="app-antepnp" ng-model="input2" id="input2" name="radio1" value="1" type="option2">
+                                            <label class="hasLabel" for="radio1">Estrategia Premium</label>
                                         </div>
                                     </checkbox>
                                 </div>
@@ -128,14 +128,14 @@
                                     <div class="row">
                                         <checkbox class="form-group col-lg-6 col-md-6 col-sm-6 col-6" style="border: 1px dashed black;padding: 21px 10px 0px 10px;">
                                             <div class="checkbox-container">
-                                                <input class="app-antepnp" ng-model="input3" id="input3" name="Bajo" value="1" type="radio">
-                                                <label class="hasLabel" for="Bajo1">Estrategia Económica</label>
+                                                <input class="app-antepnp" ng-model="input3" id="input3" name="radio2" value="1" type="option1">
+                                                <label class="hasLabel" for="radio2">Estrategia Económica</label>
                                             </div>
                                         </checkbox>
                                         <checkbox class="form-group col-lg-6 col-md-6 col-sm-6 col-6" style="padding: 21px 10px 0px 10px;border: 1px dashed black;">
                                             <div class="checkbox-container">
-                                                <input class="app-antepnp" ng-model="input4" id="input4" name="Bajo" value="1" type="radio">
-                                                <label class="hasLabel" for="Bajo2">Estrategia de Penetración</label>
+                                                <input class="app-antepnp" ng-model="input4" id="input4" name="radio2" value="1" type="option2">
+                                                <label class="hasLabel" for="radio2">Estrategia de Penetración</label>
                                             </div>
                                         </checkbox>
                                     </div>
