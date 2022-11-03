@@ -36,16 +36,12 @@
 
 
         angular.element(document).ready(() => {
-            let teamId = 4;
+            let userId = "{{ Auth::user()->id }}";
+            let teamId = "{{ Auth::user()->teamId }}";
             $http.get(`/forms5/${teamId}`).then((result) => {
                 $scope.forms = result.data;
                 $scope.parseArrayValues();
             })
-
-            // $http.put('/forms', $scope.form).then((result) => {
-            //     $scope.forms = result.data;
-            //     $scope.parseArrayValues();
-            // })
         });
 
         $scope.parseArrayValues = () => {
@@ -85,16 +81,53 @@
             })
         }
         $scope.postForm = () => {
-            let texto = $scope.input1 + ";" + $scope.input2 + ";" + $scope.input3 + ";" + $scope.input4 + ";" + $scope.input5 + ";" + $scope.input6 + ";" + $scope.input7 + ";" + $scope.input8 + ";" + $scope.input9 + ";" + $scope.input10 + ";" + $scope.input11 + ";" + $scope.input12 + ";" + $scope.input13 + ";" + $scope.input14 + ";" + $scope.input15 + ";" + $scope.input16 + ";" + $scope.input17 + ";" + $scope.input18 + ";" + $scope.input19 + ";" + $scope.input20 + ";" + $scope.input21 + ";" + $scope.input22 + ";" + $scope.input23 + ";" + $scope.input24;
+            $scope.checkRadios();
+            alert(document.getElementById("input5").value);
+            let texto = $scope.input1 + ";" + $scope.input2 + ";" + $scope.input3 + ";" + $scope.input4 + ";" + $scope.input5 + ";" + $scope.input6 + ";" + $scope.input7 + ";" + $scope.input8 + ";" + $scope.input9 + ";" + $scope.input10 + ";" + $scope.input11 + ";" + $scope.input12 + ";" + $scope.input13 + ";" + $scope.input14 + ";" + $scope.input15 + ";" + $scope.input16 + ";" + $scope.input17 + ";" + $scope.input18 + ";" + $scope.input19 + ";" + $scope.input20 + ";" + $scope.input21 + ";" + $scope.input22 + ";" + $scope.input23 + ";" + $scope.input24 + ";";
             $scope.forms.formText = texto;
             $http.put('/forms5', $scope.forms).then((result) => {
                 console.log(result.data);
                 alert("Formulario creado");
             })
-            
+
+        }
+        $scope.checkRadios = () => {
+            $scope.checkRadio1();
+            $scope.checkRadio2();
+        }
+        $scope.checkRadio1 = () => {
+            let inf1 = "";
+            let radio1 = document.getElementsByName('radio1');
+            for (let i = 0; i < radio1.length; i++) {
+                if (radio1[i].checked) {
+                    inf1 = radio1[i].value;
+                }
+            }
+            if ( inf1=="option1"){
+                $scope.input1 = 'option1';
+                $scope.input2 = ' ';
+            }else if ( inf1=="option2"){
+                $scope.input1 = ' ';
+                $scope.input2 = 'option2';
+            }
+        }
+        $scope.checkRadio2 = () => {
+            let inf2 = "";
+            let radio2 = document.getElementsByName('radio2');
+            for (let i = 0; i < radio2.length; i++) {
+                if (radio2[i].checked) {
+                    inf2 = radio2[i].value;
+                }
+            }
+            if ( inf2=="option1"){
+                $scope.input3 = 'option1';
+                $scope.input4 = ' ';
+            }else if ( inf2=="option2"){
+                $scope.input3 = ' ';
+                $scope.input4 = 'option2';
+            }
         }
     });
-    
 </script>
 <div class="container" ng-app="myApp" ng-controller="myCtrl">
 
@@ -112,13 +145,13 @@
                                 <div class="row" style="margin-inline-start: 1px;">
                                     <checkbox class="form-group col-lg-6 col-md-6 col-sm-6 col-6" style="padding: 21px 10px 0px 10px;border: 1px dashed black;">
                                         <div class="checkbox-container">
-                                            <input class="app-antepnp" ng-model="input1" id="input1" name="radio1" value="1" type="option1">
+                                            <input class="app-antepnp" ng-model="input1" id="input1" name="radio1" value="option1" type="radio">
                                             <label class="hasLabel" for="radio1">Estrategia Descremado</label>
                                         </div>
                                     </checkbox>
                                     <checkbox class="form-group col-lg-6 col-md-6 col-sm-6 col-6" style="padding: 21px 10px 0px 10px;border: 1px dashed black;">
                                         <div class="checkbox-container">
-                                            <input class="app-antepnp" ng-model="input2" id="input2" name="radio1" value="1" type="option2">
+                                            <input class="app-antepnp" ng-model="input2" id="input2" name="radio1" value="option2" type="radio">
                                             <label class="hasLabel" for="radio1">Estrategia Premium</label>
                                         </div>
                                     </checkbox>
@@ -128,13 +161,13 @@
                                     <div class="row">
                                         <checkbox class="form-group col-lg-6 col-md-6 col-sm-6 col-6" style="border: 1px dashed black;padding: 21px 10px 0px 10px;">
                                             <div class="checkbox-container">
-                                                <input class="app-antepnp" ng-model="input3" id="input3" name="radio2" value="1" type="option1">
+                                                <input class="app-antepnp" ng-model="input3" id="input3" name="radio2" value="option1" type="radio">
                                                 <label class="hasLabel" for="radio2">Estrategia Económica</label>
                                             </div>
                                         </checkbox>
                                         <checkbox class="form-group col-lg-6 col-md-6 col-sm-6 col-6" style="padding: 21px 10px 0px 10px;border: 1px dashed black;">
                                             <div class="checkbox-container">
-                                                <input class="app-antepnp" ng-model="input4" id="input4" name="radio2" value="1" type="option2">
+                                                <input class="app-antepnp" ng-model="input4" id="input4" name="radio2" value="option2" type="radio">
                                                 <label class="hasLabel" for="radio2">Estrategia de Penetración</label>
                                             </div>
                                         </checkbox>

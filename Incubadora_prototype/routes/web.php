@@ -86,4 +86,8 @@ Route::put('/forms6', [App\Http\Controllers\FormController::class, "putForm6"]);
 Route::put('/forms7', [App\Http\Controllers\FormController::class, "putForm7"]);
 
 Route::delete('/forms/{id}', [App\Http\Controllers\FormController::class, "deleteForm"]);
+
+Route::get('/userTeam/{id}', [App\Http\Controllers\Auth\LoginController::class, "getUserTeamId"]);
+//route to get team id from user
+// Route::get('/teamid/{id}', [App\Http\Controllers\FormController::class, "getidbro"]);
 //
