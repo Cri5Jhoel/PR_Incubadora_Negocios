@@ -15,7 +15,7 @@
 
                             <div class="mb-3">
                                 <h4 for="" class="text-left">¿Cuál es el problema central de tus clientes que estás resolviendo?</h4>
-                                <input type="text" class="form-control" name="" ng-model="input1" id="input1" aria-describedby="helpId" placeholder="">
+                                <input type="text" class="form-control" ng-model="input1" id="input1">
                             </div>
                             <div class="table-responsive">
                                 <h4>¿Cuáles son las principales razones por las que existe este problema?</h4>
@@ -25,19 +25,19 @@
                                             <th scope="col">
                                                 <div class="">
                                                     <label for="" class="form-label">Razon 1</label>
-                                                    <input type="text" class="form-control" name="" ng-model="input2" id="input2" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input2" id="input2">
                                                 </div>
                                             </th>
                                             <th scope="col">
                                                 <div class="">
                                                     <label for="" class="form-label">Razon 2</label>
-                                                    <input type="text" class="form-control" name="" ng-model="input3" id="input3" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input3" id="input3">
                                                 </div>
                                             </th>
                                             <th scope="col">
                                                 <div class="">
                                                     <label for="" class="form-label">Razon 3</label>
-                                                    <input type="text" class="form-control" name="" ng-model="input4" id="input4" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input4" id="input4">
                                                 </div>
                                             </th>
                                         </tr>
@@ -51,102 +51,102 @@
                                         <tr>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input5" id="input5" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input5" id="input5">
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input6" id="input6" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input6" id="input6">
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input7" id="input7" placeholder="">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input8" id="input8" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input9" id="input9" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input10" id="input10" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input7" id="input7">
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input11" id="input11" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input8" id="input8">
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input12" id="input12" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input9" id="input9">
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input13" id="input13" placeholder="">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input14" id="input14" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input15" id="input15" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input16" id="input16" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input10" id="input10">
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input17" id="input17" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input11" id="input11">
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input18" id="input18" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input12" id="input12">
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input19" id="input19" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input13" id="input13">
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input20" id="input20" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input14" id="input14">
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input21" id="input21" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input15" id="input15">
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input22" id="input22" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input16" id="input16">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div>
+                                                    <input type="text" class="form-control" ng-model="input17" id="input17">
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div>
+                                                    <input type="text" class="form-control" ng-model="input18" id="input18">
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div>
+                                                    <input type="text" class="form-control" ng-model="input19" id="input19">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div>
+                                                    <input type="text" class="form-control" ng-model="input20" id="input20">
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div>
+                                                    <input type="text" class="form-control" ng-model="input21" id="input21">
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div>
+                                                    <input type="text" class="form-control" ng-model="input22" id="input22">
                                                 </div>
                                             </td>
                                         </tr>
@@ -163,17 +163,17 @@
                                         <tr>
                                             <th scope="col">
                                                 <div class="">
-                                                    <input type="text" class="form-control" name="" ng-model="input23" id="input23" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input23" id="input23">
                                                 </div>
                                             </th>
                                             <th scope="col">
                                                 <div class="">
-                                                    <input type="text" class="form-control" name="" ng-model="input24" id="input24" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input24" id="input24">
                                                 </div>
                                             </th>
                                             <th scope="col">
                                                 <div class="">
-                                                    <input type="text" class="form-control" name="" ng-model="input25" id="input25" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input25" id="input25">
                                                 </div>
                                             </th>
                                         </tr>
@@ -185,68 +185,68 @@
                                         <tr>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input26" id="input26" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input26" id="input26">
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input27" id="input27" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input27" id="input27">
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input28" id="input28" placeholder="">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input29" id="input29" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input30" id="input30" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input31" id="input31" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input28" id="input28">
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input32" id="input32" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input29" id="input29">
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input33" id="input33" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input30" id="input30">
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input34" id="input34" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input31" id="input31">
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input35" id="input35" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input32" id="input32">
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input36" id="input36" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input33" id="input33">
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input37" id="input37" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input34" id="input34">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div>
+                                                    <input type="text" class="form-control" ng-model="input35" id="input35">
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div>
+                                                    <input type="text" class="form-control" ng-model="input36" id="input36">
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div>
+                                                    <input type="text" class="form-control" ng-model="input37" id="input37">
                                                 </div>
                                             </td>
                                         </tr>
@@ -255,92 +255,97 @@
                             </div>
                             <div class="mb-3">
                                 <h4 for="" class="text-left">¿Cómo va a intentar solucionar tu negocio esos problemas?</h4>
-                                <textarea type="" class="form-control " name="" ng-model="input38" id="input38" aria-describedby="helpId" placeholder=""></textarea>
+                                <textarea type="" class="form-control " ng-model="input38" id="input38"></textarea>
                             </div>
                         </div>
                         <h4 class="text-center app-subtitle">Oferta</h4>
                         <div>
                             <div class="mb-3">
                                 <h4 for="" class="text-left">Utiliza la descripción de tu solución para crear tu producto/servicio.</h4>
-                                <textarea type="" class="form-control " name="" ng-model="input39" id="input39" aria-describedby="helpId" placeholder="" readonly></textarea>
+                                <textarea type="" class="form-control " ng-model="input39" id="input39" readonly></textarea>
                             </div>
                         </div>
                         <h4 class="text-center app-subtitle">Segmento</h4>
                         <div>
-                            <input type="text" class="form-control" name="" ng-model="input113" id="input113" aria-describedby="helpId" placeholder="Introduce el producto con el que quieres trabajar">
+                            <input type="text" class="form-control" ng-model="input113" id="input113" placeholder="Introduce el producto con el que quieres trabajar">
                             <h4>¿Cuáles son los distintos grupos de personas que utilizarán o comprarán tu producto/servicio)? Esos son tus segmentos de mercado.</h4>
                             <div class="row">
                                 <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
                                     <div class="checkbox-container">
-                                        <input class="app-antepnp" name="mdnegocio" value="1" type="checkbox" ng-model="input40" id="input40">
+                                        <input class="app-antepnp" name="mdnegocio" value="1" ng-click="check1p1()" type="checkbox" ng-model="input40" id="input40">
                                         <label class="hasLabel" for="mdnegocio1">B2B</label>
                                     </div>
                                 </checkbox>
                                 <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
                                     <div class="checkbox-container">
-                                        <input class="app-antepnp" name="mdnegocio2" value="1" type="checkbox" ng-model="input41" id="input41">
+                                        <input class="app-antepnp" name="mdnegocio2" value="1" ng-click="check1p1()" type="checkbox" ng-model="input41" id="input41">
                                         <label class="hasLabel" for="mdnegocio2">B2C</label>
                                     </div>
                                 </checkbox>
                                 <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
                                     <div class="checkbox-container">
-                                        <input class="app-antepnp" name="mdnegocio3" value="1" type="checkbox" ng-model="input42" id="input42">
+                                        <input class="app-antepnp" name="mdnegocio3" value="1" ng-click="check1p1()" type="checkbox" ng-model="input42" id="input42">
                                         <label class="hasLabel" for="mdnegocio3">B2G</label>
                                     </div>
                                 </checkbox>
-                                <h5>Si marcaste B2C</h5>
-                                <div>
-                                    <div class="mb-3">
-                                        <h4 for="" class="text-left">Redacta las variables geográficas</h4>
-                                        <input type="text" class="form-control" name="" ng-model="input43" id="input43" aria-describedby="helpId" placeholder="">
-                                    </div>
-                                    <div class="mb-3">
-                                        <h4 for="" class="text-left">Redacta las variables demográficas</h4>
-                                        <input type="text" class="form-control" name="" ng-model="input44" id="input44" aria-describedby="helpId" placeholder="">
-                                    </div>
-                                    <div class="mb-3">
-                                        <h4 for="" class="text-left">Redacta las variables conductuales</h4>
-                                        <input type="text" class="form-control" name="" ng-model="input45" id="input45" aria-describedby="helpId" placeholder="">
-                                    </div>
-                                </div>
-                                <h5>Si marcaste B2B</h5>
-                                <div>
-                                    <div class="mb-3">
-                                        <h4 for="" class="text-left">Redacta las variables geográficas</h4>
-                                        <input type="text" class="form-control" name="" ng-model="input46" id="input46" aria-describedby="helpId" placeholder="">
-                                    </div>
-                                    <div class="mb-3">
-                                        <h4 for="" class="text-left">Redacta las variables de comportamiento</h4>
-                                        <input type="text" class="form-control" name="" ng-model="input47" id="input47" aria-describedby="helpId" placeholder="">
-                                    </div>
-                                    <div class="mb-3">
-                                        <h4 for="" class="text-left">Redacta las variables de crecimiento</h4>
-                                        <input type="text" class="form-control" name="" ng-model="input48" id="input48" aria-describedby="helpId" placeholder="">
-                                    </div>
-                                    <div class="mb-3">
-                                        <h4 for="" class="text-left">Describe el segmento, considerando todas las variables</h4>
-                                        <input type="text" class="form-control" name="" ng-model="input49" id="input49" aria-describedby="helpId" placeholder="">
+                                <div id="b2cp1" style="display: none;">
+                                    <h5>Si marcaste B2C</h5>
+                                    <div>
+                                        <div class="mb-3">
+                                            <h4 for="" class="text-left">Redacta las variables geográficas</h4>
+                                            <input type="text" class="form-control" ng-model="input43" id="input43">
+                                        </div>
+                                        <div class="mb-3">
+                                            <h4 for="" class="text-left">Redacta las variables demográficas</h4>
+                                            <input type="text" class="form-control" ng-model="input44" id="input44">
+                                        </div>
+                                        <div class="mb-3">
+                                            <h4 for="" class="text-left">Redacta las variables conductuales</h4>
+                                            <input type="text" class="form-control" ng-model="input45" id="input45">
+                                        </div>
                                     </div>
                                 </div>
+                                <div id="b2bp1" style="display: none;">
+                                    <h5>Si marcaste B2B</h5>
+                                    <div>
+                                        <div class="mb-3">
+                                            <h4 for="" class="text-left">Redacta las variables geográficas</h4>
+                                            <input type="text" class="form-control" ng-model="input46" id="input46">
+                                        </div>
+                                        <div class="mb-3">
+                                            <h4 for="" class="text-left">Redacta las variables de comportamiento</h4>
+                                            <input type="text" class="form-control" ng-model="input47" id="input47">
+                                        </div>
+                                        <div class="mb-3">
+                                            <h4 for="" class="text-left">Redacta las variables de crecimiento</h4>
+                                            <input type="text" class="form-control" ng-model="input48" id="input48">
+                                        </div>
+                                        <div class="mb-3">
+                                            <h4 for="" class="text-left">Describe el segmento, considerando todas las variables</h4>
+                                            <input type="text" class="form-control" ng-model="input49" id="input49">
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                         <h4 class="text-center app-subtitle">Problema</h4>
                         <div>
                             <div class="mb-3">
                                 <h4 for="" class="text-left">Enumera todos los problemas que se encuentran tus clientes en la actual oferta de mercado.</h4>
-                                <input type="" class="form-control " name="" ng-model="input50" id="input50" aria-describedby="helpId" placeholder=""></input>
-                                <input type="" class="form-control " name="" ng-model="input51" id="input51" aria-describedby="helpId" placeholder=""></input>
-                                <input type="" class="form-control " name="" ng-model="input52" id="input52" aria-describedby="helpId" placeholder=""></input>
-                                <input type="" class="form-control " name="" ng-model="input53" id="input53" aria-describedby="helpId" placeholder=""></input>
-                                <input type="" class="form-control " name="" ng-model="input54" id="input54" aria-describedby="helpId" placeholder=""></input>
+                                <input type="" class="form-control " ng-model="input50" id="input50"></input>
+                                <input type="" class="form-control " ng-model="input51" id="input51"></input>
+                                <input type="" class="form-control " ng-model="input52" id="input52"></input>
+                                <input type="" class="form-control " ng-model="input53" id="input53"></input>
+                                <input type="" class="form-control " ng-model="input54" id="input54"></input>
                             </div>
                             <div class="mb-3">
                                 <h4 for="" class="text-left">¿Cuáles son los beneficios que tu solución puede dar a cada segmento de cliente?</h4>
-                                <input type="" class="form-control " name="" ng-model="input55" id="input55" aria-describedby="helpId" placeholder=""></input>
-                                <input type="" class="form-control " name="" ng-model="input56" id="input56" aria-describedby="helpId" placeholder=""></input>
-                                <input type="" class="form-control " name="" ng-model="input57" id="input57" aria-describedby="helpId" placeholder=""></input>
-                                <input type="" class="form-control " name="" ng-model="input58" id="input58" aria-describedby="helpId" placeholder=""></input>
-                                <input type="" class="form-control " name="" ng-model="input59" id="input59" aria-describedby="helpId" placeholder=""></input>
+                                <input type="" class="form-control " ng-model="input55" id="input55"></input>
+                                <input type="" class="form-control " ng-model="input56" id="input56"></input>
+                                <input type="" class="form-control " ng-model="input57" id="input57"></input>
+                                <input type="" class="form-control " ng-model="input58" id="input58"></input>
+                                <input type="" class="form-control " ng-model="input59" id="input59"></input>
                             </div>
                         </div>
                         <h4 class="text-center app-subtitle">Tamaño del mercado</h4>
@@ -349,27 +354,27 @@
                                 <h4 for="" class="text-left">Haz una estimación del tamaño del mercado para cada uno de tus segmentos de mercado.</h4>
                                 <div class="mb-3">
                                     <label for="" class="form-label">¿Cuántas personas de 20 entrarían dentro de este segmento de mercado?</label>
-                                    <input type="text" class="form-control" name="" ng-model="input60" id="input60" aria-describedby="helpId" placeholder="">
+                                    <input type="number" min="1" max="20" class="form-control" ng-change="func1()" ng-model="input60" id="input60">
                                     <small id="helpId" class="form-label">Mercado disponible</small>
                                 </div>
                                 <div class="mb-3">
                                     <label for="" class="form-label">¿A qué porcentaje del mercado conseguirías llegar?</label>
-                                    <input type="text" class="form-control" name="" ng-change="func1()" ng-model="input61" id="input61" aria-describedby="helpId" placeholder="">
+                                    <input type="number" step="0.1" min="1" max="100" class="form-control" ng-change="func1()" ng-model="input61" id="input61">
                                     <small id="helpId" class="form-label">Clientes</small>
                                 </div>
                                 <div class="mb-3">
                                     <label for="" class="form-label">El número aproximado de clientes a los que podrás llegar</label>
-                                    <input type="text" class="form-control" name="" ng-model="input62" id="input62" aria-describedby="helpId" placeholder="" readonly>
+                                    <input type="text" class="form-control" ng-model="input62" id="input62" readonly>
                                     <small id="helpId" class="form-label">Mercado</small>
                                 </div>
                                 <div class="mb-3">
                                     <label for="" class="form-label">¿Qué porcentaje del mercado compraría tu producto en vez de los de tus competidores?</label>
-                                    <input type="text" class="form-control" name="" ng-change="func2()" ng-model="input63" id="input63" aria-describedby="helpId" placeholder="">
+                                    <input type="number" min="1" max="100" step="0.1" class="form-control" ng-change="func2()" ng-model="input63" id="input63">
                                     <small id="helpId" class="form-label">Compradores actuales</small>
                                 </div>
                                 <div class="mb-3">
                                     <label for="" class="form-label">El número aproximado de clientes que podrían estar interesados en comprar tu producto</label>
-                                    <input type="text" class="form-control" name="" ng-model="input64" id="input64" aria-describedby="helpId" placeholder="" readonly>
+                                    <input type="text" class="form-control" ng-model="input64" id="input64" readonly>
                                     <small id="helpId" class="form-label">Mercado objetivo</small>
                                 </div>
                             </div>
@@ -379,23 +384,23 @@
                             <div class="mb-3">
                                 <small id="helpId" class="form-text text-muted">Funcional</small>
                                 <h4 for="" class="text-left">¿Cuáles son los resultados concretos que tus clientes quieren obtener?</h4>
-                                <input type="text" class="form-control " name="" ng-model="input65" id="input65" aria-describedby="helpId" placeholder=""></input>
-                                <input type="text" class="form-control " name="" ng-model="input66" id="input66" aria-describedby="helpId" placeholder=""></input>
-                                <input type="text" class="form-control " name="" ng-model="input67" id="input67" aria-describedby="helpId" placeholder=""></input>
+                                <input type="text" class="form-control " ng-model="input65" id="input65"></input>
+                                <input type="text" class="form-control " ng-model="input66" id="input66"></input>
+                                <input type="text" class="form-control " ng-model="input67" id="input67"></input>
                             </div>
                             <div class="mb-3">
                                 <small id="helpId" class="form-text text-muted">Personal</small>
                                 <h4 for="" class="text-left">¿Cómo quieren sentirse tus clientes?</h4>
-                                <input type="text" class="form-control " name="" ng-model="input68" id="input68" aria-describedby="helpId" placeholder=""></input>
-                                <input type="text" class="form-control " name="" ng-model="input69" id="input69" aria-describedby="helpId" placeholder=""></input>
-                                <input type="text" class="form-control " name="" ng-model="input70" id="input70" aria-describedby="helpId" placeholder=""></input>
+                                <input type="text" class="form-control " ng-model="input68" id="input68"></input>
+                                <input type="text" class="form-control " ng-model="input69" id="input69"></input>
+                                <input type="text" class="form-control " ng-model="input70" id="input70"></input>
                             </div>
                             <div class="mb-3">
                                 <small id="helpId" class="form-text text-muted">Social</small>
                                 <h4 for="" class="text-left">¿Cómo quieren tus clientes que se les perciba?</h4>
-                                <input type="text" class="form-control " name="" ng-model="input71" id="input71" aria-describedby="helpId" placeholder=""></input>
-                                <input type="text" class="form-control " name="" ng-model="input72" id="input72" aria-describedby="helpId" placeholder=""></input>
-                                <input type="text" class="form-control " name="" ng-model="input73" id="input73" aria-describedby="helpId" placeholder=""></input>
+                                <input type="text" class="form-control " ng-model="input71" id="input71"></input>
+                                <input type="text" class="form-control " ng-model="input72" id="input72"></input>
+                                <input type="text" class="form-control " ng-model="input73" id="input73"></input>
                             </div>
                         </div>
                         <h4 class="text-center app-subtitle">Selección de resultados</h4>
@@ -429,51 +434,51 @@
                                         <tr>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input74" id="input74" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input74" id="input74">
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input75" id="input75" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input75" id="input75">
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input76" id="input76" placeholder="">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input77" id="input77" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input78" id="input78" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input79" id="input79" placeholder="">
+                                                    <input type="number" min="1" max="100" step="0.1" class="form-control" ng-change="func3p1()" ng-model="input76" id="input76">
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input80" id="input80" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input77" id="input77">
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input81" id="input81" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input78" id="input78">
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input82" id="input82" placeholder="">
+                                                    <input type="number" min="1" max="100" step="0.1" class="form-control" ng-change="func3p1()" ng-model="input79" id="input79">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div>
+                                                    <input type="text" class="form-control" ng-model="input80" id="input80">
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div>
+                                                    <input type="text" class="form-control" ng-model="input81" id="input81">
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div>
+                                                    <input type="number" min="1" max="100" step="0.1" class="form-control" ng-change="func3p1()" ng-model="input82" id="input82">
                                                 </div>
                                             </td>
                                         </tr>
@@ -510,153 +515,153 @@
                                         <tr>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input83" id="input83" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input83" id="input83">
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input84" id="input84" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input84" id="input84">
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input85" id="input85" placeholder="">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input86" id="input86" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input87" id="input87" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input88" id="input88" placeholder="">
+                                                    <input type="number" min="1" max="100" step="0.1" ng-change="func3p1()" class="form-control" ng-model="input85" id="input85">
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input89" id="input89" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input86" id="input86">
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input90" id="input90" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input87" id="input87">
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input91" id="input91" placeholder="">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input92" id="input92" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input93" id="input93" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input94" id="input94" placeholder="">
+                                                    <input type="number" min="1" max="100" step="0.1" ng-change="func3p1()" class="form-control" ng-model="input88" id="input88">
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input95" id="input95" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input89" id="input89">
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input96" id="input96" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input90" id="input90">
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input97" id="input97" placeholder="">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input98" id="input98" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input99" id="input99" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input100" id="input100" placeholder="">
+                                                    <input type="number" min="1" max="100" step="0.1" ng-change="func3p1()" class="form-control" ng-model="input91" id="input91">
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input101" id="input101" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input92" id="input92">
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input102" id="input102" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input93" id="input93">
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input103" id="input103" placeholder="">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input104" id="input104" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input105" id="input105" aria-describedby="helpId" placeholder="">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input106" id="input106" placeholder="">
+                                                    <input type="number" min="1" max="100" step="0.1" ng-change="func3p1()" class="form-control" ng-model="input94" id="input94">
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input107" id="input107" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input95" id="input95">
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input108" id="input108" aria-describedby="helpId" placeholder="">
+                                                    <input type="text" class="form-control" ng-model="input96" id="input96">
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
-                                                    <input type="text" class="form-control" name="" ng-model="input109" id="input109" placeholder="">
+                                                    <input type="number" min="1" max="100" step="0.1" ng-change="func3p1()" class="form-control" ng-model="input97" id="input97">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div>
+                                                    <input type="text" class="form-control" ng-model="input98" id="input98">
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div>
+                                                    <input type="text" class="form-control" ng-model="input99" id="input99">
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div>
+                                                    <input type="number" min="1" max="100" step="0.1" ng-change="func3p1()" class="form-control" ng-model="input100" id="input100">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div>
+                                                    <input type="text" class="form-control" ng-model="input101" id="input101">
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div>
+                                                    <input type="text" class="form-control" ng-model="input102" id="input102">
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div>
+                                                    <input type="number" min="1" max="100" step="0.1" ng-change="func3p1()" class="form-control" ng-model="input103" id="input103">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div>
+                                                    <input type="text" class="form-control" ng-model="input104" id="input104">
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div>
+                                                    <input type="text" class="form-control" ng-model="input105" id="input105">
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div>
+                                                    <input type="number" min="1" max="100" step="0.1" ng-change="func3p1()" class="form-control" ng-model="input106" id="input106">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div>
+                                                    <input type="text" class="form-control" ng-model="input107" id="input107">
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div>
+                                                    <input type="text" class="form-control" ng-model="input108" id="input108">
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div>
+                                                    <input type="number" min="1" max="100" step="0.1" ng-change="func3p1()" class="form-control" ng-model="input109" id="input109">
                                                 </div>
                                             </td>
                                         </tr>
@@ -666,7 +671,7 @@
                             </div>
                             <div class="mb-3">
                                 <label for="" class="form-label">Decisión del segmento a enfocarse en base a importancia e insatisfacción del mercado</label>
-                                <input type="text" class="form-control" name="" ng-model="input110" id="input110" aria-describedby="helpId" placeholder="">
+                                <input type="text" class="form-control" ng-model="input110" id="input110">
                             </div>
                         </div>
                         <h4 class="text-center app-subtitle">Ahora puedes redactar la propuesta de valor</h4>
@@ -674,17 +679,18 @@
                             <div class="mb-3">
                                 <h4 for="" class="text-left">Utiliza el ejemplo para escribir la presentación de tu Propuesta de Valor para cada uno de los segmentos de mercado que has elegido.</h4>
                                 <label for="">Estructura recomendada</label>
-                                <textarea type="" class="form-control " name="" ng-model="input111" id="input111" aria-describedby="helpId" placeholder="Para los Segmento de mercado, que Problemática del cliente, Tu empresa/producto es Descripción del producto que Beneficios del cliente." readonly></textarea>
+                                <textarea type="" class="form-control " ng-model="input111" id="input111" placeholder="Para los Segmento de mercado, que Problemática del cliente, Tu empresa/producto es Descripción del producto que Beneficios del cliente." readonly></textarea>
                                 <label for="">Redacta en este recuadro tu propuesta de valor</label>
-                                <textarea type="" class="form-control " name="" ng-model="input112" id="input112" aria-describedby="helpId" placeholder=""></textarea>
+                                <textarea type="" class="form-control " ng-model="input112" id="input112"></textarea>
                             </div>
                         </div>
-                        <a name="" id="add2" class="btn btn-primary" ng-click="producto2()" href="#" role="button">Agregar producto</a>
+                        <a id="add2" class="btn btn-primary" ng-click="producto2()" href="#" role="button">Agregar producto</a>
                         <br>
+
                         <div id="product2">
                             <h4 class="text-center app-subtitle">Segmento</h4>
                             <div>
-                                <input type="text" class="form-control" name="" ng-model="input114" id="input114" aria-describedby="helpId" placeholder="Introduce el producto con el que quieres trabajar">
+                                <input type="text" class="form-control" ng-model="input114" id="input114" placeholder="Introduce el producto con el que quieres trabajar">
                                 <h4>¿Cuáles son los distintos grupos de personas que utilizarán o comprarán tu producto/servicio)? Esos son tus segmentos de mercado.</h4>
                                 <div class="row">
                                     <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
@@ -705,38 +711,42 @@
                                             <label class="hasLabel" for="input117">B2G</label>
                                         </div>
                                     </checkbox>
-                                    <h5>Si marcaste B2C</h5>
-                                    <div>
-                                        <div class="mb-3">
-                                            <h4 for="" class="text-left">Redacta las variables geográficas</h4>
-                                            <input type="text" class="form-control" name="" ng-model="input118" id="input118" aria-describedby="helpId" placeholder="">
-                                        </div>
-                                        <div class="mb-3">
-                                            <h4 for="" class="text-left">Redacta las variables demográficas</h4>
-                                            <input type="text" class="form-control" name="" ng-model="input119" id="input119" aria-describedby="helpId" placeholder="">
-                                        </div>
-                                        <div class="mb-3">
-                                            <h4 for="" class="text-left">Redacta las variables conductuales</h4>
-                                            <input type="text" class="form-control" name="" ng-model="input120" id="input120" aria-describedby="helpId" placeholder="">
+                                    <div id="b2cp2" style="display: none;">
+                                        <h5>Si marcaste B2C</h5>
+                                        <div>
+                                            <div class="mb-3">
+                                                <h4 for="" class="text-left">Redacta las variables geográficas</h4>
+                                                <input type="text" class="form-control" ng-model="input118" id="input118">
+                                            </div>
+                                            <div class="mb-3">
+                                                <h4 for="" class="text-left">Redacta las variables demográficas</h4>
+                                                <input type="text" class="form-control" ng-model="input119" id="input119">
+                                            </div>
+                                            <div class="mb-3">
+                                                <h4 for="" class="text-left">Redacta las variables conductuales</h4>
+                                                <input type="text" class="form-control" ng-model="input120" id="input120">
+                                            </div>
                                         </div>
                                     </div>
-                                    <h5>Si marcaste B2B</h5>
-                                    <div>
-                                        <div class="mb-3">
-                                            <h4 for="" class="text-left">Redacta las variables geográficas</h4>
-                                            <input type="text" class="form-control" name="" ng-model="input121" id="input121" aria-describedby="helpId" placeholder="">
-                                        </div>
-                                        <div class="mb-3">
-                                            <h4 for="" class="text-left">Redacta las variables demográficas</h4>
-                                            <input type="text" class="form-control" name="" ng-model="input122" id="input122" aria-describedby="helpId" placeholder="">
-                                        </div>
-                                        <div class="mb-3">
-                                            <h4 for="" class="text-left">Redacta las variables conductuales</h4>
-                                            <input type="text" class="form-control" name="" ng-model="input123" id="input123" aria-describedby="helpId" placeholder="">
-                                        </div>
-                                        <div class="mb-3">
-                                            <h4 for="" class="text-left">Describe el segmento, considerando todas las variables</h4>
-                                            <input type="text" class="form-control" name="" ng-model="input124" id="input124" aria-describedby="helpId" placeholder="">
+                                    <div id="b2bp2" style="display: none;">
+                                        <h5>Si marcaste B2B</h5>
+                                        <div>
+                                            <div class="mb-3">
+                                                <h4 for="" class="text-left">Redacta las variables geográficas</h4>
+                                                <input type="text" class="form-control" ng-model="input121" id="input121">
+                                            </div>
+                                            <div class="mb-3">
+                                                <h4 for="" class="text-left">Redacta las variables demográficas</h4>
+                                                <input type="text" class="form-control" ng-model="input122" id="input122">
+                                            </div>
+                                            <div class="mb-3">
+                                                <h4 for="" class="text-left">Redacta las variables conductuales</h4>
+                                                <input type="text" class="form-control" ng-model="input123" id="input123">
+                                            </div>
+                                            <div class="mb-3">
+                                                <h4 for="" class="text-left">Describe el segmento, considerando todas las variables</h4>
+                                                <input type="text" class="form-control" ng-model="input124" id="input124">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -745,19 +755,19 @@
                             <div>
                                 <div class="mb-3">
                                     <h4 for="" class="text-left">Enumera todos los problemas que se encuentran tus clientes en la actual oferta de mercado.</h4>
-                                    <input type="text" class="form-control" name="" ng-model="input125" id="input125" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" ng-model="input126" id="input126" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" ng-model="input127" id="input127" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" ng-model="input128" id="input128" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" ng-model="input129" id="input129" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" ng-model="input125" id="input125">
+                                    <input type="text" class="form-control" ng-model="input126" id="input126">
+                                    <input type="text" class="form-control" ng-model="input127" id="input127">
+                                    <input type="text" class="form-control" ng-model="input128" id="input128">
+                                    <input type="text" class="form-control" ng-model="input129" id="input129">
                                 </div>
                                 <div class="mb-3">
                                     <h4 for="" class="text-left">¿Cuáles son los beneficios que tu solución puede dar a cada segmento de cliente?</h4>
-                                    <input type="text" class="form-control" name="" ng-model="input130" id="input130" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" ng-model="input131" id="input131" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" ng-model="input132" id="input132" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" ng-model="input133" id="input133" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" ng-model="input134" id="input134" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" ng-model="input130" id="input130">
+                                    <input type="text" class="form-control" ng-model="input131" id="input131">
+                                    <input type="text" class="form-control" ng-model="input132" id="input132">
+                                    <input type="text" class="form-control" ng-model="input133" id="input133">
+                                    <input type="text" class="form-control" ng-model="input134" id="input134">
                                 </div>
                             </div>
                             <h4 class="text-center app-subtitle">Tamaño del mercado</h4>
@@ -766,27 +776,27 @@
                                     <h4 for="" class="text-left">Haz una estimación del tamaño del mercado para cada uno de tus segmentos de mercado.</h4>
                                     <div class="mb-3">
                                         <label for="" class="form-label">¿Cuántas personas de 20 entrarían dentro de este segmento de mercado?</label>
-                                        <input type="text" class="form-control" name="" ng-model="input135" id="input135" aria-describedby="helpId" placeholder="">
+                                        <input type="number" min="1" max="20" ng-change="func1p2()" class="form-control" ng-model="input135" id="input135">
                                         <small id="helpId" class="form-text text-muted">Mercado disponible</small>
                                     </div>
                                     <div class="mb-3">
                                         <label for="" class="form-label">¿A qué porcentaje del mercado conseguirías llegar?</label>
-                                        <input type="text" class="form-control" name="" ng-model="input136" id="input136" aria-describedby="helpId" placeholder="">
+                                        <input type="number" min="1" max="100" step="0.1" ng-change="func1p2()" class="form-control" ng-model="input136" id="input136">
                                         <small id="helpId" class="form-text text-muted">Clientes</small>
                                     </div>
                                     <div class="mb-3">
                                         <label for="" class="form-label">El número aproximado de clientes a los que podrás llegar</label>
-                                        <input type="text" class="form-control" name="" ng-model="input137" id="input137" aria-describedby="helpId" placeholder="">
+                                        <input type="text" class="form-control" ng-model="input137" id="input137">
                                         <small id="helpId" class="form-text text-muted">Mercado</small>
                                     </div>
                                     <div class="mb-3">
                                         <label for="" class="form-label">¿Qué porcentaje del mercado compraría tu producto en vez de los de tus competidores?</label>
-                                        <input type="text" class="form-control" name="" ng-model="input138" id="input138" aria-describedby="helpId" placeholder="">
+                                        <input type="number" min="1" max="100" step="0.1" ng-change="func2p2()" class="form-control" ng-model="input138" id="input138">
                                         <small id="helpId" class="form-text text-muted">Compradores actuales</small>
                                     </div>
                                     <div class="mb-3">
                                         <label for="" class="form-label">El número aproximado de clientes que podrían estar interesados en comprar tu producto</label>
-                                        <input type="text" class="form-control" name="" ng-model="input139" id="input139" aria-describedby="helpId" placeholder="">
+                                        <input type="text" class="form-control" ng-model="input139" id="input139">
                                         <small id="helpId" class="form-text text-muted">Mercado objetivo</small>
                                     </div>
                                 </div>
@@ -796,23 +806,23 @@
                                 <div class="mb-3">
                                     <small id="helpId" class="form-text text-muted">Funcional</small>
                                     <h4 for="" class="text-left">¿Cuáles son los resultados concretos que tus clientes quieren obtener?</h4>
-                                    <input type="text" class="form-control" name="" ng-model="input140" id="input140" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" ng-model="input141" id="input141" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" ng-model="input142" id="input142" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" ng-model="input140" id="input140">
+                                    <input type="text" class="form-control" ng-model="input141" id="input141">
+                                    <input type="text" class="form-control" ng-model="input142" id="input142">
                                 </div>
                                 <div class="mb-3">
                                     <small id="helpId" class="form-text text-muted">Personal</small>
                                     <h4 for="" class="text-left">¿Cómo quieren sentirse tus clientes?</h4>
-                                    <input type="text" class="form-control" name="" ng-model="input143" id="input143" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" ng-model="input144" id="input144" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" ng-model="input145" id="input145" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" ng-model="input143" id="input143">
+                                    <input type="text" class="form-control" ng-model="input144" id="input144">
+                                    <input type="text" class="form-control" ng-model="input145" id="input145">
                                 </div>
                                 <div class="mb-3">
                                     <small id="helpId" class="form-text text-muted">Social</small>
                                     <h4 for="" class="text-left">¿Cómo quieren tus clientes que se les perciba?</h4>
-                                    <input type="text" class="form-control" name="" ng-model="input146" id="input146" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" ng-model="input147" id="input147" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" ng-model="input148" id="input148" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" ng-model="input146" id="input146">
+                                    <input type="text" class="form-control" ng-model="input147" id="input147">
+                                    <input type="text" class="form-control" ng-model="input148" id="input148">
                                 </div>
                             </div>
                             <h4 class="text-center app-subtitle">Selección de resultados</h4>
@@ -846,51 +856,51 @@
                                             <tr>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input149" id="input149" aria-describedby="helpId" placeholder="">
+                                                        <input type="text" class="form-control" ng-model="input149" id="input149">
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input150" id="input150" aria-describedby="helpId" placeholder="">
+                                                        <input type="text" class="form-control" ng-model="input150" id="input150">
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input151" id="input151" aria-describedby="helpId" placeholder="">
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input152" id="input152" aria-describedby="helpId" placeholder="">
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input153" id="input153" aria-describedby="helpId" placeholder="">
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input154" id="input154" aria-describedby="helpId" placeholder="">
+                                                        <input type="number" min="1" max="100" step="0.1" ng-change="func3p2()" class="form-control" ng-model="input151" id="input151">
                                                     </div>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input155" id="input155" aria-describedby="helpId" placeholder="">
+                                                        <input type="text" class="form-control" ng-model="input152" id="input152">
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input156" id="input156" aria-describedby="helpId" placeholder="">
+                                                        <input type="text" class="form-control" ng-model="input153" id="input153">
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input157" id="input157" aria-describedby="helpId" placeholder="">
+                                                        <input type="number" min="1" max="100" step="0.1" ng-change="func3p2()" class="form-control" ng-model="input154" id="input154">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="">
+                                                        <input type="text" class="form-control" ng-model="input155" id="input155">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <input type="text" class="form-control" ng-model="input156" id="input156">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <input type="number" min="1" max="100" step="0.1" ng-change="func3p2()" class="form-control" ng-model="input157" id="input157">
                                                     </div>
                                                 </td>
                                             </tr>
@@ -926,153 +936,153 @@
                                             <tr>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input158" id="input158" aria-describedby="helpId" placeholder="">
+                                                        <input type="text" class="form-control" ng-model="input158" id="input158">
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input159" id="input159" aria-describedby="helpId" placeholder="">
+                                                        <input type="text" class="form-control" ng-model="input159" id="input159">
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input160" id="input160" aria-describedby="helpId" placeholder="">
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input161" id="input161" aria-describedby="helpId" placeholder="">
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input162" id="input162" aria-describedby="helpId" placeholder="">
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input163" id="input163" aria-describedby="helpId" placeholder="">
+                                                        <input type="number" min="1" max="100" step="0.1" ng-change="func3p2()" class="form-control" ng-model="input160" id="input160">
                                                     </div>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input164" id="input164" aria-describedby="helpId" placeholder="">
+                                                        <input type="text" class="form-control" ng-model="input161" id="input161">
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input165" id="input165" aria-describedby="helpId" placeholder="">
+                                                        <input type="text" class="form-control" ng-model="input162" id="input162">
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input166" id="input166" aria-describedby="helpId" placeholder="">
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input167" id="input167" aria-describedby="helpId" placeholder="">
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input168" id="input168" aria-describedby="helpId" placeholder="">
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input169" id="input169" aria-describedby="helpId" placeholder="">
+                                                        <input type="number" min="1" max="100" step="0.1" ng-change="func3p2()" class="form-control" ng-model="input163" id="input163">
                                                     </div>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input170" id="input170" aria-describedby="helpId" placeholder="">
+                                                        <input type="text" class="form-control" ng-model="input164" id="input164">
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input171" id="input171" aria-describedby="helpId" placeholder="">
+                                                        <input type="text" class="form-control" ng-model="input165" id="input165">
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input172" id="input172" aria-describedby="helpId" placeholder="">
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input173" id="input173" aria-describedby="helpId" placeholder="">
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input174" id="input174" aria-describedby="helpId" placeholder="">
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input175" id="input175" aria-describedby="helpId" placeholder="">
+                                                        <input type="number" min="1" max="100" step="0.1" ng-change="func3p2()" class="form-control" ng-model="input166" id="input166">
                                                     </div>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input176" id="input176" aria-describedby="helpId" placeholder="">
+                                                        <input type="text" class="form-control" ng-model="input167" id="input167">
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input177" id="input177" aria-describedby="helpId" placeholder="">
+                                                        <input type="text" class="form-control" ng-model="input168" id="input168">
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input178" id="input178" aria-describedby="helpId" placeholder="">
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input179" id="input179" aria-describedby="helpId" placeholder="">
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input180" id="input180" aria-describedby="helpId" placeholder="">
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input181" id="input181" aria-describedby="helpId" placeholder="">
+                                                        <input type="number" min="1" max="100" step="0.1" ng-change="func3p2()" class="form-control" ng-model="input169" id="input169">
                                                     </div>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input182" id="input182" aria-describedby="helpId" placeholder="">
+                                                        <input type="text" class="form-control" ng-model="input170" id="input170">
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input183" id="input183" aria-describedby="helpId" placeholder="">
+                                                        <input type="text" class="form-control" ng-model="input171" id="input171">
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input184" id="input184" aria-describedby="helpId" placeholder="">
+                                                        <input type="number" min="1" max="100" step="0.1" ng-change="func3p2()" class="form-control" ng-model="input172" id="input172">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="">
+                                                        <input type="text" class="form-control" ng-model="input173" id="input173">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <input type="text" class="form-control" ng-model="input174" id="input174">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <input type="number" min="1" max="100" step="0.1" ng-change="func3p2()" class="form-control" ng-model="input175" id="input175">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="">
+                                                        <input type="text" class="form-control" ng-model="input176" id="input176">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <input type="text" class="form-control" ng-model="input177" id="input177">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <input type="number" min="1" max="100" step="0.1" ng-change="func3p2()" class="form-control" ng-model="input178" id="input178">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="">
+                                                        <input type="text" class="form-control" ng-model="input179" id="input179">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <input type="text" class="form-control" ng-model="input180" id="input180">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <input type="number" min="1" max="100" step="0.1" ng-change="func3p2()" class="form-control" ng-model="input181" id="input181">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="">
+                                                        <input type="text" class="form-control" ng-model="input182" id="input182">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <input type="text" class="form-control" ng-model="input183" id="input183">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <input type="number" min="1" max="100" step="0.1" ng-change="func3p2()" class="form-control" ng-model="input184" id="input184">
                                                     </div>
                                                 </td>
                                             </tr>
@@ -1081,7 +1091,7 @@
                                 </div>
                                 <div class="mb-3">
                                     <label for="" class="form-label">Decisión del segmento a enfocarse en base a importancia e insatisfacción del mercado</label>
-                                    <input type="text" class="form-control" name="" ng-model="input185" id="input185" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" ng-model="input185" id="input185">
                                 </div>
                             </div>
                             <h4 class="text-center app-subtitle">Ahora puedes redactar la propuesta de valor</h4>
@@ -1089,14 +1099,14 @@
                                 <div class="mb-3">
                                     <h4 for="" class="text-left">Utiliza el ejemplo para escribir la presentación de tu Propuesta de Valor para cada uno de los segmentos de mercado que has elegido.</h4>
                                     <label for="">Estructura recomendada</label>
-                                    <textarea class="form-control" name="" ng-model="input186" id="input186" aria-describedby="helpId" placeholder="Para los Segmento de mercado, que Problemática del cliente, Tu empresa/producto es Descripción del producto que Beneficios del cliente." readonly></textarea>
+                                    <textarea class="form-control" ng-model="input186" id="input186" placeholder="Para los Segmento de mercado, que Problemática del cliente, Tu empresa/producto es Descripción del producto que Beneficios del cliente." readonly></textarea>
                                     <label for="">Redacta en este recuadro tu propuesta de valor</label>
-                                    <textarea class="form-control" name="" ng-model="input187" id="input187" aria-describedby="helpId" placeholder=""></textarea>
+                                    <textarea class="form-control" ng-model="input187" id="input187"></textarea>
                                 </div>
                             </div>
                             <div class="flex">
-                                <a name="" id="add3" class="btn btn-primary" ng-click="producto3()" href="#" role="button">Agregar producto</a>
-                                <a name="" id="delete2" class="btn btn-primary" ng-click="producto2()" href="#" role="button">Eliminar producto</a>
+                                <a id="add3" class="btn btn-primary" ng-click="producto3()" href="#" role="button">Agregar producto</a>
+                                <a id="delete2" class="btn btn-primary" ng-click="producto2()" href="#" role="button">Eliminar producto</a>
                             </div>
                             <br>
                         </div>
@@ -1104,55 +1114,59 @@
                         <div id="product3">
                             <h4 class="text-center app-subtitle">Segmento</h4>
                             <div>
-                                <input type="text" class="form-control" name="" ng-model="input188" id="input188" aria-describedby="helpId" placeholder="Introduce el producto con el que quieres trabajar">
+                                <input type="text" class="form-control" ng-model="input188" id="input188" placeholder="Introduce el producto con el que quieres trabajar">
                                 <h4>¿Cuáles son los distintos grupos de personas que utilizarán o comprarán tu producto/servicio)? Esos son tus segmentos de mercado.</h4>
                                 <div class="row">
                                     <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
                                         <div class="checkbox-container">
-                                            <input class="app-antepnp" name="mdnegocio" value="1" type="checkbox" ng-model="input189" id="input189">
+                                            <input class="app-antepnp" name="mdnegocio" value="1" type="checkbox" ng-click="check1p3()" ng-model="input189" id="input189">
                                             <label class="hasLabel" for="mdnegocio1">B2B</label>
                                         </div>
                                     </checkbox>
                                     <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
                                         <div class="checkbox-container">
-                                            <input class="app-antepnp" name="mdnegocio" value="2" type="checkbox" ng-model="input190" id="input190">
+                                            <input class="app-antepnp" name="mdnegocio" value="2" type="checkbox" ng-click="check1p3()" ng-model="input190" id="input190">
                                             <label class="hasLabel" for="mdnegocio2">B2C</label>
                                         </div>
                                     </checkbox>
                                     <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
                                         <div class="checkbox-container">
-                                            <input class="app-antepnp" name="mdnegocio" value="3" type="checkbox" ng-model="input191" id="input191">
+                                            <input class="app-antepnp" name="mdnegocio" value="3" type="checkbox" ng-click="check1p3()" ng-model="input191" id="input191">
                                             <label class="hasLabel" for="mdnegocio3">B2G</label>
                                         </div>
                                     </checkbox>
-                                    <h5>Si marcaste B2C</h5>
-                                    <div>
-                                        <div class="mb-3">
-                                            <h4 for="" class="text-left">Redacta las variables geográficas</h4>
-                                            <input type="text" class="form-control" name="" ng-model="input192" id="input192" aria-describedby="helpId" placeholder="">
-                                        </div>
-                                        <div class="mb-3">
-                                            <h4 for="" class="text-left">Redacta las variables demográficas</h4>
-                                            <input type="text" class="form-control" name="" ng-model="input193" id="input193" aria-describedby="helpId" placeholder="">
-                                        </div>
-                                        <div class="mb-3">
-                                            <h4 for="" class="text-left">Redacta las variables conductuales</h4>
-                                            <input type="text" class="form-control" name="" ng-model="input194" id="input194" aria-describedby="helpId" placeholder="">
+                                    <div id="b2cp3" style="display: none;">
+                                        <h5>Si marcaste B2C</h5>
+                                        <div>
+                                            <div class="mb-3">
+                                                <h4 for="" class="text-left">Redacta las variables geográficas</h4>
+                                                <input type="text" class="form-control" ng-model="input192" id="input192">
+                                            </div>
+                                            <div class="mb-3">
+                                                <h4 for="" class="text-left">Redacta las variables demográficas</h4>
+                                                <input type="text" class="form-control" ng-model="input193" id="input193">
+                                            </div>
+                                            <div class="mb-3">
+                                                <h4 for="" class="text-left">Redacta las variables conductuales</h4>
+                                                <input type="text" class="form-control" ng-model="input194" id="input194">
+                                            </div>
                                         </div>
                                     </div>
-                                    <h5>Si marcaste B2B</h5>
-                                    <div>
-                                        <div class="mb-3">
-                                            <h4 for="" class="text-left">Redacta las variables geográficas</h4>
-                                            <input type="text" class="form-control" name="" ng-model="input195" id="input195" aria-describedby="helpId" placeholder="">
-                                        </div>
-                                        <div class="mb-3">
-                                            <h4 for="" class="text-left">Redacta las variables demográficas</h4>
-                                            <input type="text" class="form-control" name="" ng-model="input196" id="input196" aria-describedby="helpId" placeholder="">
-                                        </div>
-                                        <div class="mb-3">
-                                            <h4 for="" class="text-left">Redacta las variables conductuales</h4>
-                                            <input type="text" class="form-control" name="" ng-model="input197" id="input197" aria-describedby="helpId" placeholder="">
+                                    <div id="b2bp3" style="display: none;">
+                                        <h5>Si marcaste B2B</h5>
+                                        <div>
+                                            <div class="mb-3">
+                                                <h4 for="" class="text-left">Redacta las variables geográficas</h4>
+                                                <input type="text" class="form-control" ng-model="input195" id="input195">
+                                            </div>
+                                            <div class="mb-3">
+                                                <h4 for="" class="text-left">Redacta las variables demográficas</h4>
+                                                <input type="text" class="form-control" ng-model="input196" id="input196">
+                                            </div>
+                                            <div class="mb-3">
+                                                <h4 for="" class="text-left">Redacta las variables conductuales</h4>
+                                                <input type="text" class="form-control" ng-model="input197" id="input197">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1161,19 +1175,19 @@
                             <div>
                                 <div class="mb-3">
                                     <h4 for="" class="text-left">Enumera todos los problemas que se encuentran tus clientes en la actual oferta de mercado.</h4>
-                                    <input type="text" class="form-control" name="" ng-model="input198" id="input198" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" ng-model="input199" id="input199" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" ng-model="input200" id="input200" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" ng-model="input201" id="input201" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" ng-model="input202" id="input202" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" ng-model="input198" id="input198">
+                                    <input type="text" class="form-control" ng-model="input199" id="input199">
+                                    <input type="text" class="form-control" ng-model="input200" id="input200">
+                                    <input type="text" class="form-control" ng-model="input201" id="input201">
+                                    <input type="text" class="form-control" ng-model="input202" id="input202">
                                 </div>
                                 <div class="mb-3">
                                     <h4 for="" class="text-left">¿Cuáles son los beneficios que tu solución puede dar a cada segmento de cliente?</h4>
-                                    <input type="text" class="form-control" name="" ng-model="input203" id="input203" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" ng-model="input204" id="input204" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" ng-model="input205" id="input205" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" ng-model="input206" id="input206" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" ng-model="input207" id="input207" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" ng-model="input203" id="input203">
+                                    <input type="text" class="form-control" ng-model="input204" id="input204">
+                                    <input type="text" class="form-control" ng-model="input205" id="input205">
+                                    <input type="text" class="form-control" ng-model="input206" id="input206">
+                                    <input type="text" class="form-control" ng-model="input207" id="input207">
                                 </div>
                             </div>
                             <h4 class="text-center app-subtitle">Tamaño del mercado</h4>
@@ -1182,27 +1196,27 @@
                                     <h4 for="" class="text-left">Haz una estimación del tamaño del mercado para cada uno de tus segmentos de mercado.</h4>
                                     <div class="mb-3">
                                         <label for="" class="form-label">¿Cuántas personas de 20 entrarían dentro de este segmento de mercado?</label>
-                                        <input type="text" class="form-control" name="" ng-model="input208" id="input208" aria-describedby="helpId" placeholder="">
+                                        <input type="number" min="1" max="20" ng-change="func1p3()" class="form-control" ng-model="input208" id="input208">
                                         <small id="helpId" class="form-text text-muted">Mercado disponible</small>
                                     </div>
                                     <div class="mb-3">
                                         <label for="" class="form-label">¿A qué porcentaje del mercado conseguirías llegar?</label>
-                                        <input type="text" class="form-control" name="" ng-model="input209" id="input209" aria-describedby="helpId" placeholder="">
+                                        <input type="number" min="1" max="100" step="0.1" ng-change="func1p3()" class="form-control" ng-model="input209" id="input209">
                                         <small id="helpId" class="form-text text-muted">Clientes</small>
                                     </div>
                                     <div class="mb-3">
                                         <label for="" class="form-label">El número aproximado de clientes a los que podrás llegar</label>
-                                        <input type="text" class="form-control" name="" ng-model="input210" id="input210" aria-describedby="helpId" placeholder="">
+                                        <input type="text" class="form-control" ng-model="input210" id="input210">
                                         <small id="helpId" class="form-text text-muted">Mercado</small>
                                     </div>
                                     <div class="mb-3">
                                         <label for="" class="form-label">¿Qué porcentaje del mercado compraría tu producto en vez de los de tus competidores?</label>
-                                        <input type="text" class="form-control" name="" ng-model="input211" id="input211" aria-describedby="helpId" placeholder="">
+                                        <input type="number" min="1" max="100" step="0.1" ng-change="func1p3()" class="form-control" ng-model="input211" id="input211">
                                         <small id="helpId" class="form-text text-muted">Compradores actuales</small>
                                     </div>
                                     <div class="mb-3">
                                         <label for="" class="form-label">El número aproximado de clientes que podrían estar interesados en comprar tu producto</label>
-                                        <input type="text" class="form-control" name="" ng-model="input212" id="input212" aria-describedby="helpId" placeholder="">
+                                        <input type="text" class="form-control" ng-model="input212" id="input212">
                                         <small id="helpId" class="form-text text-muted">Mercado objetivo</small>
                                     </div>
                                 </div>
@@ -1212,23 +1226,23 @@
                                 <div class="mb-3">
                                     <small id="helpId" class="form-text text-muted">Funcional</small>
                                     <h4 for="" class="text-left">¿Cuáles son los resultados concretos que tus clientes quieren obtener?</h4>
-                                    <input type="text" class="form-control" name="" ng-model="input213" id="input213" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" ng-model="input214" id="input214" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" ng-model="input215" id="input215" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" ng-model="input213" id="input213">
+                                    <input type="text" class="form-control" ng-model="input214" id="input214">
+                                    <input type="text" class="form-control" ng-model="input215" id="input215">
                                 </div>
                                 <div class="mb-3">
                                     <small id="helpId" class="form-text text-muted">Personal</small>
                                     <h4 for="" class="text-left">¿Cómo quieren sentirse tus clientes?</h4>
-                                    <input type="text" class="form-control" name="" ng-model="input216" id="input216" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" ng-model="input217" id="input217" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" ng-model="input218" id="input218" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" ng-model="input216" id="input216">
+                                    <input type="text" class="form-control" ng-model="input217" id="input217">
+                                    <input type="text" class="form-control" ng-model="input218" id="input218">
                                 </div>
                                 <div class="mb-3">
                                     <small id="helpId" class="form-text text-muted">Social</small>
                                     <h4 for="" class="text-left">¿Cómo quieren tus clientes que se les perciba?</h4>
-                                    <input type="text" class="form-control" name="" ng-model="input219" id="input219" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" ng-model="input220" id="input220" aria-describedby="helpId" placeholder="">
-                                    <input type="text" class="form-control" name="" ng-model="input221" id="input221" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" ng-model="input219" id="input219">
+                                    <input type="text" class="form-control" ng-model="input220" id="input220">
+                                    <input type="text" class="form-control" ng-model="input221" id="input221">
                                 </div>
                             </div>
                             <h4 class="text-center app-subtitle">Selección de resultados</h4>
@@ -1262,51 +1276,51 @@
                                             <tr>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input222" id="input222" aria-describedby="helpId" placeholder="">
+                                                        <input type="text" class="form-control" ng-model="input222" id="input222">
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input223" id="input223" aria-describedby="helpId" placeholder="">
+                                                        <input type="text" class="form-control" ng-model="input223" id="input223">
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input224" id="input224" aria-describedby="helpId" placeholder="">
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input225" id="input225" aria-describedby="helpId" placeholder="">
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input226" id="input226" aria-describedby="helpId" placeholder="">
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input227" id="input227" aria-describedby="helpId" placeholder="">
+                                                        <input type="number" min="1" max="100" step="0.1" ng-change="func3p3()" class="form-control" ng-model="input224" id="input224">
                                                     </div>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input228" id="input228" aria-describedby="helpId" placeholder="">
+                                                        <input type="text" class="form-control" ng-model="input225" id="input225">
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input229" id="input229" aria-describedby="helpId" placeholder="">
+                                                        <input type="text" class="form-control" ng-model="input226" id="input226">
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input230" id="input230" aria-describedby="helpId" placeholder="">
+                                                        <input type="number" min="1" max="100" step="0.1" ng-change="func3p3()" class="form-control" ng-model="input227" id="input227">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="">
+                                                        <input type="text" class="form-control" ng-model="input228" id="input228">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <input type="text" class="form-control" ng-model="input229" id="input229">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <input type="number" min="1" max="100" step="0.1" ng-change="func3p3()" class="form-control" ng-model="input230" id="input230">
                                                     </div>
                                                 </td>
                                             </tr>
@@ -1342,153 +1356,153 @@
                                             <tr>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input231" id="input231" aria-describedby="helpId" placeholder="">
+                                                        <input type="text" class="form-control" ng-model="input231" id="input231">
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input232" id="input232" aria-describedby="helpId" placeholder="">
+                                                        <input type="text" class="form-control" ng-model="input232" id="input232">
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input233" id="input233" aria-describedby="helpId" placeholder="">
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input234" id="input234" aria-describedby="helpId" placeholder="">
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input235" id="input235" aria-describedby="helpId" placeholder="">
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input236" id="input236" aria-describedby="helpId" placeholder="">
+                                                        <input type="number" min="1" max="100" step="0.1" ng-change="func3p3()" class="form-control" ng-model="input233" id="input233">
                                                     </div>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input237" id="input237" aria-describedby="helpId" placeholder="">
+                                                        <input type="text" class="form-control" ng-model="input234" id="input234">
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input238" id="input238" aria-describedby="helpId" placeholder="">
+                                                        <input type="text" class="form-control" ng-model="input235" id="input235">
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input239" id="input239" aria-describedby="helpId" placeholder="">
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input240" id="input240" aria-describedby="helpId" placeholder="">
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input241" id="input241" aria-describedby="helpId" placeholder="">
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input242" id="input242" aria-describedby="helpId" placeholder="">
+                                                        <input type="number" min="1" max="100" step="0.1" ng-change="func3p3()" class="form-control" ng-model="input236" id="input236">
                                                     </div>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input243" id="input243" aria-describedby="helpId" placeholder="">
+                                                        <input type="text" class="form-control" ng-model="input237" id="input237">
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input244" id="input244" aria-describedby="helpId" placeholder="">
+                                                        <input type="text" class="form-control" ng-model="input238" id="input238">
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input245" id="input245" aria-describedby="helpId" placeholder="">
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input246" id="input246" aria-describedby="helpId" placeholder="">
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input247" id="input247" aria-describedby="helpId" placeholder="">
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input248" id="input248" aria-describedby="helpId" placeholder="">
+                                                        <input type="number" min="1" max="100" step="0.1" ng-change="func3p3()" class="form-control" ng-model="input239" id="input239">
                                                     </div>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input249" id="input249" aria-describedby="helpId" placeholder="">
+                                                        <input type="text" class="form-control" ng-model="input240" id="input240">
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input250" id="input250" aria-describedby="helpId" placeholder="">
+                                                        <input type="text" class="form-control" ng-model="input241" id="input241">
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input251" id="input251" aria-describedby="helpId" placeholder="">
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input252" id="input252" aria-describedby="helpId" placeholder="">
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input253" id="input253" aria-describedby="helpId" placeholder="">
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input254" id="input254" aria-describedby="helpId" placeholder="">
+                                                        <input type="number" min="1" max="100" step="0.1" ng-change="func3p3()" class="form-control" ng-model="input242" id="input242">
                                                     </div>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input255" id="input255" aria-describedby="helpId" placeholder="">
+                                                        <input type="text" class="form-control" ng-model="input243" id="input243">
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input256" id="input256" aria-describedby="helpId" placeholder="">
+                                                        <input type="text" class="form-control" ng-model="input244" id="input244">
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <div class="">
-                                                        <input type="text" class="form-control" name="" ng-model="input257" id="input257" aria-describedby="helpId" placeholder="">
+                                                        <input type="number" min="1" max="100" step="0.1" ng-change="func3p3()" class="form-control" ng-model="input245" id="input245">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="">
+                                                        <input type="text" class="form-control" ng-model="input246" id="input246">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <input type="text" class="form-control" ng-model="input247" id="input247">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <input type="number" min="1" max="100" step="0.1" ng-change="func3p3()" class="form-control" ng-model="input248" id="input248">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="">
+                                                        <input type="text" class="form-control" ng-model="input249" id="input249">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <input type="text" class="form-control" ng-model="input250" id="input250">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <input type="number" min="1" max="100" step="0.1" ng-change="func3p3()" class="form-control" ng-model="input251" id="input251">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="">
+                                                        <input type="text" class="form-control" ng-model="input252" id="input252">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <input type="text" class="form-control" ng-model="input253" id="input253">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <input type="number" min="1" max="100" step="0.1" ng-change="func3p3()" class="form-control" ng-model="input254" id="input254">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="">
+                                                        <input type="text" class="form-control" ng-model="input255" id="input255">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <input type="text" class="form-control" ng-model="input256" id="input256">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        <input type="number" min="1" max="100" step="0.1" ng-change="func3p3()" class="form-control" ng-model="input257" id="input257">
                                                     </div>
                                                 </td>
                                             </tr>
@@ -1497,7 +1511,7 @@
                                 </div>
                                 <div class="mb-3">
                                     <label for="" class="form-label">Decisión del segmento a enfocarse en base a importancia e insatisfacción del mercado</label>
-                                    <input type="text" class="form-control" name="" ng-model="input258" id="input258" aria-describedby="helpId" placeholder="">
+                                    <input type="text" class="form-control" ng-model="input258" id="input258">
                                 </div>
                             </div>
                             <h4 class="text-center app-subtitle">Ahora puedes redactar la propuesta de valor</h4>
@@ -1505,12 +1519,12 @@
                                 <div class="mb-3">
                                     <h4 for="" class="text-left">Utiliza el ejemplo para escribir la presentación de tu Propuesta de Valor para cada uno de los segmentos de mercado que has elegido.</h4>
                                     <label for="">Estructura recomendada</label>
-                                    <textarea class="form-control" name="" ng-model="input259" id="input259" rows="3" placeholder="Para los Segmento de mercado, que Problemática del cliente, Tu empresa/producto es Descripción del producto que Beneficios del cliente." readonly></textarea>
+                                    <textarea class="form-control" ng-model="input259" id="input259" rows="3" placeholder="Para los Segmento de mercado, que Problemática del cliente, Tu empresa/producto es Descripción del producto que Beneficios del cliente." readonly></textarea>
                                     <label for="">Redacta en este recuadro tu propuesta de valor</label>
-                                    <textarea class="form-control" name="" ng-model="input260" id="input260" rows="3"></textarea>
+                                    <textarea class="form-control" ng-model="input260" id="input260" rows="3"></textarea>
                                 </div>
                             </div>
-                            <a name="" id="delete3" class="btn btn-primary" ng-click="producto3()" href="#" role="button">Eliminar producto</a>
+                            <a id="delete3" class="btn btn-primary" ng-click="producto3()" href="#" role="button">Eliminar producto</a>
                         </div>
                         <br>
                         @if (Auth::user()->userType == 'teacher')
@@ -1519,7 +1533,7 @@
                         <div class="d-flex justify-content-center">
                             <button type="submit" ng-click="postForm()" class="btn btn-success">Guardar</button>
                         </div>
-                        @endif                        
+                        @endif
                     </form>
 
                 </div>
@@ -1798,11 +1812,18 @@
 
                         angular.element(document).ready(() => {
                             let userId = "{{ Auth::user()->id }}";
-                            let teamId = "{{ Auth::user()->teamId }}";
-                            $http.get(`/forms1/${teamId}`).then((result) => {
+                            let userType = "{{Auth::user()->userType}}";
+                            if (userType == "teacher") {
+
+                            } else {
+                                teamId = "{{ Auth::user()->teamId }}";
+                            }
+                            //let teamId = "{{ Auth::user()->teamId }}";
+                            $http.get(`/forms1/${userId}`).then((result) => {
                                 $scope.forms = result.data;
                                 $scope.parseArrayValues();
                                 $scope.checkProducts();
+                                $scope.checkboxesp1();
                             })
 
                         });
@@ -1819,6 +1840,7 @@
                                 document.getElementById("add2").style.display = "none";
                                 document.getElementById("add3").style.display = "block";
                                 document.getElementById("delete2").style.display = "block";
+                                $scope.checkboxesp2();
                             }
                             if ($scope.count == "3") {
                                 document.getElementById("product2").style.display = "block";
@@ -1827,6 +1849,7 @@
                                 document.getElementById("add3").style.display = "none";
                                 document.getElementById("delete2").style.display = "none";
                                 document.getElementById("delete3").style.display = "block";
+                                $scope.checkboxesp3();
                             }
                         }
 
@@ -1892,10 +1915,10 @@
                             $scope.input57 = formTextArray[56];
                             $scope.input58 = formTextArray[57];
                             $scope.input59 = formTextArray[58];
-                            $scope.input60 = formTextArray[59];
-                            $scope.input61 = formTextArray[60];
+                            $scope.input60 = parseInt(formTextArray[59]);
+                            $scope.input61 = parseFloat(formTextArray[60]);
                             $scope.input62 = formTextArray[61];
-                            $scope.input63 = formTextArray[62];
+                            $scope.input63 = parseFloat(formTextArray[62]);
                             $scope.input64 = formTextArray[63];
                             $scope.input65 = formTextArray[64];
                             $scope.input66 = formTextArray[65];
@@ -1908,40 +1931,40 @@
                             $scope.input73 = formTextArray[72];
                             $scope.input74 = formTextArray[73];
                             $scope.input75 = formTextArray[74];
-                            $scope.input76 = formTextArray[75];
+                            $scope.input76 = parseFloat(formTextArray[75]);
                             $scope.input77 = formTextArray[76];
                             $scope.input78 = formTextArray[77];
-                            $scope.input79 = formTextArray[78];
+                            $scope.input79 = parseFloat(formTextArray[78]);
                             $scope.input80 = formTextArray[79];
                             $scope.input81 = formTextArray[80];
-                            $scope.input82 = formTextArray[81];
+                            $scope.input82 = parseFloat(formTextArray[81]);
                             $scope.input83 = formTextArray[82];
                             $scope.input84 = formTextArray[83];
-                            $scope.input85 = formTextArray[84];
+                            $scope.input85 = parseFloat(formTextArray[84]);
                             $scope.input86 = formTextArray[85];
                             $scope.input87 = formTextArray[86];
-                            $scope.input88 = formTextArray[87];
+                            $scope.input88 = parseFloat(formTextArray[87]);
                             $scope.input89 = formTextArray[88];
                             $scope.input90 = formTextArray[89];
-                            $scope.input91 = formTextArray[90];
+                            $scope.input91 = parseFloat(formTextArray[90]);
                             $scope.input92 = formTextArray[91];
                             $scope.input93 = formTextArray[92];
-                            $scope.input94 = formTextArray[93];
+                            $scope.input94 = parseFloat(formTextArray[93]);
                             $scope.input95 = formTextArray[94];
                             $scope.input96 = formTextArray[95];
-                            $scope.input97 = formTextArray[96];
+                            $scope.input97 = parseFloat(formTextArray[96]);
                             $scope.input98 = formTextArray[97];
                             $scope.input99 = formTextArray[98];
-                            $scope.input100 = formTextArray[99];
+                            $scope.input100 = parseFloat(formTextArray[99]);
                             $scope.input101 = formTextArray[100];
                             $scope.input102 = formTextArray[101];
-                            $scope.input103 = formTextArray[102];
+                            $scope.input103 = parseFloat(formTextArray[102]);
                             $scope.input104 = formTextArray[103];
                             $scope.input105 = formTextArray[104];
-                            $scope.input106 = formTextArray[105];
+                            $scope.input106 = parseFloat(formTextArray[105]);
                             $scope.input107 = formTextArray[106];
                             $scope.input108 = formTextArray[107];
-                            $scope.input109 = formTextArray[108];
+                            $scope.input109 = parseFloat(formTextArray[108]);
                             $scope.input110 = formTextArray[109];
                             $scope.input111 = formTextArray[110];
                             $scope.input112 = formTextArray[111];
@@ -1967,10 +1990,10 @@
                             $scope.input132 = formTextArray[131];
                             $scope.input133 = formTextArray[132];
                             $scope.input134 = formTextArray[133];
-                            $scope.input135 = formTextArray[134];
-                            $scope.input136 = formTextArray[135];
+                            $scope.input135 = parseInt(formTextArray[134]);
+                            $scope.input136 = parseFloat(formTextArray[135]);
                             $scope.input137 = formTextArray[136];
-                            $scope.input138 = formTextArray[137];
+                            $scope.input138 = parseFloat(formTextArray[137]);
                             $scope.input139 = formTextArray[138];
                             $scope.input140 = formTextArray[139];
                             $scope.input141 = formTextArray[140];
@@ -1984,40 +2007,40 @@
                             $scope.input149 = formTextArray[148];
                             $scope.input150 = formTextArray[149];
                             $scope.input151 = formTextArray[150];
-                            $scope.input152 = formTextArray[151];
+                            $scope.input152 = parseFloat(formTextArray[151]);
                             $scope.input153 = formTextArray[152];
                             $scope.input154 = formTextArray[153];
-                            $scope.input155 = formTextArray[154];
+                            $scope.input155 = parseFloat(formTextArray[154]);
                             $scope.input156 = formTextArray[155];
                             $scope.input157 = formTextArray[156];
-                            $scope.input158 = formTextArray[157];
+                            $scope.input158 = parseFloat(formTextArray[157]);
                             $scope.input159 = formTextArray[158];
                             $scope.input160 = formTextArray[159];
-                            $scope.input161 = formTextArray[160];
+                            $scope.input161 = parseFloat(formTextArray[160]);
                             $scope.input162 = formTextArray[161];
                             $scope.input163 = formTextArray[162];
-                            $scope.input164 = formTextArray[163];
+                            $scope.input164 = parseFloat(formTextArray[163]);
                             $scope.input165 = formTextArray[164];
                             $scope.input166 = formTextArray[165];
-                            $scope.input167 = formTextArray[166];
+                            $scope.input167 = parseFloat(formTextArray[166]);
                             $scope.input168 = formTextArray[167];
                             $scope.input169 = formTextArray[168];
-                            $scope.input170 = formTextArray[169];
+                            $scope.input170 = parseFloat(formTextArray[169]);
                             $scope.input171 = formTextArray[170];
                             $scope.input172 = formTextArray[171];
-                            $scope.input173 = formTextArray[172];
+                            $scope.input173 = parseFloat(formTextArray[172]);
                             $scope.input174 = formTextArray[173];
                             $scope.input175 = formTextArray[174];
-                            $scope.input176 = formTextArray[175];
+                            $scope.input176 = parseFloat(formTextArray[175]);
                             $scope.input177 = formTextArray[176];
                             $scope.input178 = formTextArray[177];
-                            $scope.input179 = formTextArray[178];
+                            $scope.input179 = parseFloat(formTextArray[178]);
                             $scope.input180 = formTextArray[179];
                             $scope.input181 = formTextArray[180];
-                            $scope.input182 = formTextArray[181];
+                            $scope.input182 = parseFloat(formTextArray[181]);
                             $scope.input183 = formTextArray[182];
                             $scope.input184 = formTextArray[183];
-                            $scope.input185 = formTextArray[184];
+                            $scope.input185 = parseFloat(formTextArray[184]);
                             $scope.input186 = formTextArray[185];
                             $scope.input187 = formTextArray[186];
                             $scope.input188 = formTextArray[187];
@@ -2041,10 +2064,10 @@
                             $scope.input206 = formTextArray[205];
                             $scope.input207 = formTextArray[206];
                             $scope.input208 = formTextArray[207];
-                            $scope.input209 = formTextArray[208];
-                            $scope.input210 = formTextArray[209];
+                            $scope.input209 = parseInt(formTextArray[208]);
+                            $scope.input210 = parseFloat(formTextArray[209]);
                             $scope.input211 = formTextArray[210];
-                            $scope.input212 = formTextArray[211];
+                            $scope.input212 = parseFloat(formTextArray[211]);
                             $scope.input213 = formTextArray[212];
                             $scope.input214 = formTextArray[213];
                             $scope.input215 = formTextArray[214];
@@ -2056,40 +2079,40 @@
                             $scope.input221 = formTextArray[220];
                             $scope.input222 = formTextArray[221];
                             $scope.input223 = formTextArray[222];
-                            $scope.input224 = formTextArray[223];
+                            $scope.input224 =  parseFloat(formTextArray[223]);
                             $scope.input225 = formTextArray[224];
                             $scope.input226 = formTextArray[225];
-                            $scope.input227 = formTextArray[226];
+                            $scope.input227 =  parseFloat(formTextArray[226]);
                             $scope.input228 = formTextArray[227];
                             $scope.input229 = formTextArray[228];
-                            $scope.input230 = formTextArray[229];
+                            $scope.input230 =  parseFloat(formTextArray[229]);
                             $scope.input231 = formTextArray[230];
                             $scope.input232 = formTextArray[231];
-                            $scope.input233 = formTextArray[232];
+                            $scope.input233 =  parseFloat(formTextArray[232]);
                             $scope.input234 = formTextArray[233];
                             $scope.input235 = formTextArray[234];
-                            $scope.input236 = formTextArray[235];
+                            $scope.input236 =  parseFloat(formTextArray[235]);
                             $scope.input237 = formTextArray[236];
                             $scope.input238 = formTextArray[237];
-                            $scope.input239 = formTextArray[238];
+                            $scope.input239 =  parseFloat(formTextArray[238]);
                             $scope.input240 = formTextArray[239];
                             $scope.input241 = formTextArray[240];
-                            $scope.input242 = formTextArray[241];
+                            $scope.input242 =  parseFloat(formTextArray[241]);
                             $scope.input243 = formTextArray[242];
                             $scope.input244 = formTextArray[243];
-                            $scope.input245 = formTextArray[244];
+                            $scope.input245 =  parseFloat(formTextArray[244]);
                             $scope.input246 = formTextArray[245];
                             $scope.input247 = formTextArray[246];
-                            $scope.input248 = formTextArray[247];
+                            $scope.input248 =  parseFloat(formTextArray[247]);
                             $scope.input249 = formTextArray[248];
                             $scope.input250 = formTextArray[249];
-                            $scope.input251 = formTextArray[250];
+                            $scope.input251 =  parseFloat(formTextArray[250]);
                             $scope.input252 = formTextArray[251];
                             $scope.input253 = formTextArray[252];
-                            $scope.input254 = formTextArray[253];
+                            $scope.input254 =  parseFloat(formTextArray[253]);
                             $scope.input255 = formTextArray[254];
                             $scope.input256 = formTextArray[255];
-                            $scope.input257 = formTextArray[256];
+                            $scope.input257 =  parseFloat(formTextArray[256]);
                             $scope.input258 = formTextArray[257];
                             $scope.input259 = formTextArray[258];
                             $scope.input260 = formTextArray[259];
@@ -2097,12 +2120,6 @@
                         }
 
 
-                        $scope.postTeam = () => {
-                            $http.post('/teams', $scope.team).then((result) => {
-                                console.log(result.data);
-                                alert("Equipo creado");
-                            })
-                        }
                         $scope.postForm = () => {
                             let texto = $scope.input1 + ";" + $scope.input2 + ";" + $scope.input3 + ";" + $scope.input4 + ";" + $scope.input5 + ";" + $scope.input6 + ";" + $scope.input7 + ";" + $scope.input8 + ";" + $scope.input9 + ";" + $scope.input10 + ";" + $scope.input11 + ";" + $scope.input12 + ";" + $scope.input13 + ";" + $scope.input14 + ";" + $scope.input15 + ";" + $scope.input16 + ";" + $scope.input17 + ";" + $scope.input18 + ";" + $scope.input19 + ";" + $scope.input20 + ";" + $scope.input21 + ";" + $scope.input22 + ";" + $scope.input23 + ";" + $scope.input24 + ";" + $scope.input25 + ";" + $scope.input26 + ";" + $scope.input27 + ";" + $scope.input28 + ";" + $scope.input29 + ";" + $scope.input30 + ";" + $scope.input31 + ";" + $scope.input32 + ";" + $scope.input33 + ";" + $scope.input34 + ";" + $scope.input35 + ";" + $scope.input36 + ";" + $scope.input37 + ";" + $scope.input38 + ";" + $scope.input39 + ";" + $scope.input40 + ";" + $scope.input41 + ";" + $scope.input42 + ";" + $scope.input43 + ";" + $scope.input44 + ";" + $scope.input45 + ";" + $scope.input46 + ";" + $scope.input47 + ";" + $scope.input48 + ";" + $scope.input49 + ";" + $scope.input50 + ";" + $scope.input51 + ";" + $scope.input52 + ";" + $scope.input53 + ";" + $scope.input54 + ";" + $scope.input55 + ";" + $scope.input56 + ";" + $scope.input57 + ";" + $scope.input58 + ";" + $scope.input59 + ";" + $scope.input60 + ";" + $scope.input61 + ";" + $scope.input62 + ";" + $scope.input63 + ";" + $scope.input64 + ";" + $scope.input65 + ";" + $scope.input66 + ";" + $scope.input67 + ";" + $scope.input68 + ";" + $scope.input69 + ";" + $scope.input70 + ";" + $scope.input71 + ";" + $scope.input72 + ";" + $scope.input73 + ";" + $scope.input74 + ";" + $scope.input75 + ";" + $scope.input76 + ";" + $scope.input77 + ";" + $scope.input78 + ";" + $scope.input79 + ";" + $scope.input80 + ";" + $scope.input81 + ";" + $scope.input82 + ";" + $scope.input83 + ";" + $scope.input84 + ";" + $scope.input85 + ";" + $scope.input86 + ";" + $scope.input87 + ";" + $scope.input88 + ";" + $scope.input89 + ";" + $scope.input90 + ";" + $scope.input91 + ";" + $scope.input92 + ";" + $scope.input93 + ";" + $scope.input94 + ";" + $scope.input95 + ";" + $scope.input96 + ";" + $scope.input97 + ";" + $scope.input98 + ";" + $scope.input99 + ";" + $scope.input100 + ";" + $scope.input101 + ";" + $scope.input102 + ";" + $scope.input103 + ";" + $scope.input104 + ";" + $scope.input105 + ";" + $scope.input106 + ";" + $scope.input107 + ";" + $scope.input108 + ";" + $scope.input109 + ";" + $scope.input110 + ";" + $scope.input111 + ";" + $scope.input112 + ";";
                             let texto1 = $scope.input113 + ";" + $scope.input114 + ";" + $scope.input115 + ";" + $scope.input116 + ";" + $scope.input117 + ";" + $scope.input118 + ";" + $scope.input119 + ";" + $scope.input120 + ";" + $scope.input121 + ";" + $scope.input122 + ";" + $scope.input123 + ";" + $scope.input124 + ";" + $scope.input125 + ";" + $scope.input126 + ";" + $scope.input127 + ";" + $scope.input128 + ";" + $scope.input129 + ";" + $scope.input130 + ";" + $scope.input131 + ";" + $scope.input132 + ";" + $scope.input133 + ";" + $scope.input134 + ";" + $scope.input135 + ";" + $scope.input136 + ";" + $scope.input137 + ";" + $scope.input138 + ";" + $scope.input139 + ";" + $scope.input140 + ";" + $scope.input141 + ";" + $scope.input142 + ";" + $scope.input143 + ";" + $scope.input144 + ";" + $scope.input145 + ";" + $scope.input146 + ";" + $scope.input147 + ";" + $scope.input148 + ";" + $scope.input149 + ";" + $scope.input150 + ";" + $scope.input151 + ";" + $scope.input152 + ";" + $scope.input153 + ";" + $scope.input154 + ";" + $scope.input155 + ";" + $scope.input156 + ";" + $scope.input157 + ";" + $scope.input158 + ";" + $scope.input159 + ";" + $scope.input160 + ";" + $scope.input161 + ";" + $scope.input162 + ";" + $scope.input163 + ";" + $scope.input164 + ";" + $scope.input165 + ";" + $scope.input166 + ";" + $scope.input167 + ";" + $scope.input168 + ";" + $scope.input169 + ";" + $scope.input170 + ";" + $scope.input171 + ";" + $scope.input172 + ";" + $scope.input173 + ";" + $scope.input174 + ";" + $scope.input175 + ";" + $scope.input176 + ";" + $scope.input177 + ";" + $scope.input178 + ";" + $scope.input179 + ";" + $scope.input180 + ";" + $scope.input181 + ";" + $scope.input182 + ";" + $scope.input183 + ";" + $scope.input184 + ";" + $scope.input185 + ";" + $scope.input186 + ";" + $scope.input187 + ";";
@@ -2126,6 +2143,7 @@
                                 document.getElementById("delete2").style.display = "block";
                                 $scope.count = 2;
                             }
+
                         }
                         $scope.producto3 = function() {
                             if (document.getElementById("product3").style.display == "block") {
@@ -2142,15 +2160,363 @@
                                 $scope.count = 3;
                             }
                         }
-                        $scope.myFunc = function() {
-                            document.getElementById("input2").value = document.getElementById("input1").value;
-                        };
                         $scope.func1 = function() {
-                            $scope.input62 = (document.getElementById("input61").value / 100) * document.getElementById("input60").value;
+                            if (document.getElementById("input60").value > 20) {
+                                alert("El valor no puede ser mayor a 20");
+                                document.getElementById("input60").value = 20;
+                            }
+                            if (document.getElementById("input61").value > 100) {
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input61").value = 100;
+                            } else {
+                                $scope.input62 = (document.getElementById("input61").value / 100) * document.getElementById("input60").value;
+                            }
                         };
                         $scope.func2 = function() {
-                            $scope.input64 = (document.getElementById("input63").value / 100) * document.getElementById("input62").value;
+                            if (document.getElementById("input63").value > 100) {
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input63").value = 100;
+                            } else {
+                                $scope.input64 = (document.getElementById("input63").value / 100) * document.getElementById("input62").value;
+                            }
                         };
+                        $scope.func3p1 = function() {
+                            if (document.getElementById("input76").value > 100) {
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input76").value = 100;
+                            }
+                            if (document.getElementById("input79").value > 100) {
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input79").value = 100;
+                            }
+                            if (document.getElementById("input82").value > 100) {
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input82").value = 100;
+                            }
+                            if (document.getElementById("input85").value > 100) {
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input85").value = 100;
+                            }
+                            if (document.getElementById("input88").value > 100) {
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input88").value = 100;
+                            }
+                            if (document.getElementById("input91").value > 100) {
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input91").value = 100;
+                            }
+                            if (document.getElementById("input94").value > 100) {
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input94").value = 100;
+                            }
+                            if (document.getElementById("input97").value > 100) {
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input97").value = 100;
+                            }
+                            if (document.getElementById("input100").value > 100) {
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input100").value = 100;
+                            }
+                            if (document.getElementById("input103").value > 100) {
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input103").value = 100;
+                            }
+                            if (document.getElementById("input106").value > 100) {
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input106").value = 100;
+                            }
+                            if (document.getElementById("input109").value > 100) {
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input109").value = 100;
+                            }
+                        }
+                        $scope.check1p1 = function() {
+                            if (document.getElementById("input40").checked == true) {
+                                document.getElementById("b2cp1").style.display = "block";
+                                $scope.input40 = true;
+                            } else {
+                                document.getElementById("b2cp1").style.display = "none";
+                                $scope.input40 = false;
+                            }
+                            if (document.getElementById("input41").checked == true) {
+                                document.getElementById("b2bp1").style.display = "block";
+                                $scope.input41 = true;
+                            } else {
+                                document.getElementById("b2bp1").style.display = "none";
+                                $scope.input41 = false;
+                            }
+                            if (document.getElementById("input42").checked == true) {
+                                $scope.input42 = true;
+                            } else {
+                                $scope.input42 = false;
+                            }
+                        };
+                        $scope.checkboxesp1 = function() {
+                            if ($scope.input40 == "true") {
+                                document.getElementById("input40").checked = true;
+                            }
+                            if ($scope.input41 == "true") {
+                                document.getElementById("input41").checked = true;
+                            }
+                            if ($scope.input42 == "true") {
+                                document.getElementById("input42").checked = true;
+                            }
+                            $scope.check1p1();
+                        };
+                        $scope.func1p2 = function() {
+                            if (document.getElementById("input135").value > 20) {
+                                alert("El valor no puede ser mayor a 20");
+                                document.getElementById("input135").value = 20;
+                            }
+                            if (document.getElementById("input135").value > 100) {
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input136").value = 100;
+                            } else {
+                                $scope.input137 = (document.getElementById("input136").value / 100) * document.getElementById("input135").value;
+                            }
+                        };
+                        $scope.func2p2 = function() {
+                            if (document.getElementById("input138").value > 100) {
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input138").value = 100;
+                            } else {
+                                $scope.input139 = (document.getElementById("input138").value / 100) * document.getElementById("input137").value;
+                            }
+                        };
+                        $scope.func3p2 = function() {
+                            if (document.getElementById("input151").value > 100) {
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input151").value = 100;
+                            } else {
+                                $scope.input141 = (document.getElementById("input151").value / 100) * document.getElementById("input139").value;
+                            }
+                            if (document.getElementById("input154").value > 100) {
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input154").value = 100;
+                            } else {
+                                $scope.input142 = (document.getElementById("input154").value / 100) * document.getElementById("input139").value;
+                            }
+                            if (document.getElementById("input157").value > 100) {
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input157").value = 100;
+                            } else {
+                                $scope.input143 = (document.getElementById("input157").value / 100) * document.getElementById("input139").value;
+                            }
+                            if (document.getElementById("input160").value > 100) {
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input160").value = 100;
+                            } else {
+                                $scope.input144 = (document.getElementById("input160").value / 100) * document.getElementById("input139").value;
+                            }
+                            if (document.getElementById("input163").value > 100) {
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input163").value = 100;
+                            } else {
+                                $scope.input145 = (document.getElementById("input163").value / 100) * document.getElementById("input139").value;
+                            }
+                            if (document.getElementById("input166").value > 100) {
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input166").value = 100;
+                            } else {
+                                $scope.input146 = (document.getElementById("input166").value / 100) * document.getElementById("input139").value;
+                            }
+                            if (document.getElementById("input169").value > 100) {
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input169").value = 100;
+                            } else {
+                                $scope.input147 = (document.getElementById("input169").value / 100) * document.getElementById("input139").value;
+                            }
+                            if (document.getElementById("input172").value > 100) {
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input172").value = 100;
+                            } else {
+                                $scope.input148 = (document.getElementById("input172").value / 100) * document.getElementById("input139").value;
+                            }
+                            if (document.getElementById("input175").value > 100) {
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input175").value = 100;
+                            } else {
+                                $scope.input149 = (document.getElementById("input175").value / 100) * document.getElementById("input139").value;
+                            }
+                            if (document.getElementById("input178").value > 100) {
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input178").value = 100;
+                            } else {
+                                $scope.input150 = (document.getElementById("input178").value / 100) * document.getElementById("input139").value;
+                            }
+                            if (document.getElementById("input181").value > 100) {
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input181").value = 100;
+                            } else {
+                                $scope.input152 = (document.getElementById("input181").value / 100) * document.getElementById("input139").value;
+                            }
+                            if (document.getElementById("input184").value > 100) {
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input184").value = 100;
+                            } else {
+                                $scope.input153 = (document.getElementById("input184").value / 100) * document.getElementById("input139").value;
+                            }
+                        };
+                        $scope.check1p2 = function() {
+                            if (document.getElementById("input115").checkede == true) {
+                                document.getElementById("b2cp2").style.display = "block";
+                                $scope.input115 = true;
+                            } else {
+                                document.getElementById("b2cp2").style.display = "none";
+                                $scope.input115 = false;
+                            }
+                            if (document.getElementById("input116").checked == true) {
+                                document.getElementById("b2bp2").style.display = "block";
+                                $scope.input116 = true;
+                            } else {
+                                document.getElementById("b2bp2").style.display = "none";
+                                $scope.input116 = false;
+                            }
+                            if (document.getElementById("input117").checked == true) {
+                                $scope.input117 = true;
+                            } else {
+                                $scope.input117 = false;
+                            }
+                        };
+                        $scope.checkboxesp2 = function() {
+                            if ($scope.input115 == "true") {
+                                document.getElementById("input115").checked = true;
+                            }
+                            if ($scope.input116 == "true") {
+                                document.getElementById("input116").checked = true;
+                            }
+                            if ($scope.input117 == "true") {
+                                document.getElementById("input117").checked = true;
+                            }
+                            $scope.check1p2();
+                        };
+                        $scope.check1p3 = function() {
+                            if (document.getElementById("input189").checked == true) {
+                                document.getElementById("b2cp3").style.display = "block";
+                                $scope.input189 = true;
+                            } else {
+                                document.getElementById("b2cp3").style.display = "none";
+                                $scope.input189 = false;
+                            }
+                            if (document.getElementById("input190").checked == true) {
+                                document.getElementById("b2bp3").style.display = "block";
+                                $scope.input190 = true;
+                            } else {
+                                document.getElementById("b2bp3").style.display = "none";
+                                $scope.input190 = false;
+                            }
+                            if (document.getElementById("input191").checked == true) {
+                                $scope.input191 = true;
+                            } else {
+                                $scope.input191 = false;
+                            }
+                        }
+                        $scope.checkboxesp3 = function() {
+                            if ($scope.input189 == "true") {
+                                document.getElementById("input189").checked = true;
+                            }
+                            if ($scope.input190 == "true") {
+                                document.getElementById("input190").checked = true;
+                            }
+                            if ($scope.input191 == "true") {
+                                document.getElementById("input191").checked = true;
+                            }
+                            $scope.check1p3();
+                        }
+                        $scope.func1p3 = function(){
+                            if (document.getElementById("input208").value > 20){
+                                alert("El valor no puede ser mayor a 20");
+                                document.getElementById("input208").value = 20;
+                            } 
+                            if (document.getElementById("input209").value > 100){
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input209").value = 100;
+                            } else {
+                                $scope.input210 = (document.getElementById("input209").value / 100) * document.getElementById("input208").value;
+                            }
+                        }
+                        $scope.func2p3 = function(){
+                            if(document.getElementById("input211").value > 100){
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input211").value = 100;
+                            } else {
+                                $scope.input212 = (document.getElementById("input211").value / 100) * document.getElementById("input210").value;
+                            }
+                        }
+                        $scope.func3p3 = function(){
+                            if(document.getElementById("input224").value > 100){
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input224").value = 100;
+                            } else {
+                                $scope.input225 = (document.getElementById("input224").value / 100) * document.getElementById("input223").value;
+                            }
+                            if (document.getElementById("input227").value > 100){
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input227").value = 100;
+                            } else {
+                                $scope.input228 = (document.getElementById("input227").value / 100) * document.getElementById("input223").value;
+                            }
+                            if (document.getElementById("input230").value > 100){
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input230").value = 100;
+                            } else {
+                                $scope.input231 = (document.getElementById("input230").value / 100) * document.getElementById("input223").value;
+                            }
+                            if (document.getElementById("input233").value > 100){
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input233").value = 100;
+                            } else {
+                                $scope.input234 = (document.getElementById("input233").value / 100) * document.getElementById("input223").value;
+                            }
+                            if (document.getElementById("input236").value > 100){
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input236").value = 100;
+                            } else {
+                                $scope.input237 = (document.getElementById("input236").value / 100) * document.getElementById("input223").value;
+                            }
+                            if (document.getElementById("input239").value > 100){
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input239").value = 100;
+                            } else {
+                                $scope.input240 = (document.getElementById("input239").value / 100) * document.getElementById("input223").value;
+                            }
+                            if (document.getElementById("input242").value > 100){
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input242").value = 100;
+                            } else {
+                                $scope.input243 = (document.getElementById("input242").value / 100) * document.getElementById("input223").value;
+                            }
+                            if (document.getElementById("input245").value > 100){
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input245").value = 100;
+                            } else {
+                                $scope.input246 = (document.getElementById("input245").value / 100) * document.getElementById("input223").value;
+                            }
+                            if (document.getElementById("input248").value > 100){
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input248").value = 100;
+                            } else {
+                                $scope.input249 = (document.getElementById("input248").value / 100) * document.getElementById("input223").value;
+                            }
+                            if (document.getElementById("input251").value > 100){
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input251").value = 100;
+                            } else {
+                                $scope.input252 = (document.getElementById("input251").value / 100) * document.getElementById("input223").value;
+                            }
+                            if (document.getElementById("input254").value > 100){
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input254").value = 100;
+                            } else {
+                                $scope.input255 = (document.getElementById("input254").value / 100) * document.getElementById("input223").value;
+                            }
+                            if (document.getElementById("input257").value > 100){
+                                alert("El valor no puede ser mayor a 100");
+                                document.getElementById("input257").value = 100;
+                            } else {
+                                $scope.input258 = (document.getElementById("input257").value / 100) * document.getElementById("input223").value;
+                            }
+                        }
                     });
                 </script>
             </div>

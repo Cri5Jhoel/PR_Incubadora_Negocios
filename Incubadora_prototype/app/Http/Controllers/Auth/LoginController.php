@@ -7,6 +7,7 @@ use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Support\Facades\Auth;
 use App\Models\User;
+use App\Models\Form;
 
 
 class LoginController extends Controller
@@ -51,6 +52,7 @@ class LoginController extends Controller
     }
 
     public function getUserTeamId($id) {
-        return User::where('id', $id)->first();
+        $form = Form::where('teamId', $id)->where('formName', 'form1')->first();
+        return $form;
     }
 }

@@ -89,15 +89,17 @@
         $scope.product3 = "";
         $scope.count = "";
         $scope.form4 = "";
+        $scope.cac1 = "";
+        $scope.cac2 = "";
+        $scope.cac3 = "";
         angular.element(document).ready(() => {
             let userRole = "{{ Auth::user()->userType }}";
-            let teamId = "";
+            let teamId = "{{ Auth::user()->id }}";
             if (userRole == "teacher") {
                 teamId = getId();
             } else if (userRole == "student") {
-                teamId = "{{ Auth::user()->teamId }}";
-                //teamId = getId();
-                //alert(teamId);
+                teamId = "{{ Auth::user()->id }}";
+                alert(teamId);
             }
             $http.get(`/forms5/${teamId}`).then((result) => {
                 $scope.forms = result.data;
@@ -107,7 +109,19 @@
                 $scope.forms1 = result.data;
                 $scope.parseArrayValues1();
             })
+            $http.get(`/forms4/${teamId}`).then((result) => {
+                $scope.form4 = result.data;
+                $scope.parseArrayValues4();
+            })
         });
+        $scope.parseArrayValues4 = () => {
+            let formText = $scope.form4.formText;
+            let formTextArray = formText.split(';');
+            $scope.cac1 = formTextArray[97];
+            $scope.cac2 = formTextArray[196];
+            $scope.cac3 = formTextArray[295];
+
+        };
         $scope.parseArrayValues1 = () => {
             let formText1 = $scope.forms1.formText;
             let formTextArray1 = formText1.split(";");
@@ -149,7 +163,7 @@
             $scope.input12 = formTextArray[11];
             $scope.input13 = formTextArray[12];
             $scope.input14 = formTextArray[13];
-            $scope.input15 = formTextArray[14];
+            $scope.input15 = parseFloat(formTextArray[14]);
             $scope.input16 = formTextArray[15];
             $scope.input17 = formTextArray[16];
             $scope.input18 = formTextArray[17];
@@ -175,7 +189,7 @@
             $scope.input12p2 = formTextArray[35];
             $scope.input13p2 = formTextArray[36];
             $scope.input14p2 = formTextArray[37];
-            $scope.input15p2 = formTextArray[38];
+            $scope.input15p2 = parseFloat(formTextArray[38]);
             $scope.input16p2 = formTextArray[39];
             $scope.input17p2 = formTextArray[40];
             $scope.input18p2 = formTextArray[41];
@@ -201,7 +215,7 @@
             $scope.input12p3 = formTextArray[59];
             $scope.input13p3 = formTextArray[60];
             $scope.input14p3 = formTextArray[61];
-            $scope.input15p3 = formTextArray[62];
+            $scope.input15p3 = parseFloat(formTextArray[62]);
             $scope.input16p3 = formTextArray[63];
             $scope.input17p3 = formTextArray[64];
             $scope.input18p3 = formTextArray[65];
@@ -212,14 +226,6 @@
             $scope.input23p3 = formTextArray[70];
             $scope.input24p3 = formTextArray[71];
 
-        }
-
-
-        $scope.postTeam = () => {
-            $http.post('/teams', $scope.team).then((result) => {
-                console.log(result.data);
-                alert("Equipo creado");
-            })
         }
         $scope.postForm = () => {
             $scope.checkRadios();
@@ -272,8 +278,15 @@
         }
         $scope.func1 = function() {
             $scope.input19 = document.getElementById("input18").value * document.getElementById("input17").value * document.getElementById("input16").value;
-            $scope.input24 = document.getElementById("input19").value / $scope.form4;
-
+            $scope.input24 = document.getElementById("input19").value / $scope.cac1;
+        }
+        $scope.func2 = function() {
+            $scope.input19p2 = document.getElementById("input18p2").value * document.getElementById("input17p2").value * document.getElementById("input16p2").value;
+            $scope.input24p2 = document.getElementById("input19p2").value / $scope.cac2;
+        }
+        $scope.func3 = function() {
+            $scope.input19p3 = document.getElementById("input18p3").value * document.getElementById("input17p3").value * document.getElementById("input16p3").value;
+            $scope.input24p3 = document.getElementById("input19p3").value / $scope.cac3;
         }
     });
 </script>
@@ -390,7 +403,7 @@
                         <div>
                             <div class="mb-3">
                                 <h4 for="" class="text-left">Realiza una encuesta para saber si tus clientes, están dispuestos a pagar por tu producto . Utiliza como referencia el PDF base para la encuesta, el mismo debes solicitarlo a tu mentor</h4>
-                                <input type="text" class="form-control" name="" ng-model="input15" id="input15" aria-describedby="helpId" placeholder="">
+                                <input type="number" min="1" step="0.1" class="form-control" name="" ng-model="input15" id="input15" aria-describedby="helpId" placeholder="">
                             </div>
                         </div>
 
@@ -542,7 +555,7 @@
                             <div>
                                 <div class="mb-3">
                                     <h4 for="" class="text-left">Realiza una encuesta para saber si tus clientes, están dispuestos a pagar por tu producto . Utiliza como referencia el PDF base para la encuesta, el mismo debes solicitarlo a tu mentor</h4>
-                                    <input type="text" class="form-control" name="" ng-model="input15p2" id="input15p2" aria-describedby="helpId" placeholder="">
+                                    <input type="number" min="1" step="0.1" class="form-control" name="" ng-model="input15p2" id="input15p2" aria-describedby="helpId" placeholder="">
                                 </div>
                             </div>
 
@@ -695,7 +708,7 @@
                             <div>
                                 <div class="mb-3">
                                     <h4 for="" class="text-left">Realiza una encuesta para saber si tus clientes, están dispuestos a pagar por tu producto . Utiliza como referencia el PDF base para la encuesta, el mismo debes solicitarlo a tu mentor</h4>
-                                    <input type="text" class="form-control" name="" ng-model="input15p3" id="input15p3" aria-describedby="helpId" placeholder="">
+                                    <input type="number" min="1" step="0.1" class="form-control" name="" ng-model="input15p3" id="input15p3" aria-describedby="helpId" placeholder="">
                                 </div>
                             </div>
 
