@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Dashboard</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/all.css">
+		<link rel="stylesheet" href="css/style.css">
+
+  </head>
+	<body>
+		<div class="app-header">
+		</div>
+
+		<div class="wrapper d-flex align-items-stretch">
+			<nav id="sidebar">
+				<div class="custom-menu">
+					<button type="button" id="sidebarCollapse" class="btn btn-primary">
+					<i class="fa fa-bars"></i>
+					<span class="sr-only">Menu</span>
+					</button>
+				</div>
+				<div class="app-tool">
+					<img class="img-profile rounded-circle" src="img/logo.png">
+					<h5>Equimet-dom</h5>		
+				</div>
+				<div class="p-4">
+					<div id="app-avatar">
+						<a class="app-avatar-logo" href="#" id="userDropdown" role="button">
+							<img class="img-profile rounded-circle" src="img/2.png">
+						</a>
+						<h1 class="app-avatar-nombre">Administrador</h1>
+						<h5 class="app-avatar-nombre">Carlos Conde Guty</h5>		
+					</div>
+					<ul class="list-unstyled components mb-5">
+						<li>
+							<a href="#"><span class="fa fa-home mr-3"></span> Home</a>
+						</li>
+						<li>
+							<a href="#"><span class="fa fa-plus mr-3"></span> Propuesta de valor</a>
+						</li>
+						<li>
+							<a href="#"><span class="fa fa-plus mr-3"></span> Mapa de competidores</a>
+						</li>
+						<li>
+							<a href="#"><span class="fa fa-plus mr-3"></span> Analisis Entorno</a>
+						</li>
+						<li>
+							<a href="index.html"><span class="fa fa-network-wired mr-3"></span> Modelo de Negocios</a>
+						</li>
+						<li class="active">
+							<a href="viavilidad.html"><span class="fa fa-crop mr-3"></span> Viabilidad</a>
+						</li>
+						<li>
+							<a href="#"><span class="fa fa-plus mr-3"></span> Plan de Impacto</a>
+						</li>
+					</ul>
+
+					<div class="mb-5">
+						<button class="btn btn-danger btn-danger text-white float-right"><span class="fa fa-closed-captioning mr-3"></span> Cerrar Sesion</button>
+					</div>
+
+					<div class="footer">
+						<!-- <p class="text-white"> - 2022 - </p> -->
+					</div>
+
+				</div>
+			</nav>
+
+        
+			<div id="content" class="p-4 p-md-5 pt-5">
+				
+				<form action="#" class="form">
+					<h1 class="text-center">Modelo de Negocio y Marketing</h1>
+					<h5 class="text-center app-subtitle">Responde a las siguientes preguntas</h5>
+
+					<div class="app-progressbar">
+			
+						<div class="progressbar">
+							<div class="progress" id="progress"></div>
+							
+							<div class="progress-step progress-step-active"></div>
+							<div class="progress-step progress-step-active"></div>
+							<div class="progress-step"></div>
+							<div class="progress-step"></div>
+							<div class="progress-step"></div>
+							<div class="progress-step"></div>
+						</div>
+				
+						<!-- Steps -->
+						<div class="form-step form-step-active">
+							<h6 class="text-left">Estrategias de precio de lanzamiento al mercado</h6>
+							<div class="form-control">
+								<label class="form-label text-left" for="username">Estas cuatro estrategias se clasifican en función de su precio inicial (lanzamiento al mercado) y el precio en el futuro. ¿Cuáles te parecen interesantes para tu negocio?</label>
+							</div>
+							<div class="input-group">
+								<label for="username" class="text-left" style="background: #971c2e;padding: 30px;color: white;margin-bottom: 15px;">Alto</label>
+								<div class="row" style="margin-left: 1px;">
+									<checkbox  class="form-group col-lg-6 col-md-6 col-sm-6 col-6" style="padding: 21px 10px 0px 10px;border: 1px dashed black;">
+										<div  class="checkbox-container">
+											<input  class="app-antepnp" name="Alto" value="1" type="radio" id="Alto1">
+											<label  class="hasLabel" for="Alto1">Estrategia Descremado</label>
+										</div>
+									</checkbox>
+									<checkbox  class="form-group col-lg-6 col-md-6 col-sm-6 col-6"  style="padding: 21px 10px 0px 10px;border: 1px dashed black;">
+										<div  class="checkbox-container">
+											<input  class="app-antepnp" name="Alto" value="1" type="radio" id="Alto2">
+											<label  class="hasLabel" for="Alto2">Estrategia Premium</label>
+										</div>
+									</checkbox>
+								</div>
+							</div>
+							<div class="input-group">
+								<label for="username" class="text-left" style="background: #971c2e;padding: 30px;color: white;margin-bottom: 15px;">Bajo</label>
+								<div class="row">
+									<checkbox  class="form-group col-lg-6 col-md-6 col-sm-6 col-6" style="border: 1px dashed black;padding: 21px 10px 0px 10px;">
+										<div  class="checkbox-container">
+											<input  class="app-antepnp" name="Bajo" value="1" type="radio" id="Bajo1">
+											<label  class="hasLabel" for="Bajo1">Estrategia Descremado</label>
+										</div>
+									</checkbox>
+									<checkbox  class="form-group col-lg-6 col-md-6 col-sm-6 col-6"  style="padding: 21px 10px 0px 10px;border: 1px dashed black;">
+										<div  class="checkbox-container">
+											<input  class="app-antepnp" name="Bajo" value="1" type="radio" id="Bajo2">
+											<label  class="hasLabel" for="Bajo2">Estrategia Premium</label>
+										</div>
+									</checkbox>
+								</div>
+							</div>
+							<br>
+							<h6 class="text-left">Otras estrategias de precio</h6>
+							<br>
+							<div class="row">
+								<checkbox  class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="mdnegocio" value="1" type="checkbox" id="mdnegocio1">
+										<label  class="hasLabel" for="mdnegocio1">Precios Psicológicos</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="mdnegocio2" value="1" type="checkbox" id="mdnegocio2">
+										<label  class="hasLabel" for="mdnegocio2">Estrategia de mercado</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="mdnegocio3" value="1" type="checkbox" id="mdnegocio3">
+										<label  class="hasLabel" for="mdnegocio3">Estrategia de líneas de productos</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="mdnegocio4" value="1" type="checkbox" id="mdnegocio4">
+										<label  class="hasLabel" for="mdnegocio4">Estrategia de agrupación</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="mdnegocio5" value="1" type="checkbox" id="mdnegocio5">
+										<label  class="hasLabel" for="mdnegocio5">Estrategia de competición</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="mdnegocio6" value="1" type="checkbox" id="mdnegocio6">
+										<label  class="hasLabel" for="mdnegocio6">Estrategia de impresora y tinta</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="mdnegocio7" value="1" type="checkbox" id="mdnegocio7">
+										<label  class="hasLabel" for="mdnegocio7">Estrategia de productos opcionales</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="mdnegocio8" value="1" type="checkbox" id="mdnegocio8">
+										<label  class="hasLabel" for="mdnegocio8">Precios marcados por el cliente</label>
+									</div>
+								</checkbox>
+							</div>
+							<br>
+							<h6 class="text-left">Crea y define la mejor estrategia de precios para cada segmento de mercado seleccionando las estrategias seleccionadas, puedes crear una personalizada</h6>
+							<p class="form-label text-left" >Una de las estrategias principales que utilizaremos sera la premium combinada con la de penetracion esto debido a que usaremos el tema del empaque para economizar el producto de tal forma que sea super accsesible y mantenga la calidad en si de los chips , aca es donde implementamos la premium con mayor contenido de producto,mejor calidad de envase y mejor cuidado del empaque algo perfectamente llamativo ya que ofrecemos 2 opciones como lo economico y lo exclusivo .</p>
+							<p class="text-left">La estrategia premium estara enfocada a nuestro segmento fitness ya que ellos estarian dispuestos a pagar por algo que contenga mas calidad y con un empaque exclusivo, en cuanto al segmento de padres de familia y personas con tendencia a comer saludable, seria el empaque de bolsa y con una estrategia de penetracion ya que este segmento no esta dispuesto a pagar algo premium pero si esta acostumbrado a pagar por un producto normal como unos chips en bolsa.</p>
+							
+							<br>
+							<h6 class="text-left">Disposición a pagar</h6>
+							<div class="form-control">
+								<label class="form-label text-left" for="username">Realiza una encuesta para saber si tus clientes, están dispuestos a pagar por tu producto . Utiliza como referencia el PDF base para la encuesta, el mismo debes solicitarlo a tu mentor</label>
+							</div>
+							<div class="form-group">
+								<label class="form-label text-left" for="">Analiza todos los datos de precios que has recopilado hasta ahora y elige un precio inicial</ñ>
+								<input type="text" name="username" id="username">
+							</div>
+							<br>
+							<h6 class="text-left">Lifetime Value Retention</h6>
+							<div class="form-control">
+								<label class="form-label text-left" for="username">Valor de vida útil (conocido como LTV) es una estimación del promedio de ingresos que un cliente generará a lo largo de su vida útil como cliente. En términos comunes: En promedio, ¿cuánto dinero gastará un cliente en tu producto o servicio a lo largo del tiempo?</label>
+							</div>
+							<p class="text-left" for="">Ingresa los siguientes datos, para calcular el LTV</p>
+							<div class="row">
+								<div class="form-group col-lg-3 col-md-4 col-sm-6 col-6">
+									<div class="form-group">
+										<label class="form-label text-left" for="">Frecuencia</label>
+										<input type="text" name="username" id="username">
+									</div>
+								</div>
+								<div class="form-group col-lg-3 col-md-4 col-sm-6 col-6">
+									<div class="form-control">
+										<label class="form-label text-left" for="username">Duración</label>
+										<input type="text" name="username" id="username">
+									</div>
+								</div>
+								<div class="form-group col-lg-3 col-md-4 col-sm-6 col-6">
+									<div class="form-group"> 
+										<label class="form-label text-left" for="">Valor del pedido</ñ>
+										<input type="text" name="username" id="username">
+									</div>
+								</div>
+								<div class="form-group col-lg-3 col-md-4 col-sm-6 col-6">
+									<div class="form-group"> 
+										<label class="form-label text-left" for="">LTV</ñ>
+										<input type="text" name="username" id="username">
+									</div>
+								</div>
+							</div>
+							<p class="text-left" for="">Menciona las actividades de retención, para mantener a tus clientes </p>
+							<div class="row">
+								<div class="form-group col-lg-6 col-md-6 col-sm-6 col-6">
+									<div class="form-group">
+										<label class="form-label text-left" for="">Entrega inmediata</label>
+										<input type="text" name="username" id="username">
+									</div>
+								</div>
+								<div class="form-group col-lg-6 col-md-6 col-sm-6 col-6">
+									<div class="form-control">
+										<label class="form-label text-left" for="username">Descuentos en nuestra linea de productos</label>
+										<input type="text" name="username" id="username">
+									</div>
+								</div>
+							</div>
+							<br>
+							<h6 class="text-left">Relación LTV y CAC</h6>
+							<p class="text-left">Ahora analizaremos la relación LTV/CAC</p>
+							<div class="input-group">
+								<label for="username" class="text-left">Relación LTV/CAC</label>
+								<input type="text" name="username" id="username">
+							</div>
+							<p  class="text-left">¿Cómo se compara la cantidad que ganas de un cliente (LTV) con lo que gastas para conseguir ese cliente (CAC)? Una proporción saludable es de 3:1 o mejor, lo que significa que un cliente te aporta 3 veces más dinero del que tu gasta para conseguirlo.</p>
+							<p  class="text-left">Parámetros</p>
+							<ul class="text-left">
+								<li>Menos de 3:Deberías aumentar tu LTV o disminuir el CAC para mejorar tu proporción</li>
+								<li>3 a 5:Estás en una buena posición</li>
+								<li>5 o más:¡Cuidado! Si tu proporción es demasiado alta, significa que probablemente podrías gastar más en marketing para aumentar el número de clientes.</li>
+							</ul>
+							<br>
+							<div class="btns-group" style="    display: flex;justify-content: space-around;flex-wrap: wrap;">
+								<a href="index.html" class="btn btn-danger btn-prev">Atras</a>
+								<input type="submit" value="Submit" class="btn btn-danger" />
+							</div>
+						</div>
+
+					</div>
+			
+				</form>
+
+			</div>
+		</div>
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/script.js"></script>
+
+	</body>
+</html>

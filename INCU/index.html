@@ -1,0 +1,728 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Dashboard</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/all.css">
+		<link rel="stylesheet" href="css/style.css">
+
+  </head>
+	<body>
+		<div class="app-header">
+		</div>
+
+		<div class="wrapper d-flex align-items-stretch">
+			<nav id="sidebar">
+				<div class="custom-menu">
+					<button type="button" id="sidebarCollapse" class="btn btn-primary">
+					<i class="fa fa-bars"></i>
+					<span class="sr-only">Menu</span>
+					</button>
+				</div>
+				<div class="app-tool">
+					<img class="img-profile rounded-circle" src="img/logo.png">
+					<h5>Equimet-dom</h5>		
+				</div>
+				<div class="p-4">
+					<div id="app-avatar">
+						<a class="app-avatar-logo" href="#" id="userDropdown" role="button">
+							<img class="img-profile rounded-circle" src="img/2.png">
+						</a>
+						<h1 class="app-avatar-nombre">Administrador</h1>
+						<h5 class="app-avatar-nombre">Carlos Conde Guty</h5>		
+					</div>
+					<ul class="list-unstyled components mb-5">
+						<li>
+							<a href="#"><span class="fa fa-home mr-3"></span> Home</a>
+						</li>
+						<li>
+							<a href="#"><span class="fa fa-plus mr-3"></span> Propuesta de valor</a>
+						</li>
+						<li>
+							<a href="#"><span class="fa fa-plus mr-3"></span> Mapa de competidores</a>
+						</li>
+						<li>
+							<a href="#"><span class="fa fa-plus mr-3"></span> Analisis Entorno</a>
+						</li>
+						<li class="active">
+							<a href="index.html"><span class="fa fa-network-wired mr-3"></span> Modelo de Negocios</a>
+						</li>
+						<li>
+							<a href="viavilidad.html"><span class="fa fa-crop mr-3"></span> Viabilidad</a>
+						</li>
+						<li>
+							<a href="#"><span class="fa fa-plus mr-3"></span> Plan de Impacto</a>
+						</li>
+					</ul>
+
+					<div class="mb-5">
+						<button class="btn btn-danger btn-danger text-white float-right"><span class="fa fa-closed-captioning mr-3"></span> Cerrar Sesion</button>
+					</div>
+
+					<div class="footer">
+						<!-- <p class="text-white"> - 2022 - </p> -->
+					</div>
+
+				</div>
+			</nav>
+
+        
+			<div id="content" class="p-4 p-md-5 pt-5">
+				
+				<form action="#" class="form">
+					<h1 class="text-center">Modelo de Negocio y Marketing</h1>
+					<h5 class="text-center app-subtitle">Responde a las siguientes preguntas evaluando en qué punto de la escala se encuentra cada segmento de cliente</h5>
+
+					<div class="app-progressbar">
+			
+						<div class="progressbar">
+							<div class="progress" id="progress"></div>
+							
+							<div class="progress-step progress-step-active"></div>
+							<div class="progress-step"></div>
+							<div class="progress-step"></div>
+							<div class="progress-step"></div>
+							<div class="progress-step"></div>
+							<div class="progress-step"></div>
+						</div>
+				
+						<!-- Steps -->
+						<div class="form-step form-step-active">
+							<h6 class="text-left">¿Este segmento de mercado paga por nuestro producto o servicio?</h6>
+							<div class="form-control">
+								<label class="form-label text-left" for="username">1.- Padres de familia</label>
+							</div>
+
+							<div class="row">
+								<checkbox  class="form-group col-lg-2 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="padre" value="1" type="radio" id="padre1">
+										<label  class="hasLabel" for="padre1">No</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-2 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="padre" value="1" type="radio" id="padre2">
+										<label  class="hasLabel" for="padre2">No mucho</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-2 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="padre" value="1" type="radio" id="padre3">
+										<label  class="hasLabel" for="padre3">N/S</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-2 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="padre" value="1" type="radio" id="padre4">
+										<label  class="hasLabel" for="padre4">Probablemente</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-2 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="padre" value="1" type="radio" id="padre5">
+										<label  class="hasLabel" for="padre5">Si</label>
+									</div>
+								</checkbox>
+							</div>
+							<br>
+							<div class="form-control">
+								<label class="form-label text-left" for="username">2.- Personas fitness</label>
+							</div>
+
+							<div class="row">
+								<checkbox  class="form-group col-lg-2 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="perfin" value="1" type="radio" id="perfin1">
+										<label  class="hasLabel" for="perfin1">No</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-2 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="perfin" value="1" type="radio" id="perfin2">
+										<label  class="hasLabel" for="perfin2">No mucho</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-2 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="perfin" value="1" type="radio" id="perfin3">
+										<label  class="hasLabel" for="perfin3">N/S</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-2 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="perfin" value="1" type="radio" id="perfin4">
+										<label  class="hasLabel" for="perfin4">Probablemente</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-2 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="perfin" value="1" type="radio" id="perfin5">
+										<label  class="hasLabel" for="perfin5">Si</label>
+									</div>
+								</checkbox>
+							</div>
+							<br>
+							<div class="form-control">
+								<label class="form-label text-left" for="username">3.- Persona con tendencia a saludable</label>
+							</div>
+							<div class="row">
+								<checkbox  class="form-group col-lg-2 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="pertsal" value="1" type="radio" id="pertsal1">
+										<label  class="hasLabel" for="pertsal1">No</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-2 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="pertsal" value="1" type="radio" id="pertsal2">
+										<label  class="hasLabel" for="pertsal2">No mucho</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-2 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="pertsal" value="1" type="radio" id="pertsal3">
+										<label  class="hasLabel" for="pertsal3">N/S</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-2 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="pertsal" value="1" type="radio" id="pertsal4">
+										<label  class="hasLabel" for="pertsal4">Probablemente</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-2 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="pertsal" value="1" type="radio" id="pertsal5">
+										<label  class="hasLabel" for="pertsal5">Si</label>
+									</div>
+								</checkbox>
+							</div>
+							<br>
+							<h6 class="text-left">¿Con qué frecuencia paga este segmento?</h6>
+							<div class="form-control">
+								<label class="form-label text-left" for="username">1.- Padres de familia</label>
+							</div>
+							<div class="row">
+								<checkbox  class="form-group col-lg-2 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="padre-1" value="1" type="radio" id="padre11">
+										<label  class="hasLabel" for="padre11">Nunca</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-2 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="padre-1" value="1" type="radio" id="padre22">
+										<label  class="hasLabel" for="padre22">Una vez</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-2 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="padre-1" value="1" type="radio" id="padre33">
+										<label  class="hasLabel" for="padre33">Cada año</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-2 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="padre-1" value="1" type="radio" id="padre44">
+										<label  class="hasLabel" for="padre44">Cada mes</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-2 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="padre-1" value="1" type="radio" id="padre55">
+										<label  class="hasLabel" for="padre55">A la semana</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-2 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="padre-1" value="1" type="radio" id="padre66">
+										<label  class="hasLabel" for="padre66">Diario</label>
+									</div>
+								</checkbox>
+							</div>
+							<br>
+							<div class="form-control">
+								<label class="form-label text-left" for="username">2.- Personas fitness</label>
+							</div>
+							<div class="row">
+								<checkbox  class="form-group col-lg-2 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="perfis-1" value="1" type="radio" id="perfis11">
+										<label  class="hasLabel" for="perfis11">Nunca</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-2 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="perfis-1" value="1" type="radio" id="perfis22">
+										<label  class="hasLabel" for="perfis22">Una vez</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-2 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="perfis-1" value="1" type="radio" id="perfis33">
+										<label  class="hasLabel" for="perfis33">Cada año</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-2 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="perfis-1" value="1" type="radio" id="perfis44">
+										<label  class="hasLabel" for="perfis44">Cada mes</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-2 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="perfis-1" value="1" type="radio" id="perfis55">
+										<label  class="hasLabel" for="perfis55">A la semana</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-2 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="perfis-1" value="1" type="radio" id="perfis66">
+										<label  class="hasLabel" for="perfis66">Diario</label>
+									</div>
+								</checkbox>
+							</div>
+							<br>
+							<div class="form-control">
+								<label class="form-label text-left" for="username">3.- Persona con tendencia a saludable</label>
+							</div>
+							<div class="row">
+								<checkbox  class="form-group col-lg-2 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="pertdal-1" value="1" type="radio" id="pertdal11">
+										<label  class="hasLabel" for="pertdal11">Nunca</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-2 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="pertdal-1" value="1" type="radio" id="pertdal22">
+										<label  class="hasLabel" for="pertdal22">Una vez</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-2 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="pertdal-1" value="1" type="radio" id="pertdal33">
+										<label  class="hasLabel" for="pertdal33">Cada año</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-2 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="pertdal-1" value="1" type="radio" id="pertdal44">
+										<label  class="hasLabel" for="pertdal44">Cada mes</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-2 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="pertdal-1" value="1" type="radio" id="pertdal55">
+										<label  class="hasLabel" for="pertdal55">A la semana</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-2 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="pertdal-1" value="1" type="radio" id="pertdal66">
+										<label  class="hasLabel" for="pertdal66">Diario</label>
+									</div>
+								</checkbox>
+							</div>
+							<br>
+							<h6 class="text-left">¿Vendes directamente a este segmento de mercado?</h6>
+							<div class="form-control">
+								<label class="form-label text-left" for="username">1.- Padres de familia</label>
+							</div>
+							<div class="row">
+								<checkbox  class="form-group col-lg-3 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="padre-11" value="1" type="radio" id="padre111">
+										<label  class="hasLabel" for="padre111">Varios intermediarios</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-3 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="padre-11" value="1" type="radio" id="padre222">
+										<label  class="hasLabel" for="padre222">Dos intermediarios</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-3 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="padre-11" value="1" type="radio" id="padre333">
+										<label  class="hasLabel" for="padre333">un intermediario</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-3 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="padre-11" value="1" type="radio" id="padre444">
+										<label  class="hasLabel" for="padre444">un intermediario</label>
+									</div>
+								</checkbox>
+							</div>
+							<br>
+							<div class="form-control">
+								<label class="form-label text-left" for="username">2.- Personas fitness</label>
+							</div>
+
+							<div class="row">
+								<checkbox  class="form-group col-lg-3 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="perfis-111" value="1" type="radio" id="perfis111">
+										<label  class="hasLabel" for="perfis111">Varios intermediarios</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-3 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="perfis-111" value="1" type="radio" id="perfis222">
+										<label  class="hasLabel" for="perfis222">Dos intermediarios</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-3 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="perfis-111" value="1" type="radio" id="perfis333">
+										<label  class="hasLabel" for="perfis333">un intermediario</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-3 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="perfis-111" value="1" type="radio" id="perfis444">
+										<label  class="hasLabel" for="perfis444">un intermediario</label>
+									</div>
+								</checkbox>
+							</div>
+							<br>
+							<div class="form-control">
+								<label class="form-label text-left" for="username">3.- Persona con tendencia a saludable</label>
+							</div>
+
+							<div class="row">
+								<checkbox  class="form-group col-lg-3 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="pertsal-111" value="1" type="radio" id="pertsal111">
+										<label  class="hasLabel" for="pertsal111">Varios intermediarios</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-3 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="pertsal-111" value="1" type="radio" id="pertsal222">
+										<label  class="hasLabel" for="pertsal222">Dos intermediarios</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-3 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="pertsal-111" value="1" type="radio" id="pertsal333">
+										<label  class="hasLabel" for="pertsal333">un intermediario</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-3 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="pertsal-111" value="1" type="radio" id="pertsal444">
+										<label  class="hasLabel" for="pertsal444">un intermediario</label>
+									</div>
+								</checkbox>
+							</div>
+							<br>
+							<h6 class="text-left">Modelo de negocios</h6>
+							<div class="form-control">
+								<label class="form-label text-left" for="username">1. Selecciona todos los modelos de negocio que podrían interesarte para tu empresa.</label>
+							</div>
+
+							<div class="row">
+								<checkbox  class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="mdnegocio" value="1" type="checkbox" id="mdnegocio1">
+										<label  class="hasLabel" for="mdnegocio1">Venta Directa</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="mdnegocio2" value="1" type="checkbox" id="mdnegocio2">
+										<label  class="hasLabel" for="mdnegocio2">Suscripción</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="mdnegocio3" value="1" type="checkbox" id="mdnegocio3">
+										<label  class="hasLabel" for="mdnegocio3">Freemium</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="mdnegocio4" value="1" type="checkbox" id="mdnegocio4">
+										<label  class="hasLabel" for="mdnegocio4">Pay as you Go</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="mdnegocio5" value="1" type="checkbox" id="mdnegocio5">
+										<label  class="hasLabel" for="mdnegocio5">Alquiler</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="mdnegocio6" value="1" type="checkbox" id="mdnegocio6">
+										<label  class="hasLabel" for="mdnegocio6">Broker</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="mdnegocio7" value="1" type="checkbox" id="mdnegocio7">
+										<label  class="hasLabel" for="mdnegocio7">Low-Touch</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="mdnegocio8" value="1" type="checkbox" id="mdnegocio8">
+										<label  class="hasLabel" for="mdnegocio8">Saas</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="mdnegocio9" value="1" type="checkbox" id="mdnegocio9">
+										<label  class="hasLabel" for="mdnegocio9">Modelo de datos</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="mdnegocio10" value="1" type="checkbox" id="mdnegocio10">
+										<label  class="hasLabel" for="mdnegocio10">Modelo de publibidad</label>
+									</div>
+								</checkbox>
+								<checkbox  class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+									<div  class="checkbox-container">
+										<input  class="app-antepnp" name="mdnegocio11" value="1" type="checkbox" id="mdnegocio11">
+										<label  class="hasLabel" for="mdnegocio11">Producto como servicio</label>
+									</div>
+								</checkbox>
+
+							</div>
+							<br>
+							<h6 class="text-left">Conceptualización del modelo de negocios</h6>
+							<div class="form-control">
+								<label class="form-label text-left" for="username">1. Escribe una breve descripción de lo que te interesa de cada uno de los modelos de negocio que has seleccionado.</label>
+							</div>
+							<div class="input-group">
+								<label for="username" class="text-left">En venta directa nos interesa la facilidad de comercio y la ayuda en cuanto a numeros que nos pueden llegar a ofrecer.</label>
+								<input type="text" name="username" id="username">
+							</div>
+							<div class="input-group">
+								<label for="username" class="text-left">Del saas nos interesa el alcance a los clientes que buscan un consumo unico del producto.</label>
+								<input type="text" name="username" id="username">
+							</div>
+							<div class="input-group">
+								<label for="username" class="text-left">En cuanto al modelo de publicidad nos interesa el alcance masivo que podemos llegar a tener con esta herramienta.</label>
+								<input type="text" name="username" id="username">
+							</div>
+							<br>
+							<h6 class="text-left">Creación del modelo de negocios</h6>
+							<div class="form-control">
+								<label class="form-label text-left" for="username">1. Crea y define el mejor modelo de negocio para cada segmento de mercado seleccionando los modelos que te interesen de la lista (máx. 3) y escribe una breve descripción.</label>
+							</div>
+							<p class="form-label text-left" for="username">Puede seleccionar un modelo de negocio o crear una combinación de modelos que se adapten a tu propio negocio. Puedes elegir el mismo modelo de negocio para cada segmentos de clientes o diferentes para cada uno.</p>
+							<p class="form-label text-left" for="username">Para las tiendas de barrio mini y super mercados escogemos la venta directa debido a que queremos vender a ditribuidores lugares publicos como escuelas, universidades,gimnasios y la complementamos con el modelo saas que tenemos el segmento de las personas que quieren un snack saludable , que podran obtener el producto mediante el segmento anterior y tenemos beneficio de ambos modelos de negocio estariamos vendiendo tanto a los mercados como a los clientes como tal . En cuanto al modelo de publicidad no solo lo usaremos para vender si no para publicitarnos muchos clientes que estan interesados en chips saludables optan como buscador principal las redes sociales.</p>
+							
+							<div class="form-group"> 
+								<label class="form-label text-left" for="">¿ - - - - - - - - - ?</label>
+								<select class="form-control" id="tipoe" name="tipoe">
+									<option style="color: #c4bfbf;" disabled="" selected="">Seleccionar:</option>
+									<option value="SI"> ------ </option>    
+									<option value="NO"> ------ </option>
+								</select>
+							</div>
+							<br>
+							<h6 class="text-left">Embudo de MKT</h6>
+							<div class="form-control">
+								<label class="form-label text-left" for="username">1. Parte superior del embudo.</label>
+							</div>
+							<div class="form-group">
+								<label class="form-label text-left" for="">Describe posibles maneras de atraer a tus clientes en las primeras etapas</ñ>
+								<input type="text" name="username" id="username">
+							</div>
+							<div class="form-control">
+								<label class="form-label text-left" for="username">2. Parte media del embudo</label>
+							</div>
+							<div class="form-group"> 
+								<label class="form-label text-left" for="">Elaborar ideas para el centro del embudo con las principales formas en las que planeas "enganchar" a tus visitantes y hacer que se interesen por tu producto/servicio.</ñ>
+								<input type="text" name="username" id="username">
+							</div>
+							<div class="form-control">
+								<label class="form-label text-left" for="username">3. Parte inferior del embudo.</label>
+							</div>
+							<div class="form-group"> 
+								<label class="form-label text-left" for="">Escribe las actividades que planeas hacer para convertir a todos tus clientes potenciales en clientes reales.</ñ>
+								<input type="text" name="username" id="username">
+							</div>
+							<div class="form-control">
+								<label class="form-label text-left" for="username">4. Selecciona las actividades en las que deseas centrarte en cada nivel del embudo.</label>
+							</div>
+							<div class="form-group"> 
+								<label class="form-label text-left" for="">Escribe las actividades que planeas hacer para convertir a todos tus clientes potenciales en clientes reales.</ñ>
+								<br>
+								<br>
+								<label class="form-label text-left" for="username">TOFU</label>
+								<div class="row">
+									<checkbox  class="form-group col-lg-3 col-md-3 col-sm-4 col-6">
+										<div  class="checkbox-container">
+											<input  class="app-antepnp" name="tofu" value="1" type="checkbox" id="tofu1">
+											<label  class="hasLabel" for="tofu1">Redes Sociales</label>
+										</div>
+									</checkbox>
+									<checkbox  class="form-group col-lg-3 col-md-3 col-sm-4 col-6">
+										<div  class="checkbox-container">
+											<input  class="app-antepnp" name="tofu" value="1" type="checkbox" id="tofu2">
+											<label  class="hasLabel" for="tofu2">Influencers</label>
+										</div>
+									</checkbox>
+									<checkbox  class="form-group col-lg-3 col-md-3 col-sm-4 col-6">
+										<div  class="checkbox-container">
+											<input  class="app-antepnp" name="tofu" value="1" type="checkbox" id="tofu3">
+											<label  class="hasLabel" for="tofu3">Envase Diferente</label>
+										</div>
+									</checkbox>
+									<checkbox  class="form-group col-lg-3 col-md-3 col-sm-4 col-6">
+										<div  class="checkbox-container">
+											<input  class="app-antepnp" name="tofu" value="1" type="checkbox" id="tofu4">
+											<label  class="hasLabel" for="tofu4">Visita Personal</label>
+										</div>
+									</checkbox>
+								</div>
+								<br>
+								<label class="form-label text-left" for="">Escribe las actividades que planeas hacer para convertir a todos tus clientes potenciales en clientes reales.</ñ>
+								<br>
+								<br>
+								<label class="form-label text-left" for="username">MOFU</label>
+								<div class="row">
+									<checkbox  class="form-group col-lg-3 col-md-3 col-sm-4 col-6">
+										<div  class="checkbox-container">
+											<input  class="app-antepnp" name="MOFU" value="1" type="checkbox" id="MOFU1">
+											<label  class="hasLabel" for="MOFU1">Obsequiar chips</label>
+										</div>
+									</checkbox>
+									<checkbox  class="form-group col-lg-3 col-md-3 col-sm-4 col-6">
+										<div  class="checkbox-container">
+											<input  class="app-antepnp" name="MOFU" value="1" type="checkbox" id="MOFU2">
+											<label  class="hasLabel" for="MOFU2">Tripticos</label>
+										</div>
+									</checkbox>
+								</div>
+								<br>
+								<label class="form-label text-left" for="">Escribe las actividades que planeas hacer para convertir a todos tus clientes potenciales en clientes reales.</ñ>
+								<br>
+								<br>
+								<label class="form-label text-left" for="username">BOFU</label>
+								<div class="row">
+									<checkbox  class="form-group col-lg-3 col-md-3 col-sm-4 col-6">
+										<div  class="checkbox-container">
+											<input  class="app-antepnp" name="MOFU" value="1" type="checkbox" id="MOFU1">
+											<label  class="hasLabel" for="MOFU1">Producto gratis por cierta compra</label>
+										</div>
+									</checkbox>
+									<checkbox  class="form-group col-lg-3 col-md-3 col-sm-4 col-6">
+										<div  class="checkbox-container">
+											<input  class="app-antepnp" name="MOFU" value="1" type="checkbox" id="MOFU2">
+											<label  class="hasLabel" for="MOFU2">Botellones</label>
+										</div>
+									</checkbox>
+									<checkbox  class="form-group col-lg-3 col-md-3 col-sm-4 col-6">
+										<div  class="checkbox-container">
+											<input  class="app-antepnp" name="MOFU" value="1" type="checkbox" id="MOFU3">
+											<label  class="hasLabel" for="MOFU3">Estuches lapicero</label>
+										</div>
+									</checkbox>
+									<checkbox  class="form-group col-lg-3 col-md-3 col-sm-4 col-6">
+										<div  class="checkbox-container">
+											<input  class="app-antepnp" name="MOFU" value="1" type="checkbox" id="MOFU4">
+											<label  class="hasLabel" for="MOFU4">Material POP</label>
+										</div>
+									</checkbox>
+								</div>
+							</div>
+							<br>
+							<h6 class="text-left">Ahora calcúla tu embudo en cada etapa, respondiendo las siguientes preguntas</h6>
+							<div class="form-control">
+								<label class="form-label text-left" for="username">Ahora calcúla tu embudo en cada etapa, respondiendo las siguientes preguntas.</label>
+							</div>
+
+							<div class="row">
+								<div class="form-group col-lg-6 col-md-6 col-sm-6 col-6">
+									<p for="username" class="text-left">1.- ¿Cuántos visitantes esperas recibir al mes?</p>
+									<div class="input-group">
+										<label for="username" class="text-left">Indica la cantidad</label>
+										<input type="text" name="username" id="username">
+									</div>
+								</div>
+								<div class="form-group col-lg-6 col-md-6 col-sm-6 col-6">
+									<p for="username" class="text-left">2.- ¿Cuántos clientes potenciales, esperas obtener al mes?</p>
+									<div class="input-group">
+										<label for="username" class="text-left">Indica la cantidad</label>
+										<input type="text" name="username" id="username">
+									</div>
+								</div>
+								<div class="form-group col-lg-6 col-md-6 col-sm-6 col-6">
+									<p for="username" class="text-left">3.-¿Cuántos clientes reales, esperas obtener al mes?</p>
+									<div class="input-group">
+										<label for="username" class="text-left">Indica la cantidad</label>
+										<input type="text" name="username" id="username">
+									</div>
+								</div>
+							</div>
+							<br>
+							<h6 class="text-left">Ahora calculemos el CAC</h6>
+							<div class="form-control">
+								<label class="form-label text-left" for="username">¿Cuánto te costará llevar a cabo todas las actividades de marketing en un mes?</label>
+							</div>
+
+							<div class="form-group">
+								<div class="input-group">
+									<label for="username" class="text-left">Indica la cantidad</label>
+									<input type="text" name="username" id="username">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="input-group">
+									<label for="username" class="text-left">CAC</label>
+									<input type="text" name="username" id="username">
+								</div>
+							</div>
+							<br>
+							<h6 class="text-left">Ahora por cada segmento de mercado, explica por qué el modelo que has elegido es el adecuado y cómo planeas llegar a ellos.Tips para la formulación</h6>
+							<div class="form-control">
+								<label class="form-label text-left" for="username">1. Selecciona todos los modelos de negocio que podrían interesarte para tu empresa.</label>
+							</div>
+							<div class="input-group">
+								<label for="username" class="text-left">¿Por qué este modelo para este segmento de mercado?</label>
+								<input type="text" name="username" id="username">
+							</div>
+							<div class="input-group">
+								<label for="username" class="text-left">Explica tu razonamiento detrás de los números de este embudo</label>
+								<input type="text" name="username" id="username">
+							</div>
+							<div class="input-group">
+								<label for="username" class="text-left">Explica tus ideas sobre las mejores actividades para este segmento</label>
+								<input type="text" name="username" id="username">
+							</div>
+							<div class="input-group">
+								<label for="username" class="text-left">¿Este modelo de negocio te permitirá sobrevivir a corto plazo? ¿Genera flujo de caja?</label>
+								<input type="text" name="username" id="username">
+							</div>
+							<p class="text-center">Debido a que nuestro segmento de inicio esta asociado a un grupo especifico de personas decidimos optar por estos tipo de modelos(Venta Directa,Saas,Modelo de publicidad) al momento de empezar con la venta y lanzamiento de nuestro producto,en cuanto al embudo segun las especificaciones y el modelo de negocio juntos no solo nos ayudara a sobrevivir a corto plazo si no nos ayudara a mejorar tanto la calidad del producto y como llegar a mas personas.Las ideas son claras y buscaremos toda la forma posible de llamar la atencion de la forma mas etica,para establecernos y ganar solides en el mercado de snacks saludables genrando buenas ganacias y ventas.</p>
+							<br>
+							<div class="btns-group" id="app-derecha">
+								<a href="viavilidad.html" class="btn btn-danger btn-prev">Siguiente</a>
+							</div>
+						</div>
+
+					</div>
+			
+				</form>
+
+			</div>
+		</div>
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/script.js"></script>
+
+	</body>
+</html>
