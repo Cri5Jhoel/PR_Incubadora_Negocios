@@ -2,6 +2,12 @@
 
 use Illuminate\Support\Facades\Route;
 use Termwind\Components\Raw;
+use App\Http\Controllers\Student\StudentController;
+use App\Http\Controllers\Professor\ProfessorController;
+use App\Http\Controllers\Team\TeamController;
+use App\Http\Controllers\Form\FormController;
+use App\Http\Controllers\Auth\ForgotPasswordController;
+use App\Http\Controllers\Time\TimeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -86,4 +92,17 @@ Route::put('/forms6', [App\Http\Controllers\FormController::class, "putForm6"]);
 Route::put('/forms7', [App\Http\Controllers\FormController::class, "putForm7"]);
 
 Route::delete('/forms/{id}', [App\Http\Controllers\FormController::class, "deleteForm"]);
+//
+
+//Gestion / Tiempos - Docente
+Route::get('/times', [TimeController::class, "getTimes"]);
+Route::get('/times/{id}', [TimeController::class, "getTime"]);
+Route::post('/times', [TimeController::class, "postTime"]);
+Route::put('/times', [TimeController::class, "putTime"]);
+Route::delete('/times/{id}', [TimeController::class, "deleteTime"]);
+
+Route::get('/listtimes', [TimeController::class, "listtimes"]);
+Route::get('/viewtimes', [ProfessorController::class, "viewtimes"]);
+Route::get('/newtime', [TimeController::class, "newTime"]);
+Route::get('/edittime/{id}', [TimeController::class, "editTime"]);
 //
