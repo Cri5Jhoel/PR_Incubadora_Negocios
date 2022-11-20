@@ -1,0 +1,1 @@
+<?php /**PATH C:\Users\EQUIPO\Documents\Univalle 3\Proyecto de Sistemas\MisEdicionesGitHub\Incubadora_Jaldin\Incubadora_prototype_SJ\resources\views/time/viewTimes.blade.php ENDPATH**/ ?>

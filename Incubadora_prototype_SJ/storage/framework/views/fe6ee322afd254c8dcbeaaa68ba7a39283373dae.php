@@ -1,0 +1,788 @@
+<?php $__env->startSection('script'); ?>
+
+<?php $__env->stopSection(); ?>
+<?php $__env->startSection('content'); ?>
+<script type="text/javascript">
+    var app = angular.module('myApp', []);
+    app.controller('myCtrl', function($scope, $http) {
+
+        $scope.forms = {};
+
+        $scope.input1 = "";
+        $scope.input2 = "";
+        $scope.input3 = "";
+        $scope.input4 = "";
+        $scope.input5 = "";
+        $scope.input6 = "";
+        $scope.input7 = "";
+        $scope.input8 = "";
+        $scope.input9 = "";
+        $scope.input10 = "";
+        $scope.input11 = "";
+        $scope.input12 = "";
+        $scope.input13 = "";
+        $scope.input14 = "";
+        $scope.input15 = "";
+        $scope.input16 = "";
+        $scope.input17 = "";
+        $scope.input18 = "";
+        $scope.input19 = "";
+        $scope.input20 = "";
+        $scope.input21 = "";
+        $scope.input22 = "";
+        $scope.input23 = "";
+        $scope.input24 = "";
+
+        $scope.input1p2 = "";
+        $scope.input2p2 = "";
+        $scope.input3p2 = "";
+        $scope.input4p2 = "";
+        $scope.input5p2 = "";
+        $scope.input6p2 = "";
+        $scope.input7p2 = "";
+        $scope.input8p2 = "";
+        $scope.input9p2 = "";
+        $scope.input10p2 = "";
+        $scope.input11p2 = "";
+        $scope.input12p2 = "";
+        $scope.input13p2 = "";
+        $scope.input14p2 = "";
+        $scope.input15p2 = "";
+        $scope.input16p2 = "";
+        $scope.input17p2 = "";
+        $scope.input18p2 = "";
+        $scope.input19p2 = "";
+        $scope.input20p2 = "";
+        $scope.input21p2 = "";
+        $scope.input22p2 = "";
+        $scope.input23p2 = "";
+        $scope.input24p2 = "";
+
+        $scope.input1p3 = "";
+        $scope.input2p3 = "";
+        $scope.input3p3 = "";
+        $scope.input4p3 = "";
+        $scope.input5p3 = "";
+        $scope.input6p3 = "";
+        $scope.input7p3 = "";
+        $scope.input8p3 = "";
+        $scope.input9p3 = "";
+        $scope.input10p3 = "";
+        $scope.input11p3 = "";
+        $scope.input12p3 = "";
+        $scope.input13p3 = "";
+        $scope.input14p3 = "";
+        $scope.input15p3 = "";
+        $scope.input16p3 = "";
+        $scope.input17p3 = "";
+        $scope.input18p3 = "";
+        $scope.input19p3 = "";
+        $scope.input20p3 = "";
+        $scope.input21p3 = "";
+        $scope.input22p3 = "";
+        $scope.input23p3 = "";
+        $scope.input24p3 = "";
+
+        $scope.product1 = "";
+        $scope.product2 = "";
+        $scope.product3 = "";
+        $scope.count = "";
+        $scope.form4 = "";
+        angular.element(document).ready(() => {
+            let userId = "<?php echo e(Auth::user()->id); ?>";
+            let userType = "<?php echo e(Auth::user()->userType); ?>";
+            var teamId = "";
+            if(userType == "teacher"){
+                function getId(url = window.location.href) {
+                        let urlParts = url.split('/');
+                        return urlParts[urlParts.length - 1];
+                }
+                teamId = getId();
+                $http.get(`/forms5/${teamId}`).then((result) => {
+                        $scope.forms = result.data;
+                        $scope.parseArrayValues();
+                    })
+                    $http.get(`/forms1/${teamId}`).then((result) => {
+                        $scope.forms1 = result.data;
+                        $scope.parseArrayValues1();
+                    })
+
+
+            }else if (userType == "student") {
+                $http.get(`/userTeam/${userId}`).then((result) => {
+                    $scope.idTeam = result.data;
+                    teamId = $scope.idTeam;
+                    $http.get(`/forms5/${teamId}`).then((result) => {
+                        $scope.forms = result.data;
+                        $scope.parseArrayValues();
+                    })
+                    $http.get(`/forms1/${teamId}`).then((result) => {
+                        $scope.forms1 = result.data;
+                        $scope.parseArrayValues1();
+                    })
+                })
+            }
+            
+            // $http.get(`/forms2/${teamId}`).then((result) => {
+            //     $scope.forms = result.data;
+            //     $scope.parseArrayValues();
+            // })
+            // $http.get(`/forms1/${teamId}`).then((result) => {
+            //     $scope.forms1 = result.data;
+            //     $scope.parseArrayValues1();
+            // })
+        });
+        $scope.parseArrayValues1 = () => {
+            let formText1 = $scope.forms1.formText;
+            let formTextArray1 = formText1.split(";");
+            $scope.product1 = formTextArray1[112];
+            $scope.product2 = formTextArray1[113];
+            $scope.product3 = formTextArray1[187];
+            $scope.count = formTextArray1[260];
+            $scope.checkProducts();
+        }
+        $scope.checkProducts = () => {
+            if ($scope.count == "1") {
+                document.getElementById("producto2").style.display = "none";
+                document.getElementById("producto3").style.display = "none";
+            }
+            if ($scope.input188 == "2") {
+                document.getElementById("producto2").style.display = "block";
+                document.getElementById("producto3").style.display = "none";
+            }
+            if ($scope.input189 == "3") {
+                document.getElementById("producto2").style.display = "block";
+                document.getElementById("producto3").style.display = "block";
+            }
+        }
+
+        $scope.parseArrayValues = () => {
+            let formText = $scope.forms.formText;
+            let formTextArray = formText.split(';');
+            $scope.input1 = formTextArray[0];
+            $scope.input2 = formTextArray[1];
+            $scope.input3 = formTextArray[2];
+            $scope.input4 = formTextArray[3];
+            $scope.input5 = formTextArray[4];
+            $scope.input6 = formTextArray[5];
+            $scope.input7 = formTextArray[6];
+            $scope.input8 = formTextArray[7];
+            $scope.input9 = formTextArray[8];
+            $scope.input10 = formTextArray[9];
+            $scope.input11 = formTextArray[10];
+            $scope.input12 = formTextArray[11];
+            $scope.input13 = formTextArray[12];
+            $scope.input14 = formTextArray[13];
+            $scope.input15 = formTextArray[14];
+            $scope.input16 = formTextArray[15];
+            $scope.input17 = formTextArray[16];
+            $scope.input18 = formTextArray[17];
+            $scope.input19 = formTextArray[18];
+            $scope.input20 = formTextArray[19];
+            $scope.input21 = formTextArray[20];
+            $scope.input22 = formTextArray[21];
+            $scope.input23 = formTextArray[22];
+            $scope.input24 = formTextArray[23];
+
+            //p2
+            $scope.input1p2 = formTextArray[24];
+            $scope.input2p2 = formTextArray[25];
+            $scope.input3p2 = formTextArray[26];
+            $scope.input4p2 = formTextArray[27];
+            $scope.input5p2 = formTextArray[28];
+            $scope.input6p2 = formTextArray[29];
+            $scope.input7p2 = formTextArray[30];
+            $scope.input8p2 = formTextArray[31];
+            $scope.input9p2 = formTextArray[32];
+            $scope.input10p2 = formTextArray[33];
+            $scope.input11p2 = formTextArray[34];
+            $scope.input12p2 = formTextArray[35];
+            $scope.input13p2 = formTextArray[36];
+            $scope.input14p2 = formTextArray[37];
+            $scope.input15p2 = formTextArray[38];
+            $scope.input16p2 = formTextArray[39];
+            $scope.input17p2 = formTextArray[40];
+            $scope.input18p2 = formTextArray[41];
+            $scope.input19p2 = formTextArray[42];
+            $scope.input20p2 = formTextArray[43];
+            $scope.input21p2 = formTextArray[44];
+            $scope.input22p2 = formTextArray[45];
+            $scope.input23p2 = formTextArray[46];
+            $scope.input24p2 = formTextArray[47];
+
+            //p3
+            $scope.input1p3 = formTextArray[48];
+            $scope.input2p3 = formTextArray[49];
+            $scope.input3p3 = formTextArray[50];
+            $scope.input4p3 = formTextArray[51];
+            $scope.input5p3 = formTextArray[52];
+            $scope.input6p3 = formTextArray[53];
+            $scope.input7p3 = formTextArray[54];
+            $scope.input8p3 = formTextArray[55];
+            $scope.input9p3 = formTextArray[56];
+            $scope.input10p3 = formTextArray[57];
+            $scope.input11p3 = formTextArray[58];
+            $scope.input12p3 = formTextArray[59];
+            $scope.input13p3 = formTextArray[60];
+            $scope.input14p3 = formTextArray[61];
+            $scope.input15p3 = formTextArray[62];
+            $scope.input16p3 = formTextArray[63];
+            $scope.input17p3 = formTextArray[64];
+            $scope.input18p3 = formTextArray[65];
+            $scope.input19p3 = formTextArray[66];
+            $scope.input20p3 = formTextArray[67];
+            $scope.input21p3 = formTextArray[68];
+            $scope.input22p3 = formTextArray[69];
+            $scope.input23p3 = formTextArray[70];
+            $scope.input24p3 = formTextArray[71];
+
+        }
+
+
+        $scope.postTeam = () => {
+            $http.post('/teams', $scope.team).then((result) => {
+                console.log(result.data);
+                alert("Equipo creado");
+            })
+        }
+        $scope.postForm = () => {
+            $scope.checkRadios();
+            alert(document.getElementById("input5").value);
+            let texto = $scope.input1 + ";" + $scope.input2 + ";" + $scope.input3 + ";" + $scope.input4 + ";" + $scope.input5 + ";" + $scope.input6 + ";" + $scope.input7 + ";" + $scope.input8 + ";" + $scope.input9 + ";" + $scope.input10 + ";" + $scope.input11 + ";" + $scope.input12 + ";" + $scope.input13 + ";" + $scope.input14 + ";" + $scope.input15 + ";" + $scope.input16 + ";" + $scope.input17 + ";" + $scope.input18 + ";" + $scope.input19 + ";" + $scope.input20 + ";" + $scope.input21 + ";" + $scope.input22 + ";" + $scope.input23 + ";" + $scope.input24 + ";";
+            let texto2 = $scope.input1p2 + ";" + $scope.input2p2 + ";" + $scope.input3p2 + ";" + $scope.input4p2 + ";" + $scope.input5p2 + ";" + $scope.input6p2 + ";" + $scope.input7p2 + ";" + $scope.input8p2 + ";" + $scope.input9p2 + ";" + $scope.input10p2 + ";" + $scope.input11p2 + ";" + $scope.input12p2 + ";" + $scope.input13p2 + ";" + $scope.input14p2 + ";" + $scope.input15p2 + ";" + $scope.input16p2 + ";" + $scope.input17p2 + ";" + $scope.input18p2 + ";" + $scope.input19p2 + ";" + $scope.input20p2 + ";" + $scope.input21p2 + ";" + $scope.input22p2 + ";" + $scope.input23p2 + ";" + $scope.input24p2 + ";";
+            let texto3 = $scope.input1p3 + ";" + $scope.input2p3 + ";" + $scope.input3p3 + ";" + $scope.input4p3 + ";" + $scope.input5p3 + ";" + $scope.input6p3 + ";" + $scope.input7p3 + ";" + $scope.input8p3 + ";" + $scope.input9p3 + ";" + $scope.input10p3 + ";" + $scope.input11p3 + ";" + $scope.input12p3 + ";" + $scope.input13p3 + ";" + $scope.input14p3 + ";" + $scope.input15p3 + ";" + $scope.input16p3 + ";" + $scope.input17p3 + ";" + $scope.input18p3 + ";" + $scope.input19p3 + ";" + $scope.input20p3 + ";" + $scope.input21p3 + ";" + $scope.input22p3 + ";" + $scope.input23p3 + ";" + $scope.input24p3 + ";";
+            $scope.forms.formText = texto + texto2 + texto3;
+            $http.put('/forms5', $scope.forms).then((result) => {
+                console.log(result.data);
+                alert("Formulario creado");
+            })
+
+        }
+        $scope.checkRadios = () => {
+            $scope.checkRadio1();
+            $scope.checkRadio2();
+        }
+        $scope.checkRadio1 = () => {
+            let inf1 = "";
+            let radio1 = document.getElementsByName('radio1');
+            for (let i = 0; i < radio1.length; i++) {
+                if (radio1[i].checked) {
+                    inf1 = radio1[i].value;
+                }
+            }
+            if (inf1 == "option1") {
+                $scope.input1 = 'option1';
+                $scope.input2 = ' ';
+            } else if (inf1 == "option2") {
+                $scope.input1 = ' ';
+                $scope.input2 = 'option2';
+            }
+        }
+        $scope.checkRadio2 = () => {
+            let inf2 = "";
+            let radio2 = document.getElementsByName('radio2');
+            for (let i = 0; i < radio2.length; i++) {
+                if (radio2[i].checked) {
+                    inf2 = radio2[i].value;
+                }
+            }
+            if (inf2 == "option1") {
+                $scope.input3 = 'option1';
+                $scope.input4 = ' ';
+            } else if (inf2 == "option2") {
+                $scope.input3 = ' ';
+                $scope.input4 = 'option2';
+            }
+        }
+        $scope.func1 = function() {
+            $scope.input19 = document.getElementById("input18").value * document.getElementById("input17").value * document.getElementById("input16").value;
+            $scope.input24 = document.getElementById("input19").value / $scope.form4;
+
+        }
+    });
+</script>
+<div class="container-fluid" ng-app="myApp" ng-controller="myCtrl">
+
+    <div class="col-lg-12 mb-4">
+        <div class="card bg-secondary text-white shadow">
+            <div id="content" class="card-body">
+                <form action="#" class="form">
+                    <h1 class="text-center">Precio y Viabilidad del Negocio</h1>
+
+                    <h4 class="text-center app-subtitle">Estrategias de precio de lanzamiento al mercado</h4>
+                    <div>
+                        <input type="text" class="form-control" name="" ng-model="product1" id="product1" aria-describedby="helpId" placeholder="">
+                        <h5>Estas cuatro estrategias se clasifican en función de su precio inicial (lanzamiento al mercado) y el precio en el futuro. ¿Cuáles te parecen interesantes para tu negocio?</h5>
+                        <div class="input-group">
+                            <label for="username" class="text-left" style="background: #971c2e;padding: 30px;color: white;margin-block-end: 15px;">Alto</label>
+                            <div class="row" style="margin-inline-start: 1px;">
+                                <checkbox class="form-group col-lg-6 col-md-6 col-sm-6 col-6" style="padding: 21px 10px 0px 10px;border: 1px dashed black;">
+                                    <div class="checkbox-container">
+                                        <input class="app-antepnp" ng-model="input1" id="input1" name="radio1" value="option1" type="radio">
+                                        <label class="hasLabel" for="radio1">Estrategia Descremado</label>
+                                    </div>
+                                </checkbox>
+                                <checkbox class="form-group col-lg-6 col-md-6 col-sm-6 col-6" style="padding: 21px 10px 0px 10px;border: 1px dashed black;">
+                                    <div class="checkbox-container">
+                                        <input class="app-antepnp" ng-model="input2" id="input2" name="radio1" value="option2" type="radio">
+                                        <label class="hasLabel" for="radio1">Estrategia Premium</label>
+                                    </div>
+                                </checkbox>
+                            </div>
+                            <div class="input-group">
+                                <label for="username" class="text-left" style="background: #971c2e;padding: 30px;color: white;margin-block-end: 15px;">Bajo</label>
+                                <div class="row">
+                                    <checkbox class="form-group col-lg-6 col-md-6 col-sm-6 col-6" style="border: 1px dashed black;padding: 21px 10px 0px 10px;">
+                                        <div class="checkbox-container">
+                                            <input class="app-antepnp" ng-model="input3" id="input3" name="radio2" value="option1" type="radio">
+                                            <label class="hasLabel" for="radio2">Estrategia Económica</label>
+                                        </div>
+                                    </checkbox>
+                                    <checkbox class="form-group col-lg-6 col-md-6 col-sm-6 col-6" style="padding: 21px 10px 0px 10px;border: 1px dashed black;">
+                                        <div class="checkbox-container">
+                                            <input class="app-antepnp" ng-model="input4" id="input4" name="radio2" value="option2" type="radio">
+                                            <label class="hasLabel" for="radio2">Estrategia de Penetración</label>
+                                        </div>
+                                    </checkbox>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="text-center app-subtitle">Otras estrategias de precio</h4>
+                    <br>
+                    <div>
+                        <div class="row">
+                            <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6 ">
+                                <div class="checkbox-container">
+                                    <input class="app-antepnp" ng-model="input5" id="input5" name="mdnegocio" value="1" type="checkbox">
+                                    <label class="hasLabel" for="mdnegocio1">Precios Psicológicos</label>
+                                </div>
+                            </checkbox>
+                            <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+                                <div class="checkbox-container">
+                                    <input class="app-antepnp" ng-model="input6" id="input6" name="mdnegocio2" value="2" type="checkbox">
+                                    <label class="hasLabel" for="mdnegocio2">Estrategia de mercado</label>
+                                </div>
+                            </checkbox>
+                            <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+                                <div class="checkbox-container">
+                                    <input class="app-antepnp" ng-model="input7" id="input7" name="mdnegocio3" value="3" type="checkbox">
+                                    <label class="hasLabel" for="mdnegocio3">Estrategia de líneas de productos</label>
+                                </div>
+                            </checkbox>
+                            <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+                                <div class="checkbox-container">
+                                    <input class="app-antepnp" ng-model="input8" id="input8" name="mdnegocio4" value="4" type="checkbox">
+                                    <label class="hasLabel" for="mdnegocio4">Estrategia de agrupación</label>
+                                </div>
+                            </checkbox>
+                            <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+                                <div class="checkbox-container">
+                                    <input class="app-antepnp" ng-model="input9" id="input9" name="mdnegocio5" value="5" type="checkbox">
+                                    <label class="hasLabel" for="mdnegocio5">Estrategia de competición</label>
+                                </div>
+                            </checkbox>
+                            <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+                                <div class="checkbox-container">
+                                    <input class="app-antepnp" ng-model="input10" id="input10" name="mdnegocio6" value="6" type="checkbox">
+                                    <label class="hasLabel" for="mdnegocio6">Estrategia de impresora y tinta</label>
+                                </div>
+                            </checkbox>
+                            <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+                                <div class="checkbox-container">
+                                    <input class="app-antepnp" ng-model="input11" id="input11" name="mdnegocio7" value="7" type="checkbox">
+                                    <label class="hasLabel" for="mdnegocio7">Estrategia de productos opcionales</label>
+                                </div>
+                            </checkbox>
+                            <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+                                <div class="checkbox-container">
+                                    <input class="app-antepnp" ng-model="input12" id="input12" name="mdnegocio8" value="8" type="checkbox">
+                                    <label class="hasLabel" for="mdnegocio8">Precios marcados por el cliente</label>
+                                </div>
+                            </checkbox>
+                        </div>
+                        <div class="mb-3">
+                            <h4 for="" class="text-left">Crea y define la mejor estrategia de precios para cada segmento de mercado seleccionando las estrategias seleccionadas, puedes crear una personalizada</h4>
+                            <textarea type="" class="form-control " name="" ng-model="input13" id="input13" aria-describedby="helpId" placeholder=""></textarea>
+                            <br>
+                            <textarea type="" class="form-control " name="" ng-model="input14" id="input14" aria-describedby="helpId" placeholder=""></textarea>
+                        </div>
+                    </div>
+
+                    <h4 class="text-center app-subtitle">Otras estrategias de precio</h4>
+                    <div>
+                        <div class="mb-3">
+                            <h4 for="" class="text-left">Realiza una encuesta para saber si tus clientes, están dispuestos a pagar por tu producto . Utiliza como referencia el PDF base para la encuesta, el mismo debes solicitarlo a tu mentor</h4>
+                            <input type="text" class="form-control" name="" ng-model="input15" id="input15" aria-describedby="helpId" placeholder="">
+                        </div>
+                    </div>
+
+                    <h4 class="text-center app-subtitle">Lifetime Value Retention</h4>
+                    <div>
+                        <div class="">
+                            <div class="mb-3">
+                                <label for="" class="form-label">Frecuencia</label>
+                                <input type="text" class="form-control" name="" ng-model="input16" id="input16" aria-describedby="helpId" placeholder="" ng-change="func1()">
+                            </div>
+                            <div class="mb-3">
+                                <label for="" class="form-label">Duración</label>
+                                <input type="text" class="form-control" name="" ng-model="input17" id="input17" aria-describedby="helpId" placeholder="" ng-change="func1()">
+                            </div>
+                            <div class="mb-3">
+                                <label for="" class="form-label">Valor del pedido</label>
+                                <input type="text" class="form-control" name="" ng-model="input18" id="input18" aria-describedby="helpId" placeholder="" ng-change="func1()">
+                            </div>
+                            <div class="mb-3">
+                                <label for="" class="form-label">LTV</label>
+                                <input type="text" class="form-control" name="" ng-model="input19" id="input19" aria-describedby="helpId" placeholder="" readonly>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="text-center app-subtitle">Menciona las actividades de retención, para mantener a tus clientes</h4>
+                    <div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" name="" ng-model="input20" id="input20" aria-describedby="helpId" placeholder="">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" name="" ng-model="input21" id="input21" aria-describedby="helpId" placeholder="">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" name="" ng-model="input22" id="input22" aria-describedby="helpId" placeholder="">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" name="" ng-model="input23" id="input23" aria-describedby="helpId" placeholder="">
+                        </div>
+                    </div>
+                    <h4 class="text-center app-subtitle">Relación LTV y CAC</h4>
+                    <div>
+                        <div class="mb-3">
+                            <label for="" class="form-label">Relación LTV/CAC</label>
+                            <input type="text" class="form-control" name="" ng-model="input24" id="input24" aria-describedby="helpId" placeholder="" readonly readonly>
+                        </div>
+                    </div>
+                    <div id="producto2">
+                        <h4 class="text-center app-subtitle">Estrategias de precio de lanzamiento al mercado</h4>
+                        <div>
+                            <input type="text" class="form-control" name="" ng-model="product2" id="product2" aria-describedby="helpId" placeholder="">
+                            <h5>Estas cuatro estrategias se clasifican en función de su precio inicial (lanzamiento al mercado) y el precio en el futuro. ¿Cuáles te parecen interesantes para tu negocio?</h5>
+                            <div class="input-group">
+                                <label for="username" class="text-left" style="background: #971c2e;padding: 30px;color: white;margin-block-end: 15px;">Alto</label>
+                                <div class="row" style="margin-inline-start: 1px;">
+                                    <checkbox class="form-group col-lg-6 col-md-6 col-sm-6 col-6" style="padding: 21px 10px 0px 10px;border: 1px dashed black;">
+                                        <div class="checkbox-container">
+                                            <input class="app-antepnp" ng-model="input1p2" id="input1p2" name="radio1" value="option1" type="radio">
+                                            <label class="hasLabel" for="radio1">Estrategia Descremado</label>
+                                        </div>
+                                    </checkbox>
+                                    <checkbox class="form-group col-lg-6 col-md-6 col-sm-6 col-6" style="padding: 21px 10px 0px 10px;border: 1px dashed black;">
+                                        <div class="checkbox-container">
+                                            <input class="app-antepnp" ng-model="input2p2" id="input2p2" name="radio1" value="option2" type="radio">
+                                            <label class="hasLabel" for="radio1">Estrategia Premium</label>
+                                        </div>
+                                    </checkbox>
+                                </div>
+                                <div class="input-group">
+                                    <label for="username" class="text-left" style="background: #971c2e;padding: 30px;color: white;margin-block-end: 15px;">Bajo</label>
+                                    <div class="row">
+                                        <checkbox class="form-group col-lg-6 col-md-6 col-sm-6 col-6" style="border: 1px dashed black;padding: 21px 10px 0px 10px;">
+                                            <div class="checkbox-container">
+                                                <input class="app-antepnp" ng-model="input3p2" id="input3p2" name="radio2" value="option1" type="radio">
+                                                <label class="hasLabel" for="radio2">Estrategia Económica</label>
+                                            </div>
+                                        </checkbox>
+                                        <checkbox class="form-group col-lg-6 col-md-6 col-sm-6 col-6" style="padding: 21px 10px 0px 10px;border: 1px dashed black;">
+                                            <div class="checkbox-container">
+                                                <input class="app-antepnp" ng-model="input4p2" id="input4p2" name="radio2" value="option2" type="radio">
+                                                <label class="hasLabel" for="radio2">Estrategia de Penetración</label>
+                                            </div>
+                                        </checkbox>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4 class="text-center app-subtitle">Otras estrategias de precio</h4>
+                        <br>
+                        <div>
+                            <div class="row">
+                                <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6 ">
+                                    <div class="checkbox-container">
+                                        <input class="app-antepnp" ng-model="input5p2" id="input5p2" name="mdnegocio" value="1" type="checkbox">
+                                        <label class="hasLabel" for="mdnegocio1">Precios Psicológicos</label>
+                                    </div>
+                                </checkbox>
+                                <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+                                    <div class="checkbox-container">
+                                        <input class="app-antepnp" ng-model="input6p2" id="input6p2" name="mdnegocio2" value="2" type="checkbox">
+                                        <label class="hasLabel" for="mdnegocio2">Estrategia de mercado</label>
+                                    </div>
+                                </checkbox>
+                                <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+                                    <div class="checkbox-container">
+                                        <input class="app-antepnp" ng-model="input7p2" id="input7p2" name="mdnegocio3" value="3" type="checkbox">
+                                        <label class="hasLabel" for="mdnegocio3">Estrategia de líneas de productos</label>
+                                    </div>
+                                </checkbox>
+                                <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+                                    <div class="checkbox-container">
+                                        <input class="app-antepnp" ng-model="input8p2" id="input8p2" name="mdnegocio4" value="4" type="checkbox">
+                                        <label class="hasLabel" for="mdnegocio4">Estrategia de agrupación</label>
+                                    </div>
+                                </checkbox>
+                                <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+                                    <div class="checkbox-container">
+                                        <input class="app-antepnp" ng-model="input9p2" id="input9p2" name="mdnegocio5" value="5" type="checkbox">
+                                        <label class="hasLabel" for="mdnegocio5">Estrategia de competición</label>
+                                    </div>
+                                </checkbox>
+                                <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+                                    <div class="checkbox-container">
+                                        <input class="app-antepnp" ng-model="input10p2" id="input10p2" name="mdnegocio6" value="6" type="checkbox">
+                                        <label class="hasLabel" for="mdnegocio6">Estrategia de impresora y tinta</label>
+                                    </div>
+                                </checkbox>
+                                <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+                                    <div class="checkbox-container">
+                                        <input class="app-antepnp" ng-model="input11p2" id="input11p2" name="mdnegocio7" value="7" type="checkbox">
+                                        <label class="hasLabel" for="mdnegocio7">Estrategia de productos opcionales</label>
+                                    </div>
+                                </checkbox>
+                                <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+                                    <div class="checkbox-container">
+                                        <input class="app-antepnp" ng-model="input12p2" id="input12p2" name="mdnegocio8" value="8" type="checkbox">
+                                        <label class="hasLabel" for="mdnegocio8">Precios marcados por el cliente</label>
+                                    </div>
+                                </checkbox>
+                            </div>
+                            <div class="mb-3">
+                                <h4 for="" class="text-left">Crea y define la mejor estrategia de precios para cada segmento de mercado seleccionando las estrategias seleccionadas, puedes crear una personalizada</h4>
+                                <textarea type="" class="form-control " name="" ng-model="input13p2" id="input13p2" aria-describedby="helpId" placeholder=""></textarea>
+                                <br>
+                                <textarea type="" class="form-control " name="" ng-model="input14p2" id="input14p2" aria-describedby="helpId" placeholder=""></textarea>
+                            </div>
+                        </div>
+
+                        <h4 class="text-center app-subtitle">Otras estrategias de precio</h4>
+                        <div>
+                            <div class="mb-3">
+                                <h4 for="" class="text-left">Realiza una encuesta para saber si tus clientes, están dispuestos a pagar por tu producto . Utiliza como referencia el PDF base para la encuesta, el mismo debes solicitarlo a tu mentor</h4>
+                                <input type="text" class="form-control" name="" ng-model="input15p2" id="input15p2" aria-describedby="helpId" placeholder="">
+                            </div>
+                        </div>
+
+                        <h4 class="text-center app-subtitle">Lifetime Value Retention</h4>
+                        <div>
+                            <div class="">
+                                <div class="mb-3">
+                                    <label for="" class="form-label">Frecuencia</label>
+                                    <input type="text" class="form-control" name="" ng-model="input16p2" id="input16p2" aria-describedby="helpId" placeholder="" ng-change="func1()">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="" class="form-label">Duración</label>
+                                    <input type="text" class="form-control" name="" ng-model="input17p2" id="input17p2" aria-describedby="helpId" placeholder="" ng-change="func1()">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="" class="form-label">Valor del pedido</label>
+                                    <input type="text" class="form-control" name="" ng-model="input18p2" id="input18p2" aria-describedby="helpId" placeholder="" ng-change="func1()">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="" class="form-label">LTV</label>
+                                    <input type="text" class="form-control" name="" ng-model="input19p2" id="input19p2" aria-describedby="helpId" placeholder="" readonly>
+                                </div>
+                            </div>
+                        </div>
+                        <h4 class="text-center app-subtitle">Menciona las actividades de retención, para mantener a tus clientes</h4>
+                        <div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" name="" ng-model="input20p2" id="input20p2" aria-describedby="helpId" placeholder="">
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" name="" ng-model="input21p2" id="input21p2" aria-describedby="helpId" placeholder="">
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" name="" ng-model="input22p2" id="input22p2" aria-describedby="helpId" placeholder="">
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" name="" ng-model="input23p2" id="input23p2" aria-describedby="helpId" placeholder="">
+                            </div>
+                        </div>
+                        <h4 class="text-center app-subtitle">Relación LTV y CAC</h4>
+                        <div>
+                            <div class="mb-3">
+                                <label for="" class="form-label">Relación LTV/CAC</label>
+                                <input type="text" class="form-control" name="" ng-model="input24p2" id="input24p2" aria-describedby="helpId" placeholder="" readonly readonly>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="producto3">
+                        <h4 class="text-center app-subtitle">Estrategias de precio de lanzamiento al mercado</h4>
+                        <div>
+                            <input type="text" class="form-control" name="" ng-model="product3" id="product3" aria-describedby="helpId" placeholder="">
+                            <h5>Estas cuatro estrategias se clasifican en función de su precio inicial (lanzamiento al mercado) y el precio en el futuro. ¿Cuáles te parecen interesantes para tu negocio?</h5>
+                            <div class="input-group">
+                                <label for="username" class="text-left" style="background: #971c2e;padding: 30px;color: white;margin-block-end: 15px;">Alto</label>
+                                <div class="row" style="margin-inline-start: 1px;">
+                                    <checkbox class="form-group col-lg-6 col-md-6 col-sm-6 col-6" style="padding: 21px 10px 0px 10px;border: 1px dashed black;">
+                                        <div class="checkbox-container">
+                                            <input class="app-antepnp" ng-model="input1p3" id="input1p3" name="radio1" value="option1" type="radio">
+                                            <label class="hasLabel" for="radio1">Estrategia Descremado</label>
+                                        </div>
+                                    </checkbox>
+                                    <checkbox class="form-group col-lg-6 col-md-6 col-sm-6 col-6" style="padding: 21px 10px 0px 10px;border: 1px dashed black;">
+                                        <div class="checkbox-container">
+                                            <input class="app-antepnp" ng-model="input2p3" id="input2p3" name="radio1" value="option2" type="radio">
+                                            <label class="hasLabel" for="radio1">Estrategia Premium</label>
+                                        </div>
+                                    </checkbox>
+                                </div>
+                                <div class="input-group">
+                                    <label for="username" class="text-left" style="background: #971c2e;padding: 30px;color: white;margin-block-end: 15px;">Bajo</label>
+                                    <div class="row">
+                                        <checkbox class="form-group col-lg-6 col-md-6 col-sm-6 col-6" style="border: 1px dashed black;padding: 21px 10px 0px 10px;">
+                                            <div class="checkbox-container">
+                                                <input class="app-antepnp" ng-model="input3p3" id="input3p3" name="radio2" value="option1" type="radio">
+                                                <label class="hasLabel" for="radio2">Estrategia Económica</label>
+                                            </div>
+                                        </checkbox>
+                                        <checkbox class="form-group col-lg-6 col-md-6 col-sm-6 col-6" style="padding: 21px 10px 0px 10px;border: 1px dashed black;">
+                                            <div class="checkbox-container">
+                                                <input class="app-antepnp" ng-model="input4p3" id="input4p3" name="radio2" value="option2" type="radio">
+                                                <label class="hasLabel" for="radio2">Estrategia de Penetración</label>
+                                            </div>
+                                        </checkbox>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4 class="text-center app-subtitle">Otras estrategias de precio</h4>
+                        <br>
+                        <div>
+                            <div class="row">
+                                <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6 ">
+                                    <div class="checkbox-container">
+                                        <input class="app-antepnp" ng-model="input5p3" id="input5p3" name="mdnegocio" value="1" type="checkbox">
+                                        <label class="hasLabel" for="mdnegocio1">Precios Psicológicos</label>
+                                    </div>
+                                </checkbox>
+                                <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+                                    <div class="checkbox-container">
+                                        <input class="app-antepnp" ng-model="input6p3" id="input6p3" name="mdnegocio2" value="2" type="checkbox">
+                                        <label class="hasLabel" for="mdnegocio2">Estrategia de mercado</label>
+                                    </div>
+                                </checkbox>
+                                <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+                                    <div class="checkbox-container">
+                                        <input class="app-antepnp" ng-model="input7p3" id="input7p3" name="mdnegocio3" value="3" type="checkbox">
+                                        <label class="hasLabel" for="mdnegocio3">Estrategia de líneas de productos</label>
+                                    </div>
+                                </checkbox>
+                                <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+                                    <div class="checkbox-container">
+                                        <input class="app-antepnp" ng-model="input8p3" id="input8p3" name="mdnegocio4" value="4" type="checkbox">
+                                        <label class="hasLabel" for="mdnegocio4">Estrategia de agrupación</label>
+                                    </div>
+                                </checkbox>
+                                <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+                                    <div class="checkbox-container">
+                                        <input class="app-antepnp" ng-model="input9p3" id="input9p3" name="mdnegocio5" value="5" type="checkbox">
+                                        <label class="hasLabel" for="mdnegocio5">Estrategia de competición</label>
+                                    </div>
+                                </checkbox>
+                                <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+                                    <div class="checkbox-container">
+                                        <input class="app-antepnp" ng-model="input10p3" id="input10p3" name="mdnegocio6" value="6" type="checkbox">
+                                        <label class="hasLabel" for="mdnegocio6">Estrategia de impresora y tinta</label>
+                                    </div>
+                                </checkbox>
+                                <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+                                    <div class="checkbox-container">
+                                        <input class="app-antepnp" ng-model="input11p3" id="input11p3" name="mdnegocio7" value="7" type="checkbox">
+                                        <label class="hasLabel" for="mdnegocio7">Estrategia de productos opcionales</label>
+                                    </div>
+                                </checkbox>
+                                <checkbox class="form-group col-lg-4 col-md-3 col-sm-4 col-6">
+                                    <div class="checkbox-container">
+                                        <input class="app-antepnp" ng-model="input12p3" id="input12p3" name="mdnegocio8" value="8" type="checkbox">
+                                        <label class="hasLabel" for="mdnegocio8">Precios marcados por el cliente</label>
+                                    </div>
+                                </checkbox>
+                            </div>
+                            <div class="mb-3">
+                                <h4 for="" class="text-left">Crea y define la mejor estrategia de precios para cada segmento de mercado seleccionando las estrategias seleccionadas, puedes crear una personalizada</h4>
+                                <textarea type="" class="form-control " name="" ng-model="input13p3" id="input13p3" aria-describedby="helpId" placeholder=""></textarea>
+                                <br>
+                                <textarea type="" class="form-control " name="" ng-model="input14p3" id="input14p3" aria-describedby="helpId" placeholder=""></textarea>
+                            </div>
+                        </div>
+
+                        <h4 class="text-center app-subtitle">Otras estrategias de precio</h4>
+                        <div>
+                            <div class="mb-3">
+                                <h4 for="" class="text-left">Realiza una encuesta para saber si tus clientes, están dispuestos a pagar por tu producto . Utiliza como referencia el PDF base para la encuesta, el mismo debes solicitarlo a tu mentor</h4>
+                                <input type="text" class="form-control" name="" ng-model="input15p3" id="input15p3" aria-describedby="helpId" placeholder="">
+                            </div>
+                        </div>
+
+                        <h4 class="text-center app-subtitle">Lifetime Value Retention</h4>
+                        <div>
+                            <div class="">
+                                <div class="mb-3">
+                                    <label for="" class="form-label">Frecuencia</label>
+                                    <input type="text" class="form-control" name="" ng-model="input16p3" id="input16p3" aria-describedby="helpId" placeholder="" ng-change="func1()">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="" class="form-label">Duración</label>
+                                    <input type="text" class="form-control" name="" ng-model="input17p3" id="input17p3" aria-describedby="helpId" placeholder="" ng-change="func1()">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="" class="form-label">Valor del pedido</label>
+                                    <input type="text" class="form-control" name="" ng-model="input18p3" id="input18p3" aria-describedby="helpId" placeholder="" ng-change="func1()">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="" class="form-label">LTV</label>
+                                    <input type="text" class="form-control" name="" ng-model="input19p3" id="input19p3" aria-describedby="helpId" placeholder="" readonly>
+                                </div>
+                            </div>
+                        </div>
+                        <h4 class="text-center app-subtitle">Menciona las actividades de retención, para mantener a tus clientes</h4>
+                        <div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" name="" ng-model="input20p3" id="input20p3" aria-describedby="helpId" placeholder="">
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" name="" ng-model="input21p3" id="input21p3" aria-describedby="helpId" placeholder="">
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" name="" ng-model="input22p3" id="input22p3" aria-describedby="helpId" placeholder="">
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" name="" ng-model="input23p3" id="input23p3" aria-describedby="helpId" placeholder="">
+                            </div>
+                        </div>
+                        <h4 class="text-center app-subtitle">Relación LTV y CAC</h4>
+                        <div>
+                            <div class="mb-3">
+                                <label for="" class="form-label">Relación LTV/CAC</label>
+                                <input type="text" class="form-control" name="" ng-model="input24p3" id="input24p3" aria-describedby="helpId" placeholder="" readonly readonly>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <?php if(Auth::user()->userType == 'teacher'): ?>
+                    <?php endif; ?>
+                    <?php if(Auth::user()->userType == 'student'): ?>
+                    <div class="d-flex justify-content-center">
+                        <button type="submit" ng-click="postForm()" class="btn btn-success">Guardar</button>
+                    </div>
+                    <?php endif; ?>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts.Dashboard', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\Users\EQUIPO\Documents\Univalle 3\Proyecto de Sistemas\MisEdicionesGitHub\Incubadora_prototype_Valdivia\Incubadora_prototype\resources\views/form5.blade.php ENDPATH**/ ?>
